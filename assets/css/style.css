@@ -141,7 +141,7 @@ a:focus {
 #home {
   padding: 0;
   color: #fff;
-  background-image: url(../img/cover/home.jpg);
+  background-image: url(../img/cover/IMG_1377.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -150,11 +150,14 @@ a:focus {
   margin-top: 0;
   margin-bottom: 20px;
   font-size: 60px;
+  font-weight: bold;
 }
 #home a { margin: 0 5px }
 #home h3 {
   margin-top: 20px;
   margin-bottom: 0;
+  font-weight: bold;
+  color:black;
 }
 #services {
   background-color: #f5f5f5;
@@ -265,14 +268,14 @@ a:focus {
   text-shadow: none;
 }
 #about .content { padding-bottom: 0 }
-#about .teammate { 
-  margin-top: 60px; 
-  margin-bottom: 60px; 
+#about .teammate {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 #about .teammate .bio { padding-top: 10px }
 #about .teammate .profile-photo {
   overflow: hidden
-}     
+}
 #about .teammate .profile-photo img {
   -webkit-transition: all .4s ease;
      -moz-transition: all .4s ease;
@@ -342,19 +345,19 @@ a:focus {
 #footer .social li .dribbble:focus { color: #ea4c89 }
 #footer .copyright { margin-bottom: 0 }
 /* Responsive style */
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
   #testimonials .carousel-control { display: block }
 }
-@media screen and (max-width: 991px) { 
+@media screen and (max-width: 991px) {
   #portfolio .items li { width: 50% }
   #testimonials .quote { padding: 0 70px }
 }
-@media (max-width: 767px) { 
+@media (max-width: 767px) {
   .page .content.cover { padding: 160px 0 }
   #testimonials .quote { padding: 0 50px }
   #testimonials .carousel-control.right { right: 10px }
 }
-@media (max-width: 480px) { 
+@media (max-width: 480px) {
   .page .content.cover { padding: 80px 0 }
   #portfolio .items li { width: 100% }
   #testimonials .quote { padding: 0 30px }
