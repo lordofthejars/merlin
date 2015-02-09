@@ -126,7 +126,7 @@ a:focus {
 }
 .page { overflow: hidden }
 .page .content { padding: 60px 0 }
-.page .content.cover { padding: 240px 0 }
+.page .content.cover { padding: 20px 0px 230px 0px }
 .page .heading h2 {
   margin-top: 0;
   margin-bottom: 20px;
@@ -141,7 +141,7 @@ a:focus {
 #home {
   padding: 0;
   color: #fff;
-  background-image: url(http://lordofthejars.github.io/merlin/assets/img/cover/IMG_1377.JPG);
+  background-image: url(../img/cover/IMG_1377.JPG);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
