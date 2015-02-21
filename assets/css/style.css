@@ -173,7 +173,10 @@ a:focus {
 	text-decoration: underline;
 	color: #428bca;
 }
-#work .heading p { margin-bottom: 60px }
+#sponsors a{
+	text-decoration: underline;
+	color: #428bca;
+}
 #portfolio { width: 100% }
 #portfolio .filters { margin-bottom: 20px }
 #portfolio .filters li a {
