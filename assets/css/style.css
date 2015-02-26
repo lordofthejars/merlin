@@ -297,7 +297,10 @@ a:focus {
 }
 #about .teammate .bio { padding-top: 10px }
 #about .teammate .profile-photo {
-  overflow: hidden
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  width: 263px;
 }
 #about .teammate .profile-photo img {
   -webkit-transition: all .4s ease;
