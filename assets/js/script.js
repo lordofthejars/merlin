@@ -26,6 +26,10 @@ function initNavbar() {
             top: $('#home').height()
         }
     });
+	
+    $("#nav-main").on("click", "a", null, function () {
+         $("#nav-main").collapse('hide');
+    });
 }
 function initPortfolio () {
     var portfolio = $('#portfolio');
