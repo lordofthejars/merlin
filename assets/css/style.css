@@ -184,20 +184,39 @@ a:focus {
 	text-decoration: underline;
 	color: #428bca;
 }
+#sponsors .sponsor .sponsor-photo img {
+  -webkit-transition: all .4s ease;
+     -moz-transition: all .4s ease;
+      -ms-transition: all .4s ease;
+       -o-transition: all .4s ease;
+          transition: all .4s ease;
+}
+#sponsors .sponsor:hover .sponsor-photo img,
+#sponsors .sponsor:focus .sponsor-photo img {
+  -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+       -o-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 #portfolio { width: 100% }
-#portfolio .filters { margin-bottom: 20px }
+#portfolio .filters { 
+	margin-bottom: 20px;
+	margin-top: 20px 
+}
 #portfolio .filters li a {
   color: #999;
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 25px;
   text-transform: uppercase;
 }
 #portfolio .filters li a:hover,
 #portfolio .filters li a:focus { color: #333 }
 #portfolio .filters li a.active { color: #0093cf }
-#portfolio .items { margin-bottom: 0 }
+#portfolio .items { margin-bottom: 20px; }
 #portfolio .items li {
   position: relative;
-  float: left;
   width: 25%;
   overflow: hidden;
 }
@@ -237,6 +256,19 @@ a:focus {
        -o-transform: scale(1.1);
           transform: scale(1.1);
 }
+
+#portfolio .items .gold{
+	display:inline-block;
+}
+
+#portfolio .items .silver{
+	display:inline-block;
+}
+
+#portfolio .items .bronze{
+	display:inline-block;
+}
+
 #clients {
   color: #fff;
   background-color: #2a3940;
