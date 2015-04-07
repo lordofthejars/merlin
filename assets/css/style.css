@@ -194,6 +194,7 @@ a:focus {
           transition: all .4s ease;
 }
 
+/*
 #sponsors .gold img {
 	border: 2px solid #D4AF37;
 }
@@ -204,7 +205,7 @@ a:focus {
 
 #sponsors .bronze img {
 	border: 2px solid #CD7F32;
-}
+}*/
 
 #sponsors .sponsor:hover .sponsor-photo img,
 #sponsors .sponsor:focus .sponsor-photo img {
