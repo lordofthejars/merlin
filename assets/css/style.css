@@ -184,6 +184,9 @@ a:focus {
 	text-decoration: underline;
 	color: #428bca;
 }
+#sponsors .sponsor .sponsor-photo{
+	margin-top:3px;
+}
 #sponsors .sponsor .sponsor-photo img {
 	margin-left: auto;
     margin-right: auto;
