@@ -1,10 +1,10 @@
 {
-  "speaker": {
+  "speakers":[{
 	"name":"Andres Almiray",
 	"description":"Java/Groovy developer, Java Champion and JSR377 Spec Lead, with more than 15 years of experience in software design and development.",
 	"biography":"",
 	"image": "assets/img/speakers/andresAlmirall.png",
-	"url":"./speakers/andresAlmirall.html";
+	"url":"./speakers/andresAlmirall.html",
 	"twitter":"https://twitter.com/aalmiray"
-  }
+  }]
 }
