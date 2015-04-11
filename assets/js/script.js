@@ -90,6 +90,7 @@ $(document).ready(function () {
     initPortfolio();
     initAnimations();
     initTwitterFeed();
+	loadRandomSpeakers();
 });
 $(window).load(function () {
     $(".loader .fading-line").fadeOut();
@@ -108,4 +109,34 @@ function handleTweets(tweets) {
         html += '</ul>';
         element.innerHTML = html;
     }
+}
+
+function loadRandomSpeakers() {
+	$.getJSON( "http://www.jbcnconf.com/assets/json/speakers.json", function( data ) {
+		var currentIndex = data.speakers.length;
+	    for(var i=0;i<4;i++){
+			randomIndex = Math.floor(Math.random() * currentIndex);		
+			val = data.speakers[randomIndex];
+			divspeaker="<div class='speaker-info-home col-md-3 col-sm-6 col-xs-12 teammate animated' data-animation='fadeInLeft' data-delay='600'>"+
+						  "<div class='profile-photo'>"+
+							"<a href='"+val.url+"'><img class='img-responsive' src='"+val.image+"' alt='"+val.name+"'></a>"+
+						  "</div>"+
+						  "<div class='bio'>"+
+							"<h4>"+val.name+"</h4>"+
+							"<div class='border'></div>"+
+							"<p>"+val.description+"</p>"+
+							"<ul class='list-inline'>"+
+							  "<li class='twitter'>"+
+								"<a href='"+val.twitter+"' title='Twitter' target='_blank'>"+
+								  "<i class='fa fa-twitter'></i>"+
+								"</a>"+
+							  "</li>"+				  
+							"</ul>"+
+						  "</div>"+
+						"</div>";
+			$(divspeaker).appendTo( "#grid-speakers-home" );
+			currentIndex -= 1;
+			if(currentIndex==0) break;
+		}
+	});
 }

@@ -180,6 +180,9 @@ a:focus {
 }
 #services .service i { margin-top: 60px }
 #services .service:hover i { color: #71be3c }
+#speakers .speaker-info{
+	margin-top: 35px;
+}
 #speakers .bio h4{
     font-size: 20px;
     font-weight: bold;
@@ -215,7 +218,7 @@ a:focus {
           transition: all .4s ease;
 }
 
-#sponsors .gold img {
+/*#sponsors .gold img {
 	border: 2px solid #D4AF37;
 }
 
@@ -225,7 +228,7 @@ a:focus {
 
 #sponsors .bronze img {
 	border: 2px solid #CD7F32;
-}
+}*/
 
 #sponsors .sponsor:hover .sponsor-photo img,
 #sponsors .sponsor:focus .sponsor-photo img {
