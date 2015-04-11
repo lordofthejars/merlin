@@ -208,6 +208,9 @@ a:focus {
 	text-decoration: underline;
 	color: #428bca;
 }
+#sponsors .sponsor .sponsor-photo{
+	margin-top:3px;
+}
 #sponsors .sponsor .sponsor-photo img {
 	margin-left: auto;
     margin-right: auto;
@@ -218,7 +221,8 @@ a:focus {
           transition: all .4s ease;
 }
 
-/*#sponsors .gold img {
+/*
+#sponsors .gold img {
 	border: 2px solid #D4AF37;
 }
 

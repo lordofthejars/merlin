@@ -31,28 +31,7 @@ function initNavbar() {
          $("#nav-main").collapse('hide');
     });
 }
-function initPortfolio () {
-    var portfolio = $('#portfolio');
-    var items = $('.items', portfolio); 
-    var filters = $('.filters li a', portfolio); 
 
-    items.imagesLoaded(function() {
-        items.isotope({
-            itemSelector: '.item',
-            layoutMode: 'fitRows',
-            transitionDuration: '0.7s'
-        });
-    });
-    
-    filters.click(function(){
-        var el = $(this);
-        filters.removeClass('active');
-        el.addClass('active');
-        var selector = el.attr('data-filter');
-        items.isotope({ filter: selector });
-        return false;
-    });   
-}
 function initAnimations() {
     $('.animated').appear(function () {
         var el = $(this);
@@ -81,35 +60,15 @@ function initAnimations() {
 	});
 }
 
-function initTwitterFeed() {
-    /* More about fetch params on http://www.jasonmayes.com/projects/twitterApi */
-    twitterFetcher.fetch('500674157688782849', '', 1, true, false, false, '', true, handleTweets, false);
-}
 $(document).ready(function () {
     initNavbar();
-    initPortfolio();
-    initAnimations();
-    initTwitterFeed();
+	initAnimations();
 	loadRandomSpeakers();
 });
 $(window).load(function () {
     $(".loader .fading-line").fadeOut();
     $(".loader").fadeOut("slow");
 });
-function handleTweets(tweets) {
-    var element = document.getElementById('feed');
-    if (element) {
-        var x = tweets.length;
-        var n = 0;
-        var html = '<ul class="list-inline">';
-        while (n < x) {
-            html += '<li>' + tweets[n] + '</li>';
-            n++;
-        }
-        html += '</ul>';
-        element.innerHTML = html;
-    }
-}
 
 function loadRandomSpeakers() {
 	$.getJSON( "http://www.jbcnconf.com/assets/json/speakers.json", function( data ) {
