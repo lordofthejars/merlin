@@ -30,7 +30,7 @@ function loadRandomSpeakers() {
 			if(val.homepage!=null){
 				divspeaker=divspeaker+"<li class='homepage'>"+
 					"<a href='"+val.homepage+"' title='Homepage' target='_blank'>"+
-					  "<i class='fa fa-file'></i>"+
+					  "<i class='fa fa-globe'></i>"+
 					"</a>"+
 				"</li>";
 			}				  
