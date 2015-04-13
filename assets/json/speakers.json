@@ -31,7 +31,7 @@
 	"name":"Masoud Kalali",
 	"description":"He has been working on software development projects since 1998",
 	"biography":"Masoud has been working on software development projects since 1998, which gives him a broad perspective on software development in general and changes in the software development landscape in the past 1/5 decades. Masoud has experience with variety of technologies (.NET, J2EE, CORBA, and COM+) on diverse platforms (Solaris, Linux, and Windows). He has a master degree in information systems with a bachelor degree in software engineering.<br>Masoud has authored fair number of articles and other types of publications including several articles at Java.net and Dzone. He is author of multiple refcards, published by Dzone, including but not limited to Using XML in Java, Security and GlassFish v3 refcardz. Masoud is one of the founding members of NetBeans Dream Team and a GlassFish community spotlighted developer. Masoud is author of GlassFish Security book published in 2010 covering GlassFish v3 security and Java EE 6 security. He recently co-authored another book Developing RESTful Services with JAX-RS 2.0, WebSockets, and JSON.<br>Masoud is a recurrent speaker in JavaOne and other Java focused conferences across europe.",
-	"image": "assets/img/speakers/black.jpg",
+	"image": "assets/img/speakers/MasoudKalali.jpg",
 	"url":"",
 	"twitter":"https://twitter.com/MasoudKalali",
 	"homepage":"http://about.me/masoudkalali"
@@ -40,7 +40,7 @@
 	"name":"Claus Ibsen",
 	"description":"Principal software engineer from Red Hat.",
 	"biography":"Claus Ibsen is a principal software engineer from Red Hat. <br>Claus is working full time as Apache Camel committer. And is author of the Camel in Action book.<br>He is also heavily involved with fabric8 and hawtio projects, especially with functionality that involves Camel.",
-	"image": "assets/img/speakers/black.jpg",
+	"image": "assets/img/speakers/ClausIbsen.jpg",
 	"url":"",
 	"twitter":"http://twitter.com/davsclaus",
 	"homepage":"http://davsclaus.com"
