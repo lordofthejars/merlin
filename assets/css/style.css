@@ -388,6 +388,58 @@ a:focus {
   color: #ffffff;
   font-size: 20px;
 }
+#tickets .row{
+	margin-top:20px;
+	margin-bottom: 10px;
+}
+#tickets .open{
+    /* border: 1px solid; */
+    padding: 10px;
+    margin: 0px 10px 0px 10px;
+    height: 305px;
+    width: 370px;
+}
+
+#tickets .close{
+    padding: 10px;
+    /* border: 1px solid; */
+    margin: 0px 10px 0px 10px;
+    height: 305px;
+    width: 370px;
+}
+
+#tickets p{
+	font-size: 20px;
+}
+#tickets .ticket i{
+}
+#tickets .name{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+#tickets .dates{
+}
+#tickets .price{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+#tickets .service img {
+  -webkit-transition: all .4s ease;
+     -moz-transition: all .4s ease;
+      -ms-transition: all .4s ease;
+       -o-transition: all .4s ease;
+          transition: all .4s ease;
+}
+#tickets .service:hover  img,
+#tickets .service:focus  img {
+  -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+       -o-transform: scale(1.1);
+          transform: scale(1.1);
+}
 #contact {
   background: url(../img/cover/contact.jpg);
   background-repeat: no-repeat;
