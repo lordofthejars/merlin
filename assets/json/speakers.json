@@ -1,14 +1,50 @@
 {
-  "speakers":[  
+  "speakers":[
+  {
+	"name":"Andres Almiray",
+	"description":"Java/Groovy developer, Java Champion and JSR377 Spec Lead.",
+	"biography":"Andres is a Java/Groovy developer, Java Champion and JSR377 Spec Lead, with more than 15 years of experience in software design and development. He has been involved in web and desktop application developments since the early days of Java. He is a true believer of open source and has participated in popular projects like Groovy, Griffon, JMatter and DbUnit, as well as starting his own projects (Json-lib, EZMorph, GraphicsBuilder, JideBuilder). Founding member and current project lead of the Griffon framework.",
+	"image": "assets/img/speakers/AndresAlmiray.jpg",
+	"url":"",
+	"twitter":"https://twitter.com/aalmiray",
+	"homepage":"http://www.jroller.com/aalmiray/"
+  },
+  {
+	"name":"David Brimley",
+	"description":"Senior Solutions Architect for Hazelcast.",
+	"biography":"David Brimley is a Senior Solutions Architect for Hazelcast, he helps companies get the best out of In Memory Data Grids. Previously David has held senior engineering positions at firms such as Credit Suisse, HSBC, Nomura and Royal Bank of Scotland. During this time he became familiar with IMDG products such as Pivotal Gemfire and Oracle Coherence. David has been a professional coder for over 25 years and confirmed coding addict for 10 years prior to that, a journey which began on a BBC Model B computer.",
+	"image": "assets/img/speakers/black.jpg",
+	"url":"",
+	"twitter":"https://twitter.com/dbrimley",
+	"homepage":"http://dbrimley.github.io"
+  },
   {
 	"name":"Masoud Kalali",
-	"description":"He has been working on software development projects since 1998",
+	"description":"Software architect with focus on PaaS and Java EE, author, technology enthusiast.",
 	"biography":"Masoud has been working on software development projects since 1998, which gives him a broad perspective on software development in general and changes in the software development landscape in the past 1/5 decades. Masoud has experience with variety of technologies (.NET, J2EE, CORBA, and COM+) on diverse platforms (Solaris, Linux, and Windows). He has a master degree in information systems with a bachelor degree in software engineering.<br>Masoud has authored fair number of articles and other types of publications including several articles at Java.net and Dzone. He is author of multiple refcards, published by Dzone, including but not limited to Using XML in Java, Security and GlassFish v3 refcardz. Masoud is one of the founding members of NetBeans Dream Team and a GlassFish community spotlighted developer. Masoud is author of GlassFish Security book published in 2010 covering GlassFish v3 security and Java EE 6 security. He recently co-authored another book Developing RESTful Services with JAX-RS 2.0, WebSockets, and JSON.<br>Masoud is a recurrent speaker in JavaOne and other Java focused conferences across europe.",
 	"image": "assets/img/speakers/MasoudKalali.jpg",
 	"url":"",
 	"twitter":"https://twitter.com/MasoudKalali",
 	"homepage":"http://about.me/masoudkalali"
-  },  
+  },
+  {
+	"name":"Claus Ibsen",
+	"description":"Principal software engineer from Red Hat.",
+	"biography":"Claus Ibsen is a principal software engineer from Red Hat. <br>Claus is working full time as Apache Camel committer. And is author of the Camel in Action book.<br>He is also heavily involved with fabric8 and hawtio projects, especially with functionality that involves Camel.",
+	"image": "assets/img/speakers/ClausIbsen.jpg",
+	"url":"",
+	"twitter":"http://twitter.com/davsclaus",
+	"homepage":"http://davsclaus.com"
+  },
+  {
+	"name":"Christopher Batey",
+	"description":"Software Engineer by trade and is currently employed by DataStax as a Technical Evangelist for Apache Cassandra.",
+	"biography":"Christopher Batey (@chbatey) is a Software Engineer by trade and is currently employed by DataStax as a Technical Evangelist for Apache Cassandra. Chris has also worked for Sky, where he helped build their online television platform, and IBM, where he helped develop a variety of messaging products.<br>He spends a lot of his own time contributing back to the software community and is a active member of the London Java Community, Cassandra London and the London Software Craftsmanship Community. Christopher has a particular interest in building effective automated tests for every scenario, including network failures, database faults and services returning junk. For that reason he built an open source test double for Apache Cassandra: Stubbed Cassandra. He also blogs regularly at: http://christopher-batey.blogspot.co.uk/. ",
+	"image": "assets/img/speakers/ChristopherBatey.jpg",
+	"url":"",
+	"twitter":"https://twitter.com/chbatey",
+	"homepage":"http://christopher-batey.blogspot.co.uk/"
+  },
   {
 	"name":"Johan Janssen",
 	"description":"Java lead developer / architect and Java trainer at Info Support.",
