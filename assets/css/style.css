@@ -395,17 +395,17 @@ a:focus {
 #tickets .open{
     /* border: 1px solid; */
     padding: 10px;
-    margin: 0px 10px 0px 10px;
+    /* margin: 0px 10px 0px 10px; */
     height: 305px;
-    width: 370px;
+    /* width: 370px; */
 }
 
 #tickets .close{
     padding: 10px;
     /* border: 1px solid; */
-    margin: 0px 10px 0px 10px;
+    /* margin: 0px 10px 0px 10px; */
     height: 305px;
-    width: 370px;
+    /* width: 370px; */
 }
 
 #tickets p{
