@@ -3,7 +3,7 @@ $(document).ready(function () {
 });
 
 function loadRandomSpeakers() {
-	$.getJSON( "http://www.jbcnconf.com/assets/json/speakers.json", function( data ) {
+	$.getJSON( "assets/json/speakers.json", function( data ) {
 		var currentIndex = data.speakers.length;
 	    for(var i=0;i<4;i++){
 			randomIndex = Math.floor(Math.random() * currentIndex);		

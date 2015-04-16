@@ -13,7 +13,7 @@
 	"name":"David Brimley",
 	"description":"Senior Solutions Architect for Hazelcast.",
 	"biography":"David Brimley is a Senior Solutions Architect for Hazelcast, he helps companies get the best out of In Memory Data Grids. Previously David has held senior engineering positions at firms such as Credit Suisse, HSBC, Nomura and Royal Bank of Scotland. During this time he became familiar with IMDG products such as Pivotal Gemfire and Oracle Coherence. David has been a professional coder for over 25 years and confirmed coding addict for 10 years prior to that, a journey which began on a BBC Model B computer.",
-	"image": "assets/img/speakers/black.jpg",
+	"image": "assets/img/speakers/DavidBrimley.png",
 	"url":"",
 	"twitter":"https://twitter.com/dbrimley",
 	"homepage":"http://dbrimley.github.io"
@@ -49,10 +49,19 @@
 	"name":"Johan Janssen",
 	"description":"Java lead developer / architect and Java trainer at Info Support.",
 	"biography":"Johan is working as a Java lead developer / architect and Java trainer at Info Support. He has been working for various demanding companies where rapidly delivering quality software was very important. Currently he is working in a DevOps team in a big financial institution in The Netherlands as Java architect. He likes sharing his knowledge about Java, continuous delivery, DevOps, software quality and numerous other subjects. Johan regularly writes articles and gives presentations about those subject for instance at JavaOne, JavaLand, JavaCro and J-Fall.",
-	"image": "assets/img/speakers/black.jpg",
+	"image": "assets/img/speakers/JohanJanssen.jpeg",
 	"url":"",
 	"twitter":"https://twitter.com/johanjanssen42",
 	"homepage":"https://blogs.infosupport.com/author/johanj/"
+  },
+  {
+	"name":"Jean Baptiste Onofre",
+	"description":"SOA/Software Architect at Talend and ASF member.",
+	"biography":"Jean-Baptiste Onofré is an ASF member and committer of Apache Karaf, Apache ServiceMix, Apache ACE, Apache Camel, Apache Archiva, Apache Kalumet, Apache Falcon, Apache Syncope and mentor on Apache Sirona. He brings over ten years of development experience to Talend, where he works as a SOA/Software Architect. Also is the author of book 'Learning Apache Cellar'",
+	"image": "assets/img/speakers/JeanBaptisteOnofre.jpg",
+	"url":"",
+	"twitter":"https://twitter.com/jbonofre",
+	"homepage":"http://blog.nanthrax.net/"
   }
   ]
 }

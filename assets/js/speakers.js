@@ -1,5 +1,5 @@
 $(document).ready(function () {
-	$.getJSON( "http://www.jbcnconf.com/assets/json/speakers.json", function( data ) {
+	$.getJSON( "assets/json/speakers.json", function( data ) {
 	  $.each( data.speakers, function( key, val ) {
 		divspeaker="<div class='speaker-info col-md-3 col-sm-6 col-xs-12 teammate animated' data-animation='fadeInUp' data-delay='600'>"+
 					  "<div class='profile-photo'>";
