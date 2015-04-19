@@ -443,53 +443,40 @@ a:focus {
           transform: scale(1.1);
 }
 #contact {
-  background: url(../img/cover/contact.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-#contact,
-#contact a,
-#contact a:hover,
-#contact a:focus { color: #fff }
-#contact .heading .border { background-color: #fff }
-#contact a { display: block }
-#contact i { margin: 60px 0 15px }
-#footer {
   padding: 20px 0; 
   color: #ccc;
   text-align: center;
   background-color: #2a3940;
 }
-#footer a  { color: #fff }
-#footer a:hover .jug,
-#footer a:focus .jug{ color: #007bb6 }
-#footer a:hover .barcelona,
-#footer a:focus .barcelona{ color: #bb0000 }
-#footer .social li .linkedin:hover,
-#footer .social li .linkedin:focus { color: #007bb6 }
-#footer .social li .twitter:hover,
-#footer .social li .twitter:focus { color: #00aced }
-#footer .social li .google-plus:hover,
-#footer .social li .google-plus:focus { color: #d34836 }
-#footer .social li .mail:hover,
-#footer .social li .mail:focus { color: #7C7C7C }
-#footer .social li .youtube:hover,
-#footer .social li .youtube:focus { color: #bb0000 }
-#footer .social li .meetup {
+#contact a  { color: #fff }
+#contact a:hover .jug,
+#contact a:focus .jug{ color: #007bb6 }
+#contact a:hover .barcelona,
+#contact a:focus .barcelona{ color: #bb0000 }
+#contact .social li .linkedin:hover,
+#contact .social li .linkedin:focus { color: #007bb6 }
+#contact .social li .twitter:hover,
+#contact .social li .twitter:focus { color: #00aced }
+#contact .social li .google-plus:hover,
+#contact .social li .google-plus:focus { color: #d34836 }
+#contact .social li .mail:hover,
+#contact .social li .mail:focus { color: #7C7C7C }
+#contact .social li .youtube:hover,
+#contact .social li .youtube:focus { color: #bb0000 }
+#contact .social li .meetup {
 	display:block;
     width:30px;
     height:32px;
     background:url('../img/meetup_trans.png');
 }
-#footer .social li .meetup:hover,
-#footer .social li .meetup:focus {
+#contact .social li .meetup:hover,
+#contact .social li .meetup:focus {
 	display:block;
     width:30px;
     height:32px;
     background:url('../img/meetup_trans_vermell.png');
 }
-#footer .copyright {
+#contact .copyright {
  margin-bottom: 0;
  font-size: 18px;
  }
