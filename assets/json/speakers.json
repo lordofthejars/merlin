@@ -27,7 +27,7 @@
 	"twitter":"https://twitter.com/dbrimley",
 	"homepage":"http://dbrimley.github.io"
   },
-      {
+  {
 	"name":"Rob Davies",
 	"description":"Technical Director for Fuse Engineering at Red Hat, creator of ActiveMQ and ServiceMix.",
 	"biography":"Rob Davies is the Technical Director for Fuse Engineering at Red Hat. Previously Rob was the CTO of FuseSource. The experts in open source integration and messaging. With 20 years experience of architecting solutions and developing products for large-scale distributed applications for telcos and finance, Rob is focusing on developing the next generation of open source middleware products for Red Hat.",
@@ -35,7 +35,7 @@
 	"url":"",
 	"twitter":"https://twitter.com/rajdavies",
 	"homepage":"http://rajdavies.blogspot.co.uk/"
-  }  ,
+  },
   {
 	"name":"Claus Ibsen",
 	"description":"Principal software engineer from Red Hat.",
@@ -62,8 +62,8 @@
 	"url":"",
 	"twitter":"https://twitter.com/MasoudKalali",
 	"homepage":"http://about.me/masoudkalali"
-  } ,
-    {
+  },
+  {
 	"name":"Jean Baptiste Onofre",
 	"description":"SOA/Software Architect at Talend and ASF member.",
 	"biography":"Jean-Baptiste Onofré is an ASF member and committer of Apache Karaf, Apache ServiceMix, Apache ACE, Apache Camel, Apache Archiva, Apache Kalumet, Apache Falcon, Apache Syncope and mentor on Apache Sirona. He brings over ten years of development experience to Talend, where he works as a SOA/Software Architect. Also is the author of book 'Learning Apache Cellar'",
@@ -72,11 +72,11 @@
 	"twitter":"https://twitter.com/jbonofre",
 	"homepage":"http://blog.nanthrax.net/"
   },
-    {
+  {
 	"name":"James Strachan",
-	"description":"Senior Consulting Software Engineer at Red Hat, creator of Groovy and Apache Camel ",
-	"biography":" James created the Groovy programming language and Apache Camel and was one of the founders of these open source projects: fabric8, hawtio, Apache ActiveMQ, and Apache ServiceMix. James is currently Senior Consulting Software Engineer at Red Hat focussing on making it easy to work with Kubernetes, OpenShift and Fabric8. James and has more than 20 years experience in enterprise software development with a background in finance, consulting, and middleware.",
-	"image": "assets/img/speakers/JamesStrachan.png",
+	"description":"Senior Consulting Software Engineer at Red Hat, creator of Groovy and Apache Camel",
+	"biography":"James created the Groovy programming language and Apache Camel and was one of the founders of these open source projects: fabric8, hawtio, Apache ActiveMQ, and Apache ServiceMix. James is currently Senior Consulting Software Engineer at Red Hat focussing on making it easy to work with Kubernetes, OpenShift and Fabric8. James and has more than 20 years experience in enterprise software development with a background in finance, consulting, and middleware.",
+	"image": "assets/img/speakers/JamesStrachan.jpg",
 	"url":"",
 	"twitter":"https://twitter.com/jstrachan/",
 	"homepage":"http://macstrac.blogspot.com.es/"
