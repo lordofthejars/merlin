@@ -19,15 +19,6 @@
 	"homepage":"http://christopher-batey.blogspot.co.uk/"
   },
   {
-	"name":"Claus Ibsen",
-	"description":"Principal software engineer from Red Hat.",
-	"biography":"Claus Ibsen is a principal software engineer from Red Hat. <br>Claus is working full time as Apache Camel committer. And is author of the Camel in Action book.<br>He is also heavily involved with fabric8 and hawtio projects, especially with functionality that involves Camel.",
-	"image": "assets/img/speakers/ClausIbsen.jpg",
-	"url":"",
-	"twitter":"http://twitter.com/davsclaus",
-	"homepage":"http://davsclaus.com"
-  },  
-  {
 	"name":"David Brimley",
 	"description":"Senior Solutions Architect for Hazelcast.",
 	"biography":"David Brimley is a Senior Solutions Architect for Hazelcast, he helps companies get the best out of In Memory Data Grids. Previously David has held senior engineering positions at firms such as Credit Suisse, HSBC, Nomura and Royal Bank of Scotland. During this time he became familiar with IMDG products such as Pivotal Gemfire and Oracle Coherence. David has been a professional coder for over 25 years and confirmed coding addict for 10 years prior to that, a journey which began on a BBC Model B computer.",
@@ -36,16 +27,25 @@
 	"twitter":"https://twitter.com/dbrimley",
 	"homepage":"http://dbrimley.github.io"
   },
-  {
-	"name":"Jean Baptiste Onofre",
-	"description":"SOA/Software Architect at Talend and ASF member.",
-	"biography":"Jean-Baptiste Onofré is an ASF member and committer of Apache Karaf, Apache ServiceMix, Apache ACE, Apache Camel, Apache Archiva, Apache Kalumet, Apache Falcon, Apache Syncope and mentor on Apache Sirona. He brings over ten years of development experience to Talend, where he works as a SOA/Software Architect. Also is the author of book 'Learning Apache Cellar'",
-	"image": "assets/img/speakers/JeanBaptisteOnofre.jpg",
+      {
+	"name":"Rob Davies",
+	"description":"Technical Director for Fuse Engineering at Red Hat, creator of ActiveMQ and ServiceMix.",
+	"biography":"Rob Davies is the Technical Director for Fuse Engineering at Red Hat. Previously Rob was the CTO of FuseSource. The experts in open source integration and messaging. With 20 years experience of architecting solutions and developing products for large-scale distributed applications for telcos and finance, Rob is focusing on developing the next generation of open source middleware products for Red Hat.",
+	"image": "assets/img/speakers/RobDavies.jpg",
 	"url":"",
-	"twitter":"https://twitter.com/jbonofre",
-	"homepage":"http://blog.nanthrax.net/"
-  },
+	"twitter":"https://twitter.com/rajdavies",
+	"homepage":"http://rajdavies.blogspot.co.uk/"
+  }  ,
   {
+	"name":"Claus Ibsen",
+	"description":"Principal software engineer from Red Hat.",
+	"biography":"Claus Ibsen is a principal software engineer from Red Hat. <br>Claus is working full time as Apache Camel committer. And is author of the Camel in Action book.<br>He is also heavily involved with fabric8 and hawtio projects, especially with functionality that involves Camel.",
+	"image": "assets/img/speakers/ClausIbsen.jpg",
+	"url":"",
+	"twitter":"http://twitter.com/davsclaus",
+	"homepage":"http://davsclaus.com"
+  },  
+    {
 	"name":"Johan Janssen",
 	"description":"Java lead developer / architect and Java trainer at Info Support.",
 	"biography":"Johan is working as a Java lead developer / architect and Java trainer at Info Support. He has been working for various demanding companies where rapidly delivering quality software was very important. Currently he is working in a DevOps team in a big financial institution in The Netherlands as Java architect. He likes sharing his knowledge about Java, continuous delivery, DevOps, software quality and numerous other subjects. Johan regularly writes articles and gives presentations about those subject for instance at JavaOne, JavaLand, JavaCro and J-Fall.",
@@ -54,7 +54,7 @@
 	"twitter":"https://twitter.com/johanjanssen42",
 	"homepage":"https://blogs.infosupport.com/author/johanj/"
   },
-  {
+    {
 	"name":"Masoud Kalali",
 	"description":"Software architect with focus on PaaS and Java EE, author, technology enthusiast.",
 	"biography":"Masoud has been working on software development projects since 1998, which gives him a broad perspective on software development in general and changes in the software development landscape in the past 1/5 decades. Masoud has experience with variety of technologies (.NET, J2EE, CORBA, and COM+) on diverse platforms (Solaris, Linux, and Windows). He has a master degree in information systems with a bachelor degree in software engineering.<br>Masoud has authored fair number of articles and other types of publications including several articles at Java.net and Dzone. He is author of multiple refcards, published by Dzone, including but not limited to Using XML in Java, Security and GlassFish v3 refcardz. Masoud is one of the founding members of NetBeans Dream Team and a GlassFish community spotlighted developer. Masoud is author of GlassFish Security book published in 2010 covering GlassFish v3 security and Java EE 6 security. He recently co-authored another book Developing RESTful Services with JAX-RS 2.0, WebSockets, and JSON.<br>Masoud is a recurrent speaker in JavaOne and other Java focused conferences across europe.",
@@ -62,6 +62,24 @@
 	"url":"",
 	"twitter":"https://twitter.com/MasoudKalali",
 	"homepage":"http://about.me/masoudkalali"
+  } ,
+    {
+	"name":"Jean Baptiste Onofre",
+	"description":"SOA/Software Architect at Talend and ASF member.",
+	"biography":"Jean-Baptiste Onofré is an ASF member and committer of Apache Karaf, Apache ServiceMix, Apache ACE, Apache Camel, Apache Archiva, Apache Kalumet, Apache Falcon, Apache Syncope and mentor on Apache Sirona. He brings over ten years of development experience to Talend, where he works as a SOA/Software Architect. Also is the author of book 'Learning Apache Cellar'",
+	"image": "assets/img/speakers/JeanBaptisteOnofre.jpg",
+	"url":"",
+	"twitter":"https://twitter.com/jbonofre",
+	"homepage":"http://blog.nanthrax.net/"
+  },
+    {
+	"name":"James Strachan",
+	"description":"Senior Consulting Software Engineer at Red Hat, creator of Groovy and Apache Camel ",
+	"biography":" James created the Groovy programming language and Apache Camel and was one of the founders of these open source projects: fabric8, hawtio, Apache ActiveMQ, and Apache ServiceMix. James is currently Senior Consulting Software Engineer at Red Hat focussing on making it easy to work with Kubernetes, OpenShift and Fabric8. James and has more than 20 years experience in enterprise software development with a background in finance, consulting, and middleware.",
+	"image": "assets/img/speakers/JamesStrachan.png",
+	"url":"",
+	"twitter":"https://twitter.com/jstrachan/",
+	"homepage":"http://macstrac.blogspot.com.es/"
   }  
   ]
 }
