@@ -424,6 +424,20 @@ transition: all .4s ease;
 -o-transform: scale(1.1);
 transform: scale(1.1);
 }
+#tickets .includedThings{
+max-width:300px;
+margin-left: auto;
+margin-right: auto;
+
+}
+#tickets .includedThings p{
+font-weight: bold;
+text-decoration:underline;
+}
+#tickets .includedThings ul{
+font-size: 15px;
+text-align:left;
+}
 #contact {
 padding: 20px 0;
 color: #ccc;
