@@ -462,6 +462,9 @@ background:url('../img/meetup_trans_vermell.png');
 margin-bottom: 0;
 font-size: 18px;
 }
+#accomodation .row{
+margin-left:10px;
+}
 #accomodation .button{
 margin: 10px;
 padding-top: 8px;
@@ -483,15 +486,18 @@ background-color: #D5D5D5;
   font-size : 22px;
   font-weight: bold;
 }
+#accomodation .star {
+  color : #D8D820;
+}
 #accomodation .price {
   font-size : 20px;
-  color : blue;
+  color : #428BCA;
 }
 #accomodation img {
   width: 260px;
 }
 #accomodation .hotel {
-  width : 280px;
+  min-width : 280px;
   border : 1px solid ;
   border-color: lightgrey;
   padding: 10px;
