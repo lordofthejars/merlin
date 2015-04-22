@@ -64,6 +64,15 @@
 	"homepage":"http://about.me/masoudkalali"
   },
   {
+	"name":"Willem Meints",
+	"description":"Lead developer at knowNow.",
+	"biography":"Willem is working as a lead developer for knowNow a social knowledge sharing platform for enterprise companies that strives to make sharing knowledge within organizations as easy as possible. Beside his work on knowNow he works as the Competence Centre Lead for enterprise mobile applications, a competence centre that helps projects get up to speed with Internet of Things and mobile within the enterprise. Willem likes to talk about his work, which he regularly does at conferences and the Dutch mobile meetup group.",
+	"image": "assets/img/speakers/WillemMeints.jpg",
+	"url":"",
+	"twitter":"https://twitter.com/willem_meints",
+	"homepage":"http://fizzylogic.nl/"  	
+  },
+  {
 	"name":"Jean Baptiste Onofre",
 	"description":"SOA/Software Architect at Talend and ASF member.",
 	"biography":"Jean-Baptiste Onofré is an ASF member and committer of Apache Karaf, Apache ServiceMix, Apache ACE, Apache Camel, Apache Archiva, Apache Kalumet, Apache Falcon, Apache Syncope and mentor on Apache Sirona. He brings over ten years of development experience to Talend, where he works as a SOA/Software Architect. Also is the author of book 'Learning Apache Cellar'",
