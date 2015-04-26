@@ -5,9 +5,14 @@
 	"description":"Java/Groovy developer, Java Champion and JSR377 Spec Lead.",
 	"biography":"Andres is a Java/Groovy developer, Java Champion and JSR377 Spec Lead, with more than 15 years of experience in software design and development. He has been involved in web and desktop application developments since the early days of Java. He is a true believer of open source and has participated in popular projects like Groovy, Griffon, JMatter and DbUnit, as well as starting his own projects (Json-lib, EZMorph, GraphicsBuilder, JideBuilder). Founding member and current project lead of the Griffon framework.",
 	"image": "assets/img/speakers/AndresAlmiray.jpg",
-	"url":"",
+	"ref":"aalmiray",
+	"url":"infoSpeaker.html?ref=aalmiray",
 	"twitter":"https://twitter.com/aalmiray",
-	"homepage":"http://www.jroller.com/aalmiray/"
+	"homepage":"http://www.jroller.com/aalmiray/",
+	"talk":{
+		"title":"Gradle: Harder, Better, Stronger, Faster",
+		"abstract":"Are you one of those that search Around the World looking for clues on how to get maven to do your bidding or do you just toss a coin and Get Lucky One More Time? Maven works OK but there’s a new tool in town that goes Beyond maven: Gradle. It’s Fresh, almost Aerodynamic. Once you get in Contact with it you’ll feel like Doin’ It Right when building a project. We kid you not, it’s an Instant Crush for those that have followed the maven path. This is The Prime Time of Your Life as a developer, make the most out of it by leveraging the best tools. Oh Yeah."
+	}
   },
   {
 	"name":"Christopher Batey",
