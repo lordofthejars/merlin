@@ -518,6 +518,9 @@ background-color: #D5D5D5;
   margin-right: 10px;
   background-color: #eee;
 }
+#speaker .content { 
+	padding: 30px 0px 10px 0px;
+}
 #speaker .row{
 	margin:20px;
 }
@@ -545,15 +548,18 @@ color: #222222;
 font-size: 20px;
 }
 #speaker .biography{
-	text-align: center;
+	text-align: left;
 	font-size: 20px;
 }
+#talk .content { 
+	padding: 10px 0;
+}
 #talk .row{
-	margin:20px;
+	margin: 0px 20px 20px 20px;
 }
 #talk .title{
 	font-size: 35px;
-	/*font-weight:bold;*/
+	font-weight:bold;
 	text-align: left;
 }
 #talk .borderTitle {

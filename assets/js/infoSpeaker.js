@@ -32,11 +32,7 @@ $(document).ready(function () {
 		  $(divspeaker).appendTo( "#speaker-info" );
 		  
 		if(val.talk !=null){
-			divtalk="<div class='heading'>"+
-					"<h2>Talks</h2>"+
-					"<div class='border'></div>"+
-					"</div>"+				
-					"<div class='row'>"+
+			divtalk="<div class='row'>"+
 					"<p class='title'>"+val.talk.title+"</p>"+
 					"<div class='borderTitle'></div>"+
 					"<p class='abstract'>"+val.talk.abstract+"</p>"+
