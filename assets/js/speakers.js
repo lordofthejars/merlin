@@ -4,7 +4,13 @@ $(document).ready(function () {
 		divspeaker="<div class='speaker-info col-md-3 col-sm-6 col-xs-12 teammate animated' data-animation='fadeInUp' data-delay='600'>"+
 					  "<div class='profile-photo'>";
 		if(val.url!=""){						  
-			divspeaker=divspeaker+"<a href='"+val.url+"'><img class='img-responsive' src='"+val.image+"' alt='"+val.name+"' width='165px' height='165px'></a>";
+			divspeaker=divspeaker+"<a href='"+val.url+"'><img class='img-responsive' src='"+val.image+"' alt='"+val.name+"' width='165px' height='165px'>";
+			if(val.talk !=null){
+					divspeaker=divspeaker+"<div class='overlay'>"+
+											"<span>"+val.talk.title+"</span>"+
+										 "</div>";
+			}
+			divspeaker=divspeaker+"</a>";
 		}
 		else{
 			divspeaker=divspeaker+"<img class='img-responsive' src='"+val.image+"' alt='"+val.name+"' width='165px' height='165px'>";
