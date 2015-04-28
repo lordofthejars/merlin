@@ -5,70 +5,122 @@
 	"description":"Java/Groovy developer, Java Champion and JSR377 Spec Lead.",
 	"biography":"Andres is a Java/Groovy developer, Java Champion and JSR377 Spec Lead, with more than 15 years of experience in software design and development. He has been involved in web and desktop application developments since the early days of Java. He is a true believer of open source and has participated in popular projects like Groovy, Griffon, JMatter and DbUnit, as well as starting his own projects (Json-lib, EZMorph, GraphicsBuilder, JideBuilder). Founding member and current project lead of the Griffon framework.",
 	"image": "assets/img/speakers/AndresAlmiray.jpg",
-	"url":"",
+	"ref":"aalmiray",
+	"url":"infoSpeaker.html?ref=aalmiray",
 	"twitter":"https://twitter.com/aalmiray",
-	"homepage":"http://www.jroller.com/aalmiray/"
+	"homepage":"http://www.jroller.com/aalmiray/",
+	"talk":{
+		"title":"Gradle: Harder, Better, Stronger, Faster",
+		"abstract":"Are you one of those that search Around the World looking for clues on how to get maven to do your bidding or do you just toss a coin and Get Lucky One More Time? Maven works OK but there’s a new tool in town that goes Beyond maven: Gradle. It’s Fresh, almost Aerodynamic. Once you get in Contact with it you’ll feel like Doin’ It Right when building a project. We kid you not, it’s an Instant Crush for those that have followed the maven path. This is The Prime Time of Your Life as a developer, make the most out of it by leveraging the best tools. Oh Yeah."
+	}
   },
   {
 	"name":"Christopher Batey",
 	"description":"Software Engineer by trade and is currently employed by DataStax as a Technical Evangelist for Apache Cassandra.",
-	"biography":"Christopher Batey (@chbatey) is a Software Engineer by trade and is currently employed by DataStax as a Technical Evangelist for Apache Cassandra. Chris has also worked for Sky, where he helped build their online television platform, and IBM, where he helped develop a variety of messaging products.<br>He spends a lot of his own time contributing back to the software community and is a active member of the London Java Community, Cassandra London and the London Software Craftsmanship Community. Christopher has a particular interest in building effective automated tests for every scenario, including network failures, database faults and services returning junk. For that reason he built an open source test double for Apache Cassandra: Stubbed Cassandra. He also blogs regularly at: http://christopher-batey.blogspot.co.uk/. ",
+	"biography":"Christopher Batey (@chbatey) is a Software Engineer by trade and is currently employed by DataStax as a Technical Evangelist for Apache Cassandra. Chris has also worked for Sky, where he helped build their online television platform, and IBM, where he helped develop a variety of messaging products.<br><br>He spends a lot of his own time contributing back to the software community and is a active member of the London Java Community, Cassandra London and the London Software Craftsmanship Community. Christopher has a particular interest in building effective automated tests for every scenario, including network failures, database faults and services returning junk. For that reason he built an open source test double for Apache Cassandra: Stubbed Cassandra. He also blogs regularly at: http://christopher-batey.blogspot.co.uk/. ",
 	"image": "assets/img/speakers/ChristopherBatey.jpg",
-	"url":"",
+	"ref":"cbatey",
+	"url":"infoSpeaker.html?ref=cbatey",
 	"twitter":"https://twitter.com/chbatey",
-	"homepage":"http://christopher-batey.blogspot.co.uk/"
+	"homepage":"http://christopher-batey.blogspot.co.uk/",
+	"talk":{
+		"title":"Reactive web applications with AngularJS, Play, Akka & Cassandra",
+		"abstract":"The combination of WebSockets with AngularJS is a fantastic stack for building reactive web applications - think constantly updating dashboards or a web based chat application. But what backend fits this model?<br><br>You guessed it: Play and Akka! This talk will take you through building the backend using the PlayFramework and Akka. The Actor model is perfect for reacting to events on the server side and pushing them to the client via a WebSocket. You’ll be shocked how simple this is to setup and get a basic application up and running.<br><br>We will be going through the KillrWeather application (https://github.com/killrweather/killrweather), which is an open source reference application for Apache Spark Streaming + Cassandra. Spark streaming is all about processing high volumes of data and building analytics on the fly, we’ll be showing how to get the processed data into a reactive front end."
+	}
   },
   {
 	"name":"David Brimley",
 	"description":"Senior Solutions Architect for Hazelcast.",
 	"biography":"David Brimley is a Senior Solutions Architect for Hazelcast, he helps companies get the best out of In Memory Data Grids. Previously David has held senior engineering positions at firms such as Credit Suisse, HSBC, Nomura and Royal Bank of Scotland. During this time he became familiar with IMDG products such as Pivotal Gemfire and Oracle Coherence. David has been a professional coder for over 25 years and confirmed coding addict for 10 years prior to that, a journey which began on a BBC Model B computer.",
 	"image": "assets/img/speakers/DavidBrimley.png",
-	"url":"",
+	"ref":"dbrimley",
+	"url":"infoSpeaker.html?ref=dbrimley",
 	"twitter":"https://twitter.com/dbrimley",
-	"homepage":"http://dbrimley.github.io"
+	"homepage":"http://dbrimley.github.io",
+	"talk":{
+		"title":"Java Caching API : JCache",
+		"abstract":"Howdy Folks, let me tell you a story.<br><br>Once upon a time, we are talking about the year 2001, a few people had an amazing idea. They were thinking about something that would change the world, it would make the world easy and give programmers almost unlimited power! It was simply referred to as JSR 107, one of the only things to change in the journey of this JSR. These dreamers were way ahead of their time and nothing really happened. So time passed by and by and by and over the years it was buried in the deep catacombs of the JCP. Eventually, in 2011 two brave knights took on the fight and worked themselves through all the riddles, to complete their quest in 2014. You will know what I am talking about, they called it the Java Caching API or in short JCache.<br><br>A software system cannot possibly be imagined without Caching today and it was time for a standard. No matter if you want to cache Database, HTML or results of long running calculations, new systems have to reach a critical mass to be successful. Elevator pitch : JSR107 does for Caching what JDBC did for Database lock in. Now develop to JSR107 API and choose the Caching provider of your choice (Hazelcast, Oracle Coherence, Infinispan). Lets take a look together with coding samples."
+	}
   },
   {
 	"name":"Rob Davies",
 	"description":"Technical Director for Fuse Engineering at Red Hat, creator of ActiveMQ and ServiceMix.",
 	"biography":"Rob Davies is the Technical Director for Fuse Engineering at Red Hat. Previously Rob was the CTO of FuseSource. The experts in open source integration and messaging. With 20 years experience of architecting solutions and developing products for large-scale distributed applications for telcos and finance, Rob is focusing on developing the next generation of open source middleware products for Red Hat.",
 	"image": "assets/img/speakers/RobDavies.jpg",
-	"url":"",
+	"ref":"rdavies",
+	"url":"infoSpeaker.html?ref=rdavies",
 	"twitter":"https://twitter.com/rajdavies",
-	"homepage":"http://rajdavies.blogspot.co.uk/"
+	"homepage":"http://rajdavies.blogspot.co.uk/",
+	"talk":{
+		"title":"Achieving horizontal scaling for Enterprise Messaging using Fabric8",
+		"abstract":"Apache ActiveMQ is an extremely flexible enterprising message system - but scaling and performance isn't something its exactly well known for. If we strip back ActiveMQ to concentrate on its core functionality, add automatic sharding across clusters of brokers, add vert.x for its scalability and performance and sprinkle with magic from fabric8 - we have a highly scalable cloud based messaging solution ideal for the internet of things!"
+	}
   },
   {
 	"name":"Claus Ibsen",
 	"description":"Principal software engineer from Red Hat.",
 	"biography":"Claus Ibsen is a principal software engineer from Red Hat. <br>Claus is working full time as Apache Camel committer. And is author of the Camel in Action book.<br>He is also heavily involved with fabric8 and hawtio projects, especially with functionality that involves Camel.",
 	"image": "assets/img/speakers/ClausIbsen.jpg",
-	"url":"",
+	"ref":"cibsen",
+	"url":"infoSpeaker.html?ref=cibsen",
 	"twitter":"http://twitter.com/davsclaus",
-	"homepage":"http://davsclaus.com"
+	"homepage":"http://davsclaus.com",
+	"talk":{
+		"title":"Microservices with Apache Camel, kubernetes and fabric8",
+		"abstract":"Apache Camel is a very popular integration library that works very well with microservice architecture.<br><br>This talk focuses how you can develop integration applications with Apache Camel in a microservice style, and use kubernetes to manage and deploy your applications on a container based platform such as openshift and docker. fabric8 sits on top of kubernetes and makes all this much easier, in the same ease of use style that Camel brings to integration.<br><br>We also talk about how Apache Camel can leverage kubernetes services both as a service provider and consumer. <br><br> And how all this can be unit tested with arquillian and fabric8 tooling. If the demo gods are with us, then there will be live demos of this in action."
+	}
   },  
     {
 	"name":"Johan Janssen",
 	"description":"Java lead developer / architect and Java trainer at Info Support.",
 	"biography":"Johan is working as a Java lead developer / architect and Java trainer at Info Support. He has been working for various demanding companies where rapidly delivering quality software was very important. Currently he is working in a DevOps team in a big financial institution in The Netherlands as Java architect. He likes sharing his knowledge about Java, continuous delivery, DevOps, software quality and numerous other subjects. Johan regularly writes articles and gives presentations about those subject for instance at JavaOne, JavaLand, JavaCro and J-Fall.",
 	"image": "assets/img/speakers/JohanJanssen.png",
-	"url":"",
+	"ref":"jjanssen",
+	"url":"infoSpeaker.html?ref=jjanssen",
 	"twitter":"https://twitter.com/johanjanssen42",
-	"homepage":"https://blogs.infosupport.com/author/johanj/"
+	"homepage":"https://blogs.infosupport.com/author/johanj/",
+	"cospeakerref":"wmeints",
+	"talk":{
+		"title":"Using actors for The Internet of (Lego) Trains",
+		"abstract":"Last year we started a new Internet of Things project: The Internet of (Lego) Trains. We wanted to learn more about these technologies, get non-technical people and children excited about electronics and programming and have an excuse to play with Lego. <br><br>The Lego trains are equipped with a Raspberry Pi, camera, wireless dongle, infrared transmitter, speaker, RFID reader and battery pack. Next to that we have automated switch tracks and camera's again with the help of Raspberry Pi's. To control the trains and other parts we built an actor based application with Scala, Akka, Akka HTTP and AngularJS. <br><br>In this session we will explain how you can build this yourself. Next to that we will talk about our experiences and challenges and of course we will give a live demo!"
+	}
   },
     {
 	"name":"Masoud Kalali",
 	"description":"Software architect with focus on PaaS and Java EE, author, technology enthusiast.",
-	"biography":"Masoud has been working on software development projects since 1998, which gives him a broad perspective on software development in general and changes in the software development landscape in the past 1/5 decades. Masoud has experience with variety of technologies (.NET, J2EE, CORBA, and COM+) on diverse platforms (Solaris, Linux, and Windows). He has a master degree in information systems with a bachelor degree in software engineering.<br>Masoud has authored fair number of articles and other types of publications including several articles at Java.net and Dzone. He is author of multiple refcards, published by Dzone, including but not limited to Using XML in Java, Security and GlassFish v3 refcardz. Masoud is one of the founding members of NetBeans Dream Team and a GlassFish community spotlighted developer. Masoud is author of GlassFish Security book published in 2010 covering GlassFish v3 security and Java EE 6 security. He recently co-authored another book Developing RESTful Services with JAX-RS 2.0, WebSockets, and JSON.<br>Masoud is a recurrent speaker in JavaOne and other Java focused conferences across europe.",
+	"biography":"Masoud has been working on software development projects since 1998, which gives him a broad perspective on software development in general and changes in the software development landscape in the past 1/5 decades. Masoud has experience with variety of technologies (.NET, J2EE, CORBA, and COM+) on diverse platforms (Solaris, Linux, and Windows). He has a master degree in information systems with a bachelor degree in software engineering.<br><br>Masoud has authored fair number of articles and other types of publications including several articles at Java.net and Dzone. He is author of multiple refcards, published by Dzone, including but not limited to Using XML in Java, Security and GlassFish v3 refcardz. Masoud is one of the founding members of NetBeans Dream Team and a GlassFish community spotlighted developer. Masoud is author of GlassFish Security book published in 2010 covering GlassFish v3 security and Java EE 6 security. He recently co-authored another book Developing RESTful Services with JAX-RS 2.0, WebSockets, and JSON.<br><br>Masoud is a recurrent speaker in JavaOne and other Java focused conferences across europe.",
 	"image": "assets/img/speakers/MasoudKalali.jpg",
-	"url":"",
+	"ref":"mkalali",
+	"url":"infoSpeaker.html?ref=mkalali",
 	"twitter":"https://twitter.com/MasoudKalali",
-	"homepage":"http://about.me/masoudkalali"
+	"homepage":"http://about.me/masoudkalali",
+	"talk":{
+		"title":"Real world RESTful service development problems and solutions",
+		"abstract":"Learn all you ever wanted to learn about RESTful services development challenges in large scale applications<br><br>This session is a deep dive as well as an interactive discussion on design principles, considerations, lessons learned from mistakes that can be taken into account when developing RESTful services.<br><br>It will cover a variety of topics from Designing of RESTful resources, Versioning, Exception Handling, Caching, Validation, Security, Rate limiting, HATEOAS, Testing and Documentation.<br><br>So join me in this talk to build high quality applications that can be highly scalable, available and reliable."
+	}
+  },
+  {
+	"name":"Willem Meints",
+	"description":"Lead developer at knowNow.",
+	"biography":"Willem is working as a lead developer for knowNow a social knowledge sharing platform for enterprise companies that strives to make sharing knowledge within organizations as easy as possible. Beside his work on knowNow he works as the Competence Centre Lead for enterprise mobile applications, a competence centre that helps projects get up to speed with Internet of Things and mobile within the enterprise. Willem likes to talk about his work, which he regularly does at conferences and the Dutch mobile meetup group.",
+	"image": "assets/img/speakers/WillemMeints.jpg",
+	"ref":"wmeints",
+	"url":"infoSpeaker.html?ref=wmeints",
+	"twitter":"https://twitter.com/willem_meints",
+	"homepage":"http://fizzylogic.nl/",
+	"cospeakerref":"jjanssen",
+	"talk":{
+		"title":"Using actors for The Internet of (Lego) Trains",
+		"abstract":"Last year we started a new Internet of Things project: The Internet of (Lego) Trains. We wanted to learn more about these technologies, get non-technical people and children excited about electronics and programming and have an excuse to play with Lego. <br><br>The Lego trains are equipped with a Raspberry Pi, camera, wireless dongle, infrared transmitter, speaker, RFID reader and battery pack. Next to that we have automated switch tracks and camera's again with the help of Raspberry Pi's. To control the trains and other parts we built an actor based application with Scala, Akka, Akka HTTP and AngularJS. <br><br>In this session we will explain how you can build this yourself. Next to that we will talk about our experiences and challenges and of course we will give a live demo!"
+	}
   },
   {
 	"name":"Jean Baptiste Onofre",
 	"description":"SOA/Software Architect at Talend and ASF member.",
 	"biography":"Jean-Baptiste Onofré is an ASF member and committer of Apache Karaf, Apache ServiceMix, Apache ACE, Apache Camel, Apache Archiva, Apache Kalumet, Apache Falcon, Apache Syncope and mentor on Apache Sirona. He brings over ten years of development experience to Talend, where he works as a SOA/Software Architect. Also is the author of book 'Learning Apache Cellar'",
 	"image": "assets/img/speakers/JeanBaptisteOnofre.jpg",
-	"url":"",
+	"ref":"jbaptiste",
+	"url":"infoSpeaker.html?ref=jbaptiste",
 	"twitter":"https://twitter.com/jbonofre",
 	"homepage":"http://blog.nanthrax.net/"
   }
