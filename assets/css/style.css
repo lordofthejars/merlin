@@ -188,11 +188,42 @@ font-weight: bold;
 font-size: 15px;
 margin-top: 5px;
 }
+#speakers .profile-photo{
+	width: 165px;
+	margin:auto;
+}
 #speakers .profile-photo img{
 margin-left: auto;
 margin-right: auto;
 border-radius: 150px;
 }
+#speakers .profile-photo a .overlay {
+	position: absolute;
+	top: 0px;	
+	width: 165px;
+	height: 165px;
+	border-radius: 150px;
+	background-color: rgba(0, 0, 0, 0.6);
+	transition: all 0.3s ease-in-out 0s;
+	opacity: 0;
+}
+#speakers .profile-photo a .overlay span {
+  position: absolute;
+  left: 5px;
+  top: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size:15px;
+}
+#speakers .profile-photo a:hover .overlay { 
+	opacity: 1;
+	-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-ms-transform: scale(1.1);
+-o-transform: scale(1.1);
+transform: scale(1.1);
+}
+
 #speakers .twitter {
 background-color: #f5f5f5;
 border-top: solid 1px #e7e7e7;
