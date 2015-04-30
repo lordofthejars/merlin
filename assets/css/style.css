@@ -542,11 +542,11 @@ background-color: #D5D5D5;
   width: 260px;
 }
 #accomodation .hotel {
-  min-width : 280px;
+  max-width : 280px;
   border : 1px solid ;
   border-color: lightgrey;
   padding: 10px;
-  margin-right: 10px;
+  margin : 10px;
   background-color: #eee;
 }
 #speaker .content { 

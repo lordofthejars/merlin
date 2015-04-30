@@ -1,6 +1,7 @@
 {
   "speakers":[
   {
+  	"enabled" : "1",
 	"name":"Andres Almiray",
 	"description":"Java/Groovy developer, Java Champion and JSR377 Spec Lead.",
 	"biography":"Andres is a Java/Groovy developer, Java Champion and JSR377 Spec Lead, with more than 15 years of experience in software design and development. He has been involved in web and desktop application developments since the early days of Java. He is a true believer of open source and has participated in popular projects like Groovy, Griffon, JMatter and DbUnit, as well as starting his own projects (Json-lib, EZMorph, GraphicsBuilder, JideBuilder). Founding member and current project lead of the Griffon framework.",
@@ -14,7 +15,23 @@
 		"abstract":"Are you one of those that search Around the World looking for clues on how to get maven to do your bidding or do you just toss a coin and Get Lucky One More Time? Maven works OK but there’s a new tool in town that goes Beyond maven: Gradle. It’s Fresh, almost Aerodynamic. Once you get in Contact with it you’ll feel like Doin’ It Right when building a project. We kid you not, it’s an Instant Crush for those that have followed the maven path. This is The Prime Time of Your Life as a developer, make the most out of it by leveraging the best tools. Oh Yeah."
 	}
   },
+{
+  	"enabled" : "0",
+	"name":"Benji Weber",
+	"description":"Full-stack developer at Unruly",
+	"biography":"Benji Weber is a full-stack developer at Unruly, where he leads an extreme programming team building a programmatic advertising platform using Java, and a sprinkling of other languages. His interests include abusing the Java language to do things you never thought possible.",
+	"image": "assets/img/speakers/BenjiWeber.jpg",
+	"ref":"bweber",
+	"url":"infoSpeaker.html?ref=bweber",
+	"twitter":"http://twitter.com/benjiweber",
+	"homepage":"http://benjiweber.com/",
+	"talk" :{
+		"title" : "Express yourself with Java 8",
+		"abstract" : "The new language features in Java 8 are not just useful for functional programming style and streams. They give us new tools for concise yet expressive code for modeling domain problems. Fed up of implementing equals/hashcode/toString/getters/setters and having a 100 line class for a simple type with one or two fields? Want to avoid the boilerplate while still having expressive types? Perhaps you long for language features like pattern matching that make working with types easier? Then this talk is for you.We’ll see how life doesn't have to be this way, even in Java, if we’re willing to shed a few years of tradition and make a few changes to our coding style."
+	}
+  },  
   {
+  	"enabled" : "1",
 	"name":"Christopher Batey",
 	"description":"Software Engineer by trade and is currently employed by DataStax as a Technical Evangelist for Apache Cassandra.",
 	"biography":"Christopher Batey (@chbatey) is a Software Engineer by trade and is currently employed by DataStax as a Technical Evangelist for Apache Cassandra. Chris has also worked for Sky, where he helped build their online television platform, and IBM, where he helped develop a variety of messaging products.<br><br>He spends a lot of his own time contributing back to the software community and is a active member of the London Java Community, Cassandra London and the London Software Craftsmanship Community. Christopher has a particular interest in building effective automated tests for every scenario, including network failures, database faults and services returning junk. For that reason he built an open source test double for Apache Cassandra: Stubbed Cassandra. He also blogs regularly at: http://christopher-batey.blogspot.co.uk/. ",
@@ -28,7 +45,24 @@
 		"abstract":"The combination of WebSockets with AngularJS is a fantastic stack for building reactive web applications - think constantly updating dashboards or a web based chat application. But what backend fits this model?<br><br>You guessed it: Play and Akka! This talk will take you through building the backend using the PlayFramework and Akka. The Actor model is perfect for reacting to events on the server side and pushing them to the client via a WebSocket. You’ll be shocked how simple this is to setup and get a basic application up and running.<br><br>We will be going through the KillrWeather application (https://github.com/killrweather/killrweather), which is an open source reference application for Apache Spark Streaming + Cassandra. Spark streaming is all about processing high volumes of data and building analytics on the fly, we’ll be showing how to get the processed data into a reactive front end."
 	}
   },
+
   {
+  	"enabled" : "1",
+	"name":"Claus Ibsen",
+	"description":"Principal software engineer from Red Hat.",
+	"biography":"Claus Ibsen is a principal software engineer from Red Hat. <br>Claus is working full time as Apache Camel committer. And is author of the Camel in Action book.<br>He is also heavily involved with fabric8 and hawtio projects, especially with functionality that involves Camel.",
+	"image": "assets/img/speakers/ClausIbsen.jpg",
+	"ref":"cibsen",
+	"url":"infoSpeaker.html?ref=cibsen",
+	"twitter":"http://twitter.com/davsclaus",
+	"homepage":"http://davsclaus.com",
+	"talk":{
+		"title":"Microservices with Apache Camel",
+		"abstract":"Apache Camel is a very popular integration library that works very well with microservice architecture.This talk introduces you to Apache Camel and how you can easily get started with Camel on your computer.Then we cover how to create new Camel projects from scratch as micro services which you can boot using Camel or Spring Boot, or other micro containers such as Jetty or fat JARs.We then take a look at what options you have for monitoring and managing your Camel microservices using tooling such as Jolokia, and hawtio web console.The second part of this talk is about running Camel in the cloud.We start by showing you how you can use the Maven Docker Plugin to create a docker image of your Camel application and run it using docker on a single host. Then kubernetes enters the stage and we take a look at how you can deploy your docker images on a kubernetes cloud platform, and how the fabric8 tooling can make this much easier for the Java developers.At the end of this talk you will have learned about and seen in practice how to take a Java Camel project from scratch, turn that into a docker image, and how you can deploy those docker images in a scalable cloud platform based on Google's kubernetes."
+	}
+  },
+  {
+  	"enabled" : "1",
 	"name":"David Brimley",
 	"description":"Senior Solutions Architect for Hazelcast.",
 	"biography":"David Brimley is a Senior Solutions Architect for Hazelcast, he helps companies get the best out of In Memory Data Grids. Previously David has held senior engineering positions at firms such as Credit Suisse, HSBC, Nomura and Royal Bank of Scotland. During this time he became familiar with IMDG products such as Pivotal Gemfire and Oracle Coherence. David has been a professional coder for over 25 years and confirmed coding addict for 10 years prior to that, a journey which began on a BBC Model B computer.",
@@ -43,34 +77,37 @@
 	}
   },
   {
-	"name":"Rob Davies",
-	"description":"Technical Director for Fuse Engineering at Red Hat, creator of ActiveMQ and ServiceMix.",
-	"biography":"Rob Davies is the Technical Director for Fuse Engineering at Red Hat. Previously Rob was the CTO of FuseSource. The experts in open source integration and messaging. With 20 years experience of architecting solutions and developing products for large-scale distributed applications for telcos and finance, Rob is focusing on developing the next generation of open source middleware products for Red Hat.",
-	"image": "assets/img/speakers/RobDavies.jpg",
-	"ref":"rdavies",
-	"url":"infoSpeaker.html?ref=rdavies",
-	"twitter":"https://twitter.com/rajdavies",
-	"homepage":"http://rajdavies.blogspot.co.uk/",
-	"talk":{
-		"title":"Achieving horizontal scaling for Enterprise Messaging using Fabric8",
-		"abstract":"Apache ActiveMQ is an extremely flexible enterprising message system - but scaling and performance isn't something its exactly well known for. If we strip back ActiveMQ to concentrate on its core functionality, add automatic sharding across clusters of brokers, add vert.x for its scalability and performance and sprinkle with magic from fabric8 - we have a highly scalable cloud based messaging solution ideal for the internet of things!"
+  	"enabled" : "1",
+	"name":"James Strachan",
+	"description":"Senior Consulting Software Engineer at Red Hat.",
+	"biography":"James created the Groovy programming language and Apache Camel and was one of the founders of these open source projects: fabric8, hawtio, Apache ActiveMQ, and Apache ServiceMix. James is currently Senior Consulting Software Engineer at Red Hat focussing on making it easy to work with Kubernetes, OpenShift and Fabric8. James and has more than 20 years experience in enterprise software development with a background in finance, consulting, and middleware.",
+	"image": "assets/img/speakers/JamesStrachan.jpg",
+	"ref":"jstrachan",
+	"url":"infoSpeaker.html?ref=jstrachan",
+	"twitter":"https://twitter.com/jstrachan/",
+	"homepage":"http://macstrac.blogspot.com.es/",
+	"talk" :{
+		"title" : "Developing services on Kubernetes using OpenShift and Fabric8",
+		"abstract" : "This session will give a brief overview of two open source projects which provide additional capabilities above Kubernetes; OpenShift and Fabric8. Then we will demonstrate how to create, build and deploy and manage a new project on Kubernetes using the various tools."
 	}
   },
   {
-	"name":"Claus Ibsen",
-	"description":"Principal software engineer from Red Hat.",
-	"biography":"Claus Ibsen is a principal software engineer from Red Hat. <br>Claus is working full time as Apache Camel committer. And is author of the Camel in Action book.<br>He is also heavily involved with fabric8 and hawtio projects, especially with functionality that involves Camel.",
-	"image": "assets/img/speakers/ClausIbsen.jpg",
-	"ref":"cibsen",
-	"url":"infoSpeaker.html?ref=cibsen",
-	"twitter":"http://twitter.com/davsclaus",
-	"homepage":"http://davsclaus.com",
-	"talk":{
-		"title":"Microservices with Apache Camel, kubernetes and fabric8",
-		"abstract":"Apache Camel is a very popular integration library that works very well with microservice architecture.<br><br>This talk focuses how you can develop integration applications with Apache Camel in a microservice style, and use kubernetes to manage and deploy your applications on a container based platform such as openshift and docker. fabric8 sits on top of kubernetes and makes all this much easier, in the same ease of use style that Camel brings to integration.<br><br>We also talk about how Apache Camel can leverage kubernetes services both as a service provider and consumer. <br><br> And how all this can be unit tested with arquillian and fabric8 tooling. If the demo gods are with us, then there will be live demos of this in action."
+  	"enabled" : "1",
+  	"name":"Jean Baptiste Onofre",
+	"description":"SOA/Software Architect at Talend and ASF member.",
+	"biography":"Jean-Baptiste Onofré is an ASF member and committer of Apache Karaf, Apache ServiceMix, Apache ACE, Apache Camel, Apache Archiva, Apache Kalumet, Apache Falcon, Apache Syncope and mentor on Apache Sirona. He brings over ten years of development experience to Talend, where he works as a SOA/Software Architect. Also is the author of book 'Learning Apache Cellar'",
+	"image": "assets/img/speakers/JeanBaptisteOnofre.jpg",
+	"ref":"jbaptiste",
+	"url":"infoSpeaker.html?ref=jbaptiste",
+	"twitter":"https://twitter.com/jbonofre",
+	"homepage":"http://blog.nanthrax.net/",
+	"talk" :{
+		"title" : "Apache Karaf for the Enterprise",
+		"abstract" : "Apache Karaf becomes more and more popular and the new 3.0.x releases have been an important step forward for to increase the adaption of Karaf in enterprise. This talk will introduce the new features provided in Karaf 3.0.x and how they answer to the enterprise needs. It will also introduce the new features coming in the roadmap. "
 	}
-  },  
+  } ,  
     {
+  	"enabled" : "1",
 	"name":"Johan Janssen",
 	"description":"Java lead developer / architect and Java trainer at Info Support.",
 	"biography":"Johan is working as a Java lead developer / architect and Java trainer at Info Support. He has been working for various demanding companies where rapidly delivering quality software was very important. Currently he is working in a DevOps team in a big financial institution in The Netherlands as Java architect. He likes sharing his knowledge about Java, continuous delivery, DevOps, software quality and numerous other subjects. Johan regularly writes articles and gives presentations about those subject for instance at JavaOne, JavaLand, JavaCro and J-Fall.",
@@ -85,7 +122,23 @@
 		"abstract":"Last year we started a new Internet of Things project: The Internet of (Lego) Trains. We wanted to learn more about these technologies, get non-technical people and children excited about electronics and programming and have an excuse to play with Lego. <br><br>The Lego trains are equipped with a Raspberry Pi, camera, wireless dongle, infrared transmitter, speaker, RFID reader and battery pack. Next to that we have automated switch tracks and camera's again with the help of Raspberry Pi's. To control the trains and other parts we built an actor based application with Scala, Akka, Akka HTTP and AngularJS. <br><br>In this session we will explain how you can build this yourself. Next to that we will talk about our experiences and challenges and of course we will give a live demo!"
 	}
   },
+  {
+  	"enabled" : "0",
+	"name":"Katia Aresti",
+	"description":"Freelance Software Engineer",
+	"biography":"Katia is a freelance Software Engineer based in Paris, born in Bilbao. She works mainly as backend java/scala developer, but she tackles front-end technologies when necessary. She is involved on user groups as Duchess France Board member and the Paris MongoDB User Group. She shares knowledge about Java, Scala, MongoDB or Agile Development Techniques through formal presentations (Agile France, MongoDB SF, Google Fest W Paris, Geneva JUG ...) or hands-on workshops (Devoxx Fr, Duchess France).She is passionate about the community contribution, open-source and drama.",
+	"image": "assets/img/speakers/KatiaAresti.jpg",
+	"ref":"karesti",
+	"url":"infoSpeaker.html?ref=karesti",
+	"twitter":"https://twitter.com/karesti",
+	"homepage":"http://www.duchess-france.org/",
+	"talk" :{
+		"title" : "How and why we evolved a java web application to scala ... And we are still alive!",
+		"abstract" : "Applications get old, and technology moves fast. Overtime, adding or modifying functionalities might become as expensive as re-coding everything all from scratch. But rewriting a complete website and its functionalities it’s hard if we want to minimize the risks of breaking existing functionalities and specially when this application fits in a ecosystem and interacts with other pieces of software and teams.In this session, you will learn how we moved from a legacy java monolithic website using scala PlayFramework, AngularJS, Elasticsearch and MongoDB, how we built a multi service and REST oriented architecture, which were the technical and human problems we encountered and how we managed to solved them."
+	}
+  },
     {
+  	"enabled" : "1",
 	"name":"Masoud Kalali",
 	"description":"Software architect with focus on PaaS and Java EE, author, technology enthusiast.",
 	"biography":"Masoud has been working on software development projects since 1998, which gives him a broad perspective on software development in general and changes in the software development landscape in the past 1/5 decades. Masoud has experience with variety of technologies (.NET, J2EE, CORBA, and COM+) on diverse platforms (Solaris, Linux, and Windows). He has a master degree in information systems with a bachelor degree in software engineering.<br><br>Masoud has authored fair number of articles and other types of publications including several articles at Java.net and Dzone. He is author of multiple refcards, published by Dzone, including but not limited to Using XML in Java, Security and GlassFish v3 refcardz. Masoud is one of the founding members of NetBeans Dream Team and a GlassFish community spotlighted developer. Masoud is author of GlassFish Security book published in 2010 covering GlassFish v3 security and Java EE 6 security. He recently co-authored another book Developing RESTful Services with JAX-RS 2.0, WebSockets, and JSON.<br><br>Masoud is a recurrent speaker in JavaOne and other Java focused conferences across europe.",
@@ -98,8 +151,39 @@
 		"title":"Real world RESTful service development problems and solutions",
 		"abstract":"Learn all you ever wanted to learn about RESTful services development challenges in large scale applications<br><br>This session is a deep dive as well as an interactive discussion on design principles, considerations, lessons learned from mistakes that can be taken into account when developing RESTful services.<br><br>It will cover a variety of topics from Designing of RESTful resources, Versioning, Exception Handling, Caching, Validation, Security, Rate limiting, HATEOAS, Testing and Documentation.<br><br>So join me in this talk to build high quality applications that can be highly scalable, available and reliable."
 	}
+  },  
+  {
+  	"enabled" : "1",
+	"name":"Rob Davies",
+	"description":"Technical Director for Fuse Engineering at Red Hat, creator of ActiveMQ and ServiceMix.",
+	"biography":"Rob Davies is the Technical Director for Fuse Engineering at Red Hat. Previously Rob was the CTO of FuseSource. The experts in open source integration and messaging. With 20 years experience of architecting solutions and developing products for large-scale distributed applications for telcos and finance, Rob is focusing on developing the next generation of open source middleware products for Red Hat.",
+	"image": "assets/img/speakers/RobDavies.jpg",
+	"ref":"rdavies",
+	"url":"infoSpeaker.html?ref=rdavies",
+	"twitter":"https://twitter.com/rajdavies",
+	"homepage":"http://rajdavies.blogspot.co.uk/",
+	"talk":{
+		"title":"Achieving horizontal scaling for Enterprise Messaging using Fabric8",
+		"abstract":"Apache ActiveMQ is an extremely flexible enterprising message system - but scaling and performance isn't something its exactly well known for. If we strip back ActiveMQ to concentrate on its core functionality, add automatic sharding across clusters of brokers, add vert.x for its scalability and performance and sprinkle with magic from fabric8 - we have a highly scalable cloud based messaging solution ideal for the internet of things!"
+	}
   },
   {
+  	"enabled" : "0",
+	"name":"Sven Rupert",
+	"description":"Principal IT Consultant for codecentric in Munich.",
+	"biography":"Sven Ruppert has been coding Java since 1996. He is a Principal IT Consultant for codecentric in Munich. In his free time he regularly contributes to German IT periodicals, including Java Magazin, Eclipse Magazin, and Entwickler Magazin, as well as tech portals such as JAXenter.de (http://jaxenter.de/Sven-Ruppert-168244).",
+	"image": "assets/img/speakers/SvenRupert.jpg",
+	"ref":"srupert",
+	"url":"infoSpeaker.html?ref=sruptert",
+	"twitter":"https://twitter.com/SvenRuppert",
+	"homepage":"http://www.rapidpm.org",
+	"talk":{
+		"title":"IoT TinkerForge LiveHacking",
+		"abstract":"TinkerForge is a very simple, easy-to-handle modular electronic system. Depending on the application, a system of sensor, wireless and motor control elements can be built in a modular way and programmed with a few lines of code. No soldering iron is needed. Both the hardware and the software are open source. After a brief overview of the available sensors and actuators, we will quickly start with the actual programming. Together, we will explore different applications, architectures, and the combination of TinkerForge with Java. Using sensors, actuators and some other elements, we will take the first steps and delve into the practical world of IoT with Java 8 and TinkerForge."
+	}
+  },  
+  {
+  	"enabled" : "1",
 	"name":"Willem Meints",
 	"description":"Lead developer at knowNow.",
 	"biography":"Willem is working as a lead developer for knowNow a social knowledge sharing platform for enterprise companies that strives to make sharing knowledge within organizations as easy as possible. Beside his work on knowNow he works as the Competence Centre Lead for enterprise mobile applications, a competence centre that helps projects get up to speed with Internet of Things and mobile within the enterprise. Willem likes to talk about his work, which he regularly does at conferences and the Dutch mobile meetup group.",
@@ -113,16 +197,38 @@
 		"title":"Using actors for The Internet of (Lego) Trains",
 		"abstract":"Last year we started a new Internet of Things project: The Internet of (Lego) Trains. We wanted to learn more about these technologies, get non-technical people and children excited about electronics and programming and have an excuse to play with Lego. <br><br>The Lego trains are equipped with a Raspberry Pi, camera, wireless dongle, infrared transmitter, speaker, RFID reader and battery pack. Next to that we have automated switch tracks and camera's again with the help of Raspberry Pi's. To control the trains and other parts we built an actor based application with Scala, Akka, Akka HTTP and AngularJS. <br><br>In this session we will explain how you can build this yourself. Next to that we will talk about our experiences and challenges and of course we will give a live demo!"
 	}
-  },
+  } ,  
   {
-	"name":"Jean Baptiste Onofre",
-	"description":"SOA/Software Architect at Talend and ASF member.",
-	"biography":"Jean-Baptiste Onofré is an ASF member and committer of Apache Karaf, Apache ServiceMix, Apache ACE, Apache Camel, Apache Archiva, Apache Kalumet, Apache Falcon, Apache Syncope and mentor on Apache Sirona. He brings over ten years of development experience to Talend, where he works as a SOA/Software Architect. Also is the author of book 'Learning Apache Cellar'",
-	"image": "assets/img/speakers/JeanBaptisteOnofre.jpg",
-	"ref":"jbaptiste",
-	"url":"infoSpeaker.html?ref=jbaptiste",
-	"twitter":"https://twitter.com/jbonofre",
-	"homepage":"http://blog.nanthrax.net/"
-  }
+  	"enabled" : "0",
+	"name":"Nick Zeeb",
+	"description":"Java developer at LMAX Exchange",
+	"biography":"Nick Zeeb is a senior Java developer at LMAX Exchange. He has expertise in high-performance Java systems and is passionate about continually improving the way we build software.Nick is a leader in the London Java Community and holds a Master’s degree in Engineering and Computer Science from the University of Oxford.",
+	"image": "assets/img/speakers/NickZeeb.jpg",
+	"ref":"nzeeb",
+	"url":"infoSpeaker.html?ref=nzeeb",
+	"twitter":"https://twitter.com/nickzeeb",
+	"homepage":"http://www.lmax.com",
+	"cospeakerref":"amolina",
+	"talk":{
+		"title":"What I Learned Writing a Trillion Dollar Trading System",
+		"abstract":"In 2014 LMAX Exchange traded over $1 trillion dollars.  The Sunday Times named us the fastest growing tech company in the UK and we won Oracle’s Duke's Choice Award for the most innovative programming framework.In this talk we reveal how we develop software.  We cover all aspects from our design philosophy, how we practice agile to our continuous integration pipeline and show how far you can go with automatically testing everything."
+	}
+  } ,  
+  {
+  	"enabled" : "0",
+	"name":"Antonio Molina",
+	"description":"Senior software developer at LMAX Exchange",
+	"biography":"Antonio Molina is a senior software developer at LMAX Exchange. He has 10+ years of software development experience in consulting services, e-commerce and financial companies. He is a software and business enthusiast who has promoted various projects related to information technology from conferences to startups.He loves working in crazy and challenging environments where high quality software development and a clever group of engineers can make the difference and win the game.",
+	"image": "assets/img/speakers/AntonioMolina.jpg",
+	"ref":"amolina",
+	"url":"infoSpeaker.html?ref=amolina",
+	"twitter":"https://twitter.com/ajmolinacom",
+	"homepage":"http://www.lmax.com",
+	"cospeakerref":"nzeeb",
+	"talk":{
+		"title":"What I Learned Writing a Trillion Dollar Trading System",
+		"abstract":"In 2014 LMAX Exchange traded over $1 trillion dollars.  The Sunday Times named us the fastest growing tech company in the UK and we won Oracle’s Duke's Choice Award for the most innovative programming framework.In this talk we reveal how we develop software.  We cover all aspects from our design philosophy, how we practice agile to our continuous integration pipeline and show how far you can go with automatically testing everything."
+	}
+  } 
   ]
 }
