@@ -77,18 +77,18 @@
 	}
   },
   {
-  	"enabled" : "0",
+  	"enabled" : "1",
 	"name":"James Strachan",
-	"description":"Senior Consulting Software Engineer at Red Hat.",
-	"biography":"James created the Groovy programming language and Apache Camel and was one of the founders of these open source projects: fabric8, hawtio, Apache ActiveMQ, and Apache ServiceMix. James is currently Senior Consulting Software Engineer at Red Hat focussing on making it easy to work with Kubernetes, OpenShift and Fabric8. James and has more than 20 years experience in enterprise software development with a background in finance, consulting, and middleware.",
+	"description":"Senior Consulting Software Engineer at Red Hat, created the Groovy programming language and Apache Camel.",
+	"biography":"James created the Groovy programming language and Apache Camel and was one of the founders of these open source projects: fabric8, hawtio, Apache ActiveMQ, and Apache ServiceMix.<br>James is currently Senior Consulting Software Engineer at Red Hat focussing on making it easy to work with Kubernetes, OpenShift and Fabric8. James and has more than 20 years experience in enterprise software development with a background in finance, consulting, and middleware.",
 	"image": "assets/img/speakers/JamesStrachan.jpg",
 	"ref":"jstrachan",
 	"url":"infoSpeaker.html?ref=jstrachan",
 	"twitter":"https://twitter.com/jstrachan/",
 	"homepage":"http://macstrac.blogspot.com.es/",
 	"talk" :{
-		"title" : "Developing services on Kubernetes using OpenShift and Fabric8",
-		"abstract" : "This session will give a brief overview of two open source projects which provide additional capabilities above Kubernetes; OpenShift and Fabric8. Then we will demonstrate how to create, build and deploy and manage a new project on Kubernetes using the various tools."
+		"title" : "Kubernetes for Java Developers",
+		"abstract" : "This talk will give an outline of the Kubernetes open source project from Google, explain how it changes everything from a developers perspective in the hybrid cloud and why its relevant for modern Java developers. Then we'll outline the key parts of Kubernetes that Java developers need to be aware of and how to adapt your approach to developing, releasing and provisioning Java to work well on premise, on the public or hybrid cloud to deliver value faster to your customers."
 	}
   },
   {
@@ -123,9 +123,9 @@
 	}
   },
   {
-  	"enabled" : "0",
+  	"enabled" : "1",
 	"name":"Katia Aresti",
-	"description":"Freelance Software Engineer",
+	"description":"Freelance Software Engineer and Duchess France Board member",
 	"biography":"Katia is a freelance Software Engineer based in Paris, born in Bilbao. She works mainly as backend java/scala developer, but she tackles front-end technologies when necessary. She is involved on user groups as Duchess France Board member and the Paris MongoDB User Group. She shares knowledge about Java, Scala, MongoDB or Agile Development Techniques through formal presentations (Agile France, MongoDB SF, Google Fest W Paris, Geneva JUG ...) or hands-on workshops (Devoxx Fr, Duchess France).She is passionate about the community contribution, open-source and drama.",
 	"image": "assets/img/speakers/KatiaAresti.jpg",
 	"ref":"karesti",
@@ -133,8 +133,8 @@
 	"twitter":"https://twitter.com/karesti",
 	"homepage":"http://www.duchess-france.org/",
 	"talk" :{
-		"title" : "How and why we evolved a java web application to scala ... And we are still alive!",
-		"abstract" : "Applications get old, and technology moves fast. Overtime, adding or modifying functionalities might become as expensive as re-coding everything all from scratch. But rewriting a complete website and its functionalities it’s hard if we want to minimize the risks of breaking existing functionalities and specially when this application fits in a ecosystem and interacts with other pieces of software and teams.In this session, you will learn how we moved from a legacy java monolithic website using scala PlayFramework, AngularJS, Elasticsearch and MongoDB, how we built a multi service and REST oriented architecture, which were the technical and human problems we encountered and how we managed to solved them."
+		"title" : "How and why we evolved a legacy java web application to scala ... And we are still alive!",
+		"abstract" : "Applications get old, and technology moves fast. Overtime, adding or modifying functionalities might become as expensive as re-coding everything all from scratch. But rewriting a complete website and its functionalities it’s hard if we want to minimize the risks of breaking existing functionalities and specially when this application fits in a ecosystem and interacts with other pieces of software and teams.<br><br>In this session, you will learn how we moved from a legacy java monolithic website using scala PlayFramework, AngularJS, Elasticsearch and MongoDB, how we built a multi service and REST oriented architecture, which were the technical and human problems we encountered and how we managed to solved them."
 	}
   },
     {
