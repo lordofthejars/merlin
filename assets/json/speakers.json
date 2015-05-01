@@ -77,7 +77,7 @@
 	}
   },
   {
-  	"enabled" : "1",
+  	"enabled" : "0",
 	"name":"James Strachan",
 	"description":"Senior Consulting Software Engineer at Red Hat.",
 	"biography":"James created the Groovy programming language and Apache Camel and was one of the founders of these open source projects: fabric8, hawtio, Apache ActiveMQ, and Apache ServiceMix. James is currently Senior Consulting Software Engineer at Red Hat focussing on making it easy to work with Kubernetes, OpenShift and Fabric8. James and has more than 20 years experience in enterprise software development with a background in finance, consulting, and middleware.",
