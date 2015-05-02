@@ -15,7 +15,23 @@
 		"abstract":"Are you one of those that search Around the World looking for clues on how to get maven to do your bidding or do you just toss a coin and Get Lucky One More Time? Maven works OK but there’s a new tool in town that goes Beyond maven: Gradle. It’s Fresh, almost Aerodynamic. Once you get in Contact with it you’ll feel like Doin’ It Right when building a project. We kid you not, it’s an Instant Crush for those that have followed the maven path. This is The Prime Time of Your Life as a developer, make the most out of it by leveraging the best tools. Oh Yeah."
 	}
   },
-{
+  {
+  	"enabled" : "0",
+	"name":"Antonio Molina",
+	"description":"Senior software developer at LMAX Exchange",
+	"biography":"Antonio Molina is a senior software developer at LMAX Exchange. He has 10+ years of software development experience in consulting services, e-commerce and financial companies. He is a software and business enthusiast who has promoted various projects related to information technology from conferences to startups.He loves working in crazy and challenging environments where high quality software development and a clever group of engineers can make the difference and win the game.",
+	"image": "assets/img/speakers/AntonioMolina.jpg",
+	"ref":"amolina",
+	"url":"infoSpeaker.html?ref=amolina",
+	"twitter":"https://twitter.com/ajmolinacom",
+	"homepage":"http://www.lmax.com",
+	"cospeakerref":"nzeeb",
+	"talk":{
+		"title":"What I Learned Writing a Trillion Dollar Trading System",
+		"abstract":"In 2014 LMAX Exchange traded over $1 trillion dollars.  The Sunday Times named us the fastest growing tech company in the UK and we won Oracle’s Duke's Choice Award for the most innovative programming framework.In this talk we reveal how we develop software.  We cover all aspects from our design philosophy, how we practice agile to our continuous integration pipeline and show how far you can go with automatically testing everything."
+	}
+  },
+  {
   	"enabled" : "0",
 	"name":"Benji Weber",
 	"description":"Full-stack developer at Unruly",
@@ -45,7 +61,6 @@
 		"abstract":"The combination of WebSockets with AngularJS is a fantastic stack for building reactive web applications - think constantly updating dashboards or a web based chat application. But what backend fits this model?<br><br>You guessed it: Play and Akka! This talk will take you through building the backend using the PlayFramework and Akka. The Actor model is perfect for reacting to events on the server side and pushing them to the client via a WebSocket. You’ll be shocked how simple this is to setup and get a basic application up and running.<br><br>We will be going through the KillrWeather application (https://github.com/killrweather/killrweather), which is an open source reference application for Apache Spark Streaming + Cassandra. Spark streaming is all about processing high volumes of data and building analytics on the fly, we’ll be showing how to get the processed data into a reactive front end."
 	}
   },
-
   {
   	"enabled" : "1",
 	"name":"Claus Ibsen",
@@ -77,18 +92,18 @@
 	}
   },
   {
-  	"enabled" : "0",
+  	"enabled" : "1",
 	"name":"James Strachan",
-	"description":"Senior Consulting Software Engineer at Red Hat.",
-	"biography":"James created the Groovy programming language and Apache Camel and was one of the founders of these open source projects: fabric8, hawtio, Apache ActiveMQ, and Apache ServiceMix. James is currently Senior Consulting Software Engineer at Red Hat focussing on making it easy to work with Kubernetes, OpenShift and Fabric8. James and has more than 20 years experience in enterprise software development with a background in finance, consulting, and middleware.",
+	"description":"Senior Consulting Software Engineer at Red Hat, created the Groovy programming language and Apache Camel.",
+	"biography":"James created the Groovy programming language and Apache Camel and was one of the founders of these open source projects: fabric8, hawtio, Apache ActiveMQ, and Apache ServiceMix.<br>James is currently Senior Consulting Software Engineer at Red Hat focussing on making it easy to work with Kubernetes, OpenShift and Fabric8. James and has more than 20 years experience in enterprise software development with a background in finance, consulting, and middleware.",
 	"image": "assets/img/speakers/JamesStrachan.jpg",
 	"ref":"jstrachan",
 	"url":"infoSpeaker.html?ref=jstrachan",
 	"twitter":"https://twitter.com/jstrachan/",
 	"homepage":"http://macstrac.blogspot.com.es/",
 	"talk" :{
-		"title" : "Developing services on Kubernetes using OpenShift and Fabric8",
-		"abstract" : "This session will give a brief overview of two open source projects which provide additional capabilities above Kubernetes; OpenShift and Fabric8. Then we will demonstrate how to create, build and deploy and manage a new project on Kubernetes using the various tools."
+		"title" : "Kubernetes for Java Developers",
+		"abstract" : "This talk will give an outline of the Kubernetes open source project from Google, explain how it changes everything from a developers perspective in the hybrid cloud and why its relevant for modern Java developers. Then we'll outline the key parts of Kubernetes that Java developers need to be aware of and how to adapt your approach to developing, releasing and provisioning Java to work well on premise, on the public or hybrid cloud to deliver value faster to your customers."
 	}
   },
   {
@@ -105,8 +120,8 @@
 		"title" : "Apache Karaf for the Enterprise",
 		"abstract" : "Apache Karaf becomes more and more popular and the new 3.0.x releases have been an important step forward for to increase the adaption of Karaf in enterprise. This talk will introduce the new features provided in Karaf 3.0.x and how they answer to the enterprise needs. It will also introduce the new features coming in the roadmap. "
 	}
-  } ,  
-    {
+  },
+  {
   	"enabled" : "1",
 	"name":"Johan Janssen",
 	"description":"Java lead developer / architect and Java trainer at Info Support.",
@@ -123,9 +138,9 @@
 	}
   },
   {
-  	"enabled" : "0",
+  	"enabled" : "1",
 	"name":"Katia Aresti",
-	"description":"Freelance Software Engineer",
+	"description":"Freelance Software Engineer and Duchess France Board member",
 	"biography":"Katia is a freelance Software Engineer based in Paris, born in Bilbao. She works mainly as backend java/scala developer, but she tackles front-end technologies when necessary. She is involved on user groups as Duchess France Board member and the Paris MongoDB User Group. She shares knowledge about Java, Scala, MongoDB or Agile Development Techniques through formal presentations (Agile France, MongoDB SF, Google Fest W Paris, Geneva JUG ...) or hands-on workshops (Devoxx Fr, Duchess France).She is passionate about the community contribution, open-source and drama.",
 	"image": "assets/img/speakers/KatiaAresti.jpg",
 	"ref":"karesti",
@@ -133,11 +148,11 @@
 	"twitter":"https://twitter.com/karesti",
 	"homepage":"http://www.duchess-france.org/",
 	"talk" :{
-		"title" : "How and why we evolved a java web application to scala ... And we are still alive!",
-		"abstract" : "Applications get old, and technology moves fast. Overtime, adding or modifying functionalities might become as expensive as re-coding everything all from scratch. But rewriting a complete website and its functionalities it’s hard if we want to minimize the risks of breaking existing functionalities and specially when this application fits in a ecosystem and interacts with other pieces of software and teams.In this session, you will learn how we moved from a legacy java monolithic website using scala PlayFramework, AngularJS, Elasticsearch and MongoDB, how we built a multi service and REST oriented architecture, which were the technical and human problems we encountered and how we managed to solved them."
+		"title" : "How and why we evolved a legacy Java web application to Scala... and we are still alive!",
+		"abstract" : "Applications get old, and technology moves fast. Overtime, adding or modifying functionalities might become as expensive as re-coding everything all from scratch. But rewriting a complete website and its functionalities it’s hard if we want to minimize the risks of breaking existing functionalities and specially when this application fits in a ecosystem and interacts with other pieces of software and teams.<br><br>In this session, you will learn how we moved from a legacy java monolithic website using scala PlayFramework, AngularJS, Elasticsearch and MongoDB, how we built a multi service and REST oriented architecture, which were the technical and human problems we encountered and how we managed to solved them."
 	}
   },
-    {
+  {
   	"enabled" : "1",
 	"name":"Masoud Kalali",
 	"description":"Software architect with focus on PaaS and Java EE, author, technology enthusiast.",
@@ -151,7 +166,23 @@
 		"title":"Real world RESTful service development problems and solutions",
 		"abstract":"Learn all you ever wanted to learn about RESTful services development challenges in large scale applications<br><br>This session is a deep dive as well as an interactive discussion on design principles, considerations, lessons learned from mistakes that can be taken into account when developing RESTful services.<br><br>It will cover a variety of topics from Designing of RESTful resources, Versioning, Exception Handling, Caching, Validation, Security, Rate limiting, HATEOAS, Testing and Documentation.<br><br>So join me in this talk to build high quality applications that can be highly scalable, available and reliable."
 	}
-  },  
+  },
+  {
+  	"enabled" : "0",
+	"name":"Nick Zeeb",
+	"description":"Java developer at LMAX Exchange",
+	"biography":"Nick Zeeb is a senior Java developer at LMAX Exchange. He has expertise in high-performance Java systems and is passionate about continually improving the way we build software.Nick is a leader in the London Java Community and holds a Master’s degree in Engineering and Computer Science from the University of Oxford.",
+	"image": "assets/img/speakers/NickZeeb.jpg",
+	"ref":"nzeeb",
+	"url":"infoSpeaker.html?ref=nzeeb",
+	"twitter":"https://twitter.com/nickzeeb",
+	"homepage":"http://www.lmax.com",
+	"cospeakerref":"amolina",
+	"talk":{
+		"title":"What I Learned Writing a Trillion Dollar Trading System",
+		"abstract":"In 2014 LMAX Exchange traded over $1 trillion dollars.  The Sunday Times named us the fastest growing tech company in the UK and we won Oracle’s Duke's Choice Award for the most innovative programming framework.In this talk we reveal how we develop software.  We cover all aspects from our design philosophy, how we practice agile to our continuous integration pipeline and show how far you can go with automatically testing everything."
+	}
+  },
   {
   	"enabled" : "1",
 	"name":"Rob Davies",
@@ -197,38 +228,6 @@
 		"title":"Using actors for The Internet of (Lego) Trains",
 		"abstract":"Last year we started a new Internet of Things project: The Internet of (Lego) Trains. We wanted to learn more about these technologies, get non-technical people and children excited about electronics and programming and have an excuse to play with Lego. <br><br>The Lego trains are equipped with a Raspberry Pi, camera, wireless dongle, infrared transmitter, speaker, RFID reader and battery pack. Next to that we have automated switch tracks and camera's again with the help of Raspberry Pi's. To control the trains and other parts we built an actor based application with Scala, Akka, Akka HTTP and AngularJS. <br><br>In this session we will explain how you can build this yourself. Next to that we will talk about our experiences and challenges and of course we will give a live demo!"
 	}
-  } ,  
-  {
-  	"enabled" : "0",
-	"name":"Nick Zeeb",
-	"description":"Java developer at LMAX Exchange",
-	"biography":"Nick Zeeb is a senior Java developer at LMAX Exchange. He has expertise in high-performance Java systems and is passionate about continually improving the way we build software.Nick is a leader in the London Java Community and holds a Master’s degree in Engineering and Computer Science from the University of Oxford.",
-	"image": "assets/img/speakers/NickZeeb.jpg",
-	"ref":"nzeeb",
-	"url":"infoSpeaker.html?ref=nzeeb",
-	"twitter":"https://twitter.com/nickzeeb",
-	"homepage":"http://www.lmax.com",
-	"cospeakerref":"amolina",
-	"talk":{
-		"title":"What I Learned Writing a Trillion Dollar Trading System",
-		"abstract":"In 2014 LMAX Exchange traded over $1 trillion dollars.  The Sunday Times named us the fastest growing tech company in the UK and we won Oracle’s Duke's Choice Award for the most innovative programming framework.In this talk we reveal how we develop software.  We cover all aspects from our design philosophy, how we practice agile to our continuous integration pipeline and show how far you can go with automatically testing everything."
-	}
-  } ,  
-  {
-  	"enabled" : "0",
-	"name":"Antonio Molina",
-	"description":"Senior software developer at LMAX Exchange",
-	"biography":"Antonio Molina is a senior software developer at LMAX Exchange. He has 10+ years of software development experience in consulting services, e-commerce and financial companies. He is a software and business enthusiast who has promoted various projects related to information technology from conferences to startups.He loves working in crazy and challenging environments where high quality software development and a clever group of engineers can make the difference and win the game.",
-	"image": "assets/img/speakers/AntonioMolina.jpg",
-	"ref":"amolina",
-	"url":"infoSpeaker.html?ref=amolina",
-	"twitter":"https://twitter.com/ajmolinacom",
-	"homepage":"http://www.lmax.com",
-	"cospeakerref":"nzeeb",
-	"talk":{
-		"title":"What I Learned Writing a Trillion Dollar Trading System",
-		"abstract":"In 2014 LMAX Exchange traded over $1 trillion dollars.  The Sunday Times named us the fastest growing tech company in the UK and we won Oracle’s Duke's Choice Award for the most innovative programming framework.In this talk we reveal how we develop software.  We cover all aspects from our design philosophy, how we practice agile to our continuous integration pipeline and show how far you can go with automatically testing everything."
-	}
-  } 
+  }
   ]
 }
