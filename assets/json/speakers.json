@@ -32,10 +32,10 @@
 	}
   },
   {
-  	"enabled" : "0",
+  	"enabled" : "1",
 	"name":"Benji Weber",
 	"description":"Full-stack developer at Unruly",
-	"biography":"Benji Weber is a full-stack developer at Unruly, where he leads an extreme programming team building a programmatic advertising platform using Java, and a sprinkling of other languages. His interests include abusing the Java language to do things you never thought possible.",
+	"biography":"Benji Weber is a full-stack developer at Unruly, where he leads an extreme programming team building a programmatic advertising platform using Java, and a sprinkling of other languages.<br>His interests include abusing the Java language to do things you never thought possible.",
 	"image": "assets/img/speakers/BenjiWeber.jpg",
 	"ref":"bweber",
 	"url":"infoSpeaker.html?ref=bweber",
@@ -43,7 +43,7 @@
 	"homepage":"http://benjiweber.com/",
 	"talk" :{
 		"title" : "Express yourself with Java 8",
-		"abstract" : "The new language features in Java 8 are not just useful for functional programming style and streams. They give us new tools for concise yet expressive code for modeling domain problems. Fed up of implementing equals/hashcode/toString/getters/setters and having a 100 line class for a simple type with one or two fields? Want to avoid the boilerplate while still having expressive types? Perhaps you long for language features like pattern matching that make working with types easier? Then this talk is for you.We’ll see how life doesn't have to be this way, even in Java, if we’re willing to shed a few years of tradition and make a few changes to our coding style."
+		"abstract" : "The new language features in Java 8 are not just useful for functional programming style and streams. They give us new tools for concise yet expressive code for modeling domain problems. <br><br>Fed up of implementing equals/hashcode/toString/getters/setters and having a 100 line class for a simple type with one or two fields? Want to avoid the boilerplate while still having expressive types? Perhaps you long for language features like pattern matching that make working with types easier? Then this talk is for you.<br><br>We’ll see how life doesn't have to be this way, even in Java, if we’re willing to shed a few years of tradition and make a few changes to our coding style. "
 	}
   },  
   {
@@ -135,6 +135,21 @@
 	"talk":{
 		"title":"Using actors for The Internet of (Lego) Trains",
 		"abstract":"Last year we started a new Internet of Things project: The Internet of (Lego) Trains. We wanted to learn more about these technologies, get non-technical people and children excited about electronics and programming and have an excuse to play with Lego. <br><br>The Lego trains are equipped with a Raspberry Pi, camera, wireless dongle, infrared transmitter, speaker, RFID reader and battery pack. Next to that we have automated switch tracks and camera's again with the help of Raspberry Pi's. To control the trains and other parts we built an actor based application with Scala, Akka, Akka HTTP and AngularJS. <br><br>In this session we will explain how you can build this yourself. Next to that we will talk about our experiences and challenges and of course we will give a live demo!"
+	}
+  },
+  {
+  	"enabled" : "1",
+	"name":"José Manuel Ortega Candel",
+	"description":"Specialist in Java/J2EE technologies at Everis",
+	"biography":"My career has been focused from the beginning to specialize in Java/J2EE technologies and learn new agile methodologies that allow the execution of projects in terms of efficiency, quality and deadlines set by the client.<br>My strengths live on at the technical level by the type of training that I have received in recent years and the projects where I have worked.<br>In recent years Im interesting in mobile applications development, especially on android platform and other jvm languages like groovy.<br>At this moment I am working as business logic developer and my functions in the project are analysis, coding and testing.<br>With the help of software architecture developer, also performance roles in the presentation and backend layer",
+	"image": "assets/img/speakers/JoseManuelOrtega.jpg",
+	"ref":"jmortega",
+	"url":"infoSpeaker.html?ref=jmortega",
+	"twitter":"https://twitter.com/jmortegac",
+	"homepage":"https://www.linkedin.com/in/jmortega1",
+	"talk" :{
+		"title" : "Comparing JVM Languages",
+		"abstract" : "Nowdays there are more than two hundred languages working in JVM.<br>It`s commonly called polyglot programming in JVM ecosystem.<br>This talk will try make an introductory look at several JVM languages, including Java 8, Scala, Groovy, Clojure ,Celylon and Kotlin.<br>I will compare them showing benefits and drawbacks each one<br>Some features I will compare are:<br>Performance,Type checking(Static vs Dinamic),Functional principles,Collections and data structures,Semantics and Security."
 	}
   },
   {
