@@ -106,17 +106,47 @@
   },
   {
   	"enabled" : "1",
+	"name":"Hadi Hariri",
+	"description":"Developer Advocacy team lead at JetBrains.",
+	"biography":"Developer and creator of many things OSS, his passions includes Web Development and Software Architecture. Has authored a couple of books, a few courses and has been speaking at industry events for nearly 15 years. Currently at JetBrains leading the Developer Advocacy team. Spends as much time as he can writing code.",
+	"image": "assets/img/speakers/HadiHariri.png",
+	"ref":"hhariri",
+	"url":"infoSpeaker.html?ref=hhariri",
+	"twitter":"https://twitter.com/hhariri",
+	"homepage":"http://hadihariri.com",	
+	"talk":{
+		"title":"Kotlin - What can it do for me?",
+		"abstract":"There are languages popping up left and right and it often becomes difficult to know which ones are worth investigating more and potentially adopting. This talk is going to make that decision easier for you by showing you exactly where Kotlin provides value over languages such as Java, even with its lambda support in Java 8, and see how easily you can not only get up and running with Kotlin but also interoperate with all your existing Java codebase and frameworks. Once you know all the facts, then you can decide on the next steps!"
+	}
+  },
+  {
+  	"enabled" : "1",
 	"name":"James Strachan",
 	"description":"Senior Consulting Software Engineer at Red Hat, created the Groovy programming language and Apache Camel.",
 	"biography":"James created the Groovy programming language and Apache Camel and was one of the founders of these open source projects: fabric8, hawtio, Apache ActiveMQ, and Apache ServiceMix.<br>James is currently Senior Consulting Software Engineer at Red Hat focussing on making it easy to work with Kubernetes, OpenShift and Fabric8. James and has more than 20 years experience in enterprise software development with a background in finance, consulting, and middleware.",
 	"image": "assets/img/speakers/JamesStrachan.jpg",
 	"ref":"jstrachan",
 	"url":"infoSpeaker.html?ref=jstrachan",
-	"twitter":"https://twitter.com/jstrachan/",
-	"homepage":"http://macstrac.blogspot.com.es/",
+	"twitter":"https://twitter.com/jstrachan",
+	"homepage":"http://macstrac.blogspot.com/",
 	"talk" :{
 		"title" : "Kubernetes for Java Developers",
 		"abstract" : "This talk will give an outline of the Kubernetes open source project from Google, explain how it changes everything from a developers perspective in the hybrid cloud and why its relevant for modern Java developers. Then we'll outline the key parts of Kubernetes that Java developers need to be aware of and how to adapt your approach to developing, releasing and provisioning Java to work well on premise, on the public or hybrid cloud to deliver value faster to your customers."
+	}
+  },
+  {
+  	"enabled" : "0",
+	"name":"Javi Moreno",
+	"description":"",
+	"biography":"",
+	"image": "assets/img/speakers/JaviMoreno.jpg",
+	"ref":"jmoreno",
+	"url":"infoSpeaker.html?ref=jmoreno",
+	"twitter":"https://twitter.com/ciberado",
+	"homepage":"http://github.com/ciberado",
+	"talk" :{
+		"title" : "",
+		"abstract" : ""
 	}
   },
   {
@@ -148,6 +178,21 @@
 	"talk":{
 		"title":"Using actors for The Internet of (Lego) Trains",
 		"abstract":"Last year we started a new Internet of Things project: The Internet of (Lego) Trains. We wanted to learn more about these technologies, get non-technical people and children excited about electronics and programming and have an excuse to play with Lego. <br><br>The Lego trains are equipped with a Raspberry Pi, camera, wireless dongle, infrared transmitter, speaker, RFID reader and battery pack. Next to that we have automated switch tracks and camera's again with the help of Raspberry Pi's. To control the trains and other parts we built an actor based application with Scala, Akka, Akka HTTP and AngularJS. <br><br>In this session we will explain how you can build this yourself. Next to that we will talk about our experiences and challenges and of course we will give a live demo!"
+	}
+  },
+  {
+  	"enabled" : "0",
+	"name":"Jose Luis Martinez Torres",
+	"description":"CTO at Capside",
+	"biography":"Jose Luis is a Computer Engineer with several years of real-field experience in Systems Engineering, Cloud Infrastructures and software development. He actively contributes to the Perl community with multiple CPAN modules and also to other Open Source projects like systems monitoring tools. He is an AWS authorized trainer and participates in various European conferences and congresses.",
+	"image": "assets/img/speakers/",
+	"ref":"jlmartinez",
+	"url":"infoSpeaker.html?ref=jlmartinez",
+	"twitter":"https://twitter.com/pplu_io",
+	"homepage":"http://www.capside.com/",
+	"talk" :{
+		"title" : "DevOps: Cultural Learnings of Cloud for Make Benefit Glorious Application of Internet",
+		"abstract" : "An overview of the new techniques that are available thanks to Cloud Computing, and how to take good advantage of them in your applications. We’ll go over new trends that are helping make applications more efficient, maintainable and scalable, and studying how to applying them at a code, infrastructure and organizational level."
 	}
   },
   {
