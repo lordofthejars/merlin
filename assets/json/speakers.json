@@ -87,8 +87,21 @@
 	"twitter":"https://twitter.com/dbrimley",
 	"homepage":"http://dbrimley.github.io",
 	"talk":{
-		"title":"Java Caching API : JCache",
+		"title":"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Java Caching API :<br>&nbsp;&nbsp;&nbsp;JCache",
 		"abstract":"Howdy Folks, let me tell you a story.<br><br>Once upon a time, we are talking about the year 2001, a few people had an amazing idea. They were thinking about something that would change the world, it would make the world easy and give programmers almost unlimited power! It was simply referred to as JSR 107, one of the only things to change in the journey of this JSR. These dreamers were way ahead of their time and nothing really happened. So time passed by and by and by and over the years it was buried in the deep catacombs of the JCP. Eventually, in 2011 two brave knights took on the fight and worked themselves through all the riddles, to complete their quest in 2014. You will know what I am talking about, they called it the Java Caching API or in short JCache.<br><br>A software system cannot possibly be imagined without Caching today and it was time for a standard. No matter if you want to cache Database, HTML or results of long running calculations, new systems have to reach a critical mass to be successful. Elevator pitch : JSR107 does for Caching what JDBC did for Database lock in. Now develop to JSR107 API and choose the Caching provider of your choice (Hazelcast, Oracle Coherence, Infinispan). Lets take a look together with coding samples."
+	}
+  },
+  {
+  	"enabled" : "1",
+	"name":"Dmitry Lazarenko",
+	"description":"Director of Growth in Jelastic.",
+	"biography":"Dmitry Lazarenko, Director of Growth in Jelastic. With over 9 years in the IT industry, Dmitry is an expert in large-scale distributed Java applications and enterprise platforms, including application clusters, integration solutions and security systems. Before Jelastic, he was a developer at Micom SI (2004-2006), architect at ITUnion Ltd, an architect and head of development at OTR Ltd (2008-2012).",
+	"image": "assets/img/speakers/DmitryLazarenko.jpg",
+	"ref":"dlazarenko",
+	"url":"infoSpeaker.html?ref=dlazarenko",
+	"talk":{
+		"title":"7 key features to enable workload mobility of Java enterprise applications in the cloud",
+		"abstract":"Containers have shaken the IT world providing a totally new concept of a virtualization solution for cloud PaaS and IaaS due to their lightweight virtualization, increased density, elasticity, and rapid provisioning. They enable developers to work with dev, test, stage and production environments identically. Containers provide the right abstraction for microservices and many cloud platforms have integrated them into deployment pipelines.<br><br>At this session we will uncover seven key features that cloud vendor should provide to ensure that your Java application is highly available and secured, and the resources are consumed efficiently. We will discuss the known issues and solutions for enterprise Java applications hosted on top of containers in the public, private or hybrid cloud. In addition, we’ll review the current landscape of containers offering at the Cloud market."
 	}
   },
   {
@@ -149,7 +162,7 @@
 	"homepage":"https://www.linkedin.com/in/jmortega1",
 	"talk" :{
 		"title" : "Comparing JVM Languages",
-		"abstract" : "Nowdays there are more than two hundred languages working in JVM.<br>It`s commonly called polyglot programming in JVM ecosystem.<br>This talk will try make an introductory look at several JVM languages, including Java 8, Scala, Groovy, Clojure ,Celylon and Kotlin.<br>I will compare them showing benefits and drawbacks each one<br>Some features I will compare are:<br>Performance,Type checking(Static vs Dinamic),Functional principles,Collections and data structures,Semantics and Security."
+		"abstract" : "Nowdays there are more than two hundred languages working in JVM. It's commonly called polyglot programming in JVM ecosystem.This talk will try make an introductory look at several JVM languages, including Java 8, Scala, Groovy, Clojure ,Celylon and Kotlin. I will compare them showing benefits and drawbacks each one. Some features I will compare are: Performance, Type checking(Static vs Dinamic), Functional principles, Collections and data structures, Semantics and Security."
 	}
   },
   {
@@ -214,13 +227,13 @@
 	}
   },
   {
-  	"enabled" : "0",
+  	"enabled" : "1",
 	"name":"Sven Rupert",
 	"description":"Principal IT Consultant for codecentric in Munich.",
 	"biography":"Sven Ruppert has been coding Java since 1996. He is a Principal IT Consultant for codecentric in Munich. In his free time he regularly contributes to German IT periodicals, including Java Magazin, Eclipse Magazin, and Entwickler Magazin, as well as tech portals such as JAXenter.de (http://jaxenter.de/Sven-Ruppert-168244).",
 	"image": "assets/img/speakers/SvenRupert.jpg",
 	"ref":"srupert",
-	"url":"infoSpeaker.html?ref=sruptert",
+	"url":"infoSpeaker.html?ref=srupert",
 	"twitter":"https://twitter.com/SvenRuppert",
 	"homepage":"http://www.rapidpm.org",
 	"talk":{

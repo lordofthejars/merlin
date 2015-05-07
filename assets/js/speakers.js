@@ -21,12 +21,14 @@ $(document).ready(function () {
 				"<h4>"+val.name+"</h4>"+
 				"<div class='border'></div>"+
 				"<p>"+val.description+"</p>"+
-				"<ul class='list-inline'>"+
-				  "<li class='twitter'>"+
+				"<ul class='list-inline'>";
+			if(val.twitter!=null){
+				  divspeaker=divspeaker+"<li class='twitter'>"+
 					"<a href='"+val.twitter+"' title='Twitter' target='_blank'>"+
 					  "<i class='fa fa-twitter'></i>"+
 					"</a>"+
 				  "</li>";
+			}
 			if(val.homepage!=null){
 				divspeaker=divspeaker+"<li class='homepage'>"+
 					"<a href='"+val.homepage+"' title='Homepage' target='_blank'>"+
