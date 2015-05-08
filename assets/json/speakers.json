@@ -228,6 +228,22 @@
   },
   {
   	"enabled" : "1",
+	"name":"Laurent Gauguin",
+	"description":"Developer Advocate at Couchbase",
+	"biography":"Laurent is a Paris based Developer Advocate where he focuses on helping Java developers and the French community. He writes code in Java and blog posts in Markdown.Prior to joining Couchbase he was Nuxeo’s community liaison where he devoted his time and expertise to helping the entire Nuxeo Community become more active and efficient.",
+	"image": "assets/img/speakers/LaurentDoguin.jpg",
+	"ref":"ldoguin",
+	"url":"infoSpeaker.html?ref=ldoguin",
+	"twitter":"https://twitter.com/ldoguin",
+	"homepage":"https://github.com/ldoguin",
+	"cospeakerref":"sbasle",	
+	"talk" :{
+		"title" : "Practical RX Java",
+		"abstract" : "You already have heard about RxJava but wish for a practical and concrete approach? You want to discover Functional Reactive Programming (FRP)? This workshop is made for you.We'll discover ReactiveX by developing a client application that composes with multiple (not always reliable) services. We'll see which best practices to put in place so as to make it production-ready (retry, backpressure, exponential backoff...).The application will eventually be connected to a NoSQL datastore, asynchronous and reactive itself."
+	}
+  },  
+  {
+  	"enabled" : "1",
 	"name":"Masoud Kalali",
 	"description":"Software architect with focus on PaaS and Java EE, author, technology enthusiast.",
 	"biography":"Masoud has been working on software development projects since 1998, which gives him a broad perspective on software development in general and changes in the software development landscape in the past 1/5 decades. Masoud has experience with variety of technologies (.NET, J2EE, CORBA, and COM+) on diverse platforms (Solaris, Linux, and Windows). He has a master degree in information systems with a bachelor degree in software engineering.<br><br>Masoud has authored fair number of articles and other types of publications including several articles at Java.net and Dzone. He is author of multiple refcards, published by Dzone, including but not limited to Using XML in Java, Security and GlassFish v3 refcardz. Masoud is one of the founding members of NetBeans Dream Team and a GlassFish community spotlighted developer. Masoud is author of GlassFish Security book published in 2010 covering GlassFish v3 security and Java EE 6 security. He recently co-authored another book Developing RESTful Services with JAX-RS 2.0, WebSockets, and JSON.<br><br>Masoud is a recurrent speaker in JavaOne and other Java focused conferences across europe.",
@@ -272,6 +288,22 @@
 		"abstract":"Apache ActiveMQ is an extremely flexible enterprising message system - but scaling and performance isn't something its exactly well known for. If we strip back ActiveMQ to concentrate on its core functionality, add automatic sharding across clusters of brokers, add vert.x for its scalability and performance and sprinkle with magic from fabric8 - we have a highly scalable cloud based messaging solution ideal for the internet of things!"
 	}
   },
+  {
+  	"enabled" : "1",
+	"name":"Simon Basle",
+	"description":"SDK Software Engineer at Couchbase",
+	"biography":"Simon is a software development aficionado, especially interested in software design aspects (OOP, design patterns, software architecture), rich clients, what lies beyond code (continuous integration, (D)VCS, best practices), and also a bit of CompSci, concurrent programming... He is currently working in France as a SDK Software Engineer for Couchbase and is editor on InfoQ.com's French version.",
+	"image": "assets/img/speakers/SimonBasle.jpg",
+	"ref":"sbasle",
+	"url":"infoSpeaker.html?ref=sbasle",
+	"twitter":"https://twitter.com/simonbasle",
+	"homepage":"http://about.me/simonbasle ",
+	"cospeakerref":"ldoguin",	
+	"talk" :{
+		"title" : "Practical RX Java",
+		"abstract" : "You already have heard about RxJava but wish for a practical and concrete approach? You want to discover Functional Reactive Programming (FRP)? This workshop is made for you.We'll discover ReactiveX by developing a client application that composes with multiple (not always reliable) services. We'll see which best practices to put in place so as to make it production-ready (retry, backpressure, exponential backoff...).The application will eventually be connected to a NoSQL datastore, asynchronous and reactive itself."
+	}
+  },    
   {
   	"enabled" : "1",
 	"name":"Sven Rupert",
