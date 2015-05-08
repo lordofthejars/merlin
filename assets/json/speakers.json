@@ -99,6 +99,7 @@
 	"image": "assets/img/speakers/DmitryLazarenko.jpg",
 	"ref":"dlazarenko",
 	"url":"infoSpeaker.html?ref=dlazarenko",
+	"twitter":"https://twitter.com/lazarenkod",
 	"talk":{
 		"title":"7 key features to enable workload mobility of Java enterprise applications in the cloud",
 		"abstract":"Containers have shaken the IT world providing a totally new concept of a virtualization solution for cloud PaaS and IaaS due to their lightweight virtualization, increased density, elasticity, and rapid provisioning. They enable developers to work with dev, test, stage and production environments identically. Containers provide the right abstraction for microservices and many cloud platforms have integrated them into deployment pipelines.<br><br>At this session we will uncover seven key features that cloud vendor should provide to ensure that your Java application is highly available and secured, and the resources are consumed efficiently. We will discuss the known issues and solutions for enterprise Java applications hosted on top of containers in the public, private or hybrid cloud. In addition, we’ll review the current landscape of containers offering at the Cloud market."
@@ -199,7 +200,7 @@
   	"enabled" : "1",
 	"name":"José Manuel Ortega Candel",
 	"description":"Specialist in Java/J2EE technologies at Everis",
-	"biography":"My career has been focused from the beginning to specialize in Java/J2EE technologies and learn new agile methodologies that allow the execution of projects in terms of efficiency, quality and deadlines set by the client.<br>My strengths live on at the technical level by the type of training that I have received in recent years and the projects where I have worked.<br>In recent years Im interesting in mobile applications development, especially on android platform and other jvm languages like groovy.<br>At this moment I am working as business logic developer and my functions in the project are analysis, coding and testing.<br>With the help of software architecture developer, also performance roles in the presentation and backend layer",
+	"biography":"My career has been focused from the beginning to specialize in Java/J2EE technologies and learn new agile methodologies that allow the execution of projects in terms of efficiency, quality and deadlines set by the client. My strengths live on at the technical level by the type of training that I have received in recent years and the projects where I have worked. In recent years Im interesting in mobile applications development, especially on android platform and other jvm languages like groovy. At this moment I am working as business logic developer and my functions in the project are analysis, coding and testing. With the help of software architecture developer, also performance roles in the presentation and backend layer",
 	"image": "assets/img/speakers/JoseManuelOrtega.jpg",
 	"ref":"jmortega",
 	"url":"infoSpeaker.html?ref=jmortega",
@@ -207,7 +208,7 @@
 	"homepage":"https://www.linkedin.com/in/jmortega1",
 	"talk" :{
 		"title" : "Comparing JVM Languages",
-		"abstract" : "Nowdays there are more than two hundred languages working in JVM. It's commonly called polyglot programming in JVM ecosystem.This talk will try make an introductory look at several JVM languages, including Java 8, Scala, Groovy, Clojure ,Celylon and Kotlin. I will compare them showing benefits and drawbacks each one. Some features I will compare are: Performance, Type checking(Static vs Dinamic), Functional principles, Collections and data structures, Semantics and Security."
+		"abstract" : "Nowdays there are more than two hundred languages working in JVM. It's commonly called polyglot programming in JVM ecosystem. This talk will try make an introductory look at several JVM languages, including Java 8, Scala, Groovy, Clojure, Celylon and Kotlin. I will compare them showing benefits and drawbacks each one. Some features I will compare are: Performance, Type checking(Static vs Dinamic), Functional principles, Collections and data structures, Semantics and Security."
 	}
   },
   {
