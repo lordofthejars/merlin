@@ -32,10 +32,10 @@
 	}
   },
   {
-  	"enabled" : "0",
+  	"enabled" : "1",
 	"name":"Benji Weber",
 	"description":"Full-stack developer at Unruly",
-	"biography":"Benji Weber is a full-stack developer at Unruly, where he leads an extreme programming team building a programmatic advertising platform using Java, and a sprinkling of other languages. His interests include abusing the Java language to do things you never thought possible.",
+	"biography":"Benji Weber is a full-stack developer at Unruly, where he leads an extreme programming team building a programmatic advertising platform using Java, and a sprinkling of other languages.<br>His interests include abusing the Java language to do things you never thought possible.",
 	"image": "assets/img/speakers/BenjiWeber.jpg",
 	"ref":"bweber",
 	"url":"infoSpeaker.html?ref=bweber",
@@ -43,7 +43,7 @@
 	"homepage":"http://benjiweber.com/",
 	"talk" :{
 		"title" : "Express yourself with Java 8",
-		"abstract" : "The new language features in Java 8 are not just useful for functional programming style and streams. They give us new tools for concise yet expressive code for modeling domain problems. Fed up of implementing equals/hashcode/toString/getters/setters and having a 100 line class for a simple type with one or two fields? Want to avoid the boilerplate while still having expressive types? Perhaps you long for language features like pattern matching that make working with types easier? Then this talk is for you.We’ll see how life doesn't have to be this way, even in Java, if we’re willing to shed a few years of tradition and make a few changes to our coding style."
+		"abstract" : "The new language features in Java 8 are not just useful for functional programming style and streams. They give us new tools for concise yet expressive code for modeling domain problems. <br><br>Fed up of implementing equals/hashcode/toString/getters/setters and having a 100 line class for a simple type with one or two fields? Want to avoid the boilerplate while still having expressive types? Perhaps you long for language features like pattern matching that make working with types easier? Then this talk is for you.<br><br>We’ll see how life doesn't have to be this way, even in Java, if we’re willing to shed a few years of tradition and make a few changes to our coding style. "
 	}
   },  
   {
@@ -87,8 +87,37 @@
 	"twitter":"https://twitter.com/dbrimley",
 	"homepage":"http://dbrimley.github.io",
 	"talk":{
-		"title":"Java Caching API : JCache",
+		"title":"Java Caching API:&nbsp;&nbsp;JCache",
 		"abstract":"Howdy Folks, let me tell you a story.<br><br>Once upon a time, we are talking about the year 2001, a few people had an amazing idea. They were thinking about something that would change the world, it would make the world easy and give programmers almost unlimited power! It was simply referred to as JSR 107, one of the only things to change in the journey of this JSR. These dreamers were way ahead of their time and nothing really happened. So time passed by and by and by and over the years it was buried in the deep catacombs of the JCP. Eventually, in 2011 two brave knights took on the fight and worked themselves through all the riddles, to complete their quest in 2014. You will know what I am talking about, they called it the Java Caching API or in short JCache.<br><br>A software system cannot possibly be imagined without Caching today and it was time for a standard. No matter if you want to cache Database, HTML or results of long running calculations, new systems have to reach a critical mass to be successful. Elevator pitch : JSR107 does for Caching what JDBC did for Database lock in. Now develop to JSR107 API and choose the Caching provider of your choice (Hazelcast, Oracle Coherence, Infinispan). Lets take a look together with coding samples."
+	}
+  },
+  {
+  	"enabled" : "1",
+	"name":"Dmitry Lazarenko",
+	"description":"Director of Growth in Jelastic.",
+	"biography":"Dmitry Lazarenko, Director of Growth in Jelastic. With over 9 years in the IT industry, Dmitry is an expert in large-scale distributed Java applications and enterprise platforms, including application clusters, integration solutions and security systems. Before Jelastic, he was a developer at Micom SI (2004-2006), architect at ITUnion Ltd, an architect and head of development at OTR Ltd (2008-2012).",
+	"image": "assets/img/speakers/DmitryLazarenko.jpg",
+	"ref":"dlazarenko",
+	"url":"infoSpeaker.html?ref=dlazarenko",
+	"twitter":"https://twitter.com/lazarenkod",
+	"talk":{
+		"title":"7 key features to enable workload mobility of Java enterprise applications in the cloud",
+		"abstract":"Containers have shaken the IT world providing a totally new concept of a virtualization solution for cloud PaaS and IaaS due to their lightweight virtualization, increased density, elasticity, and rapid provisioning. They enable developers to work with dev, test, stage and production environments identically. Containers provide the right abstraction for microservices and many cloud platforms have integrated them into deployment pipelines.<br><br>At this session we will uncover seven key features that cloud vendor should provide to ensure that your Java application is highly available and secured, and the resources are consumed efficiently. We will discuss the known issues and solutions for enterprise Java applications hosted on top of containers in the public, private or hybrid cloud. In addition, we’ll review the current landscape of containers offering at the Cloud market."
+	}
+  },
+  {
+  	"enabled" : "1",
+	"name":"Hadi Hariri",
+	"description":"Developer Advocacy team lead at JetBrains.",
+	"biography":"Developer and creator of many things OSS, his passions includes Web Development and Software Architecture. Has authored a couple of books, a few courses and has been speaking at industry events for nearly 15 years. Currently at JetBrains leading the Developer Advocacy team. Spends as much time as he can writing code.",
+	"image": "assets/img/speakers/HadiHariri.png",
+	"ref":"hhariri",
+	"url":"infoSpeaker.html?ref=hhariri",
+	"twitter":"https://twitter.com/hhariri",
+	"homepage":"http://hadihariri.com",	
+	"talk":{
+		"title":"Kotlin - What can it do for me?",
+		"abstract":"There are languages popping up left and right and it often becomes difficult to know which ones are worth investigating more and potentially adopting. This talk is going to make that decision easier for you by showing you exactly where Kotlin provides value over languages such as Java, even with its lambda support in Java 8, and see how easily you can not only get up and running with Kotlin but also interoperate with all your existing Java codebase and frameworks. Once you know all the facts, then you can decide on the next steps!"
 	}
   },
   {
@@ -99,11 +128,26 @@
 	"image": "assets/img/speakers/JamesStrachan.jpg",
 	"ref":"jstrachan",
 	"url":"infoSpeaker.html?ref=jstrachan",
-	"twitter":"https://twitter.com/jstrachan/",
-	"homepage":"http://macstrac.blogspot.com.es/",
+	"twitter":"https://twitter.com/jstrachan",
+	"homepage":"http://macstrac.blogspot.com/",
 	"talk" :{
 		"title" : "Kubernetes for Java Developers",
 		"abstract" : "This talk will give an outline of the Kubernetes open source project from Google, explain how it changes everything from a developers perspective in the hybrid cloud and why its relevant for modern Java developers. Then we'll outline the key parts of Kubernetes that Java developers need to be aware of and how to adapt your approach to developing, releasing and provisioning Java to work well on premise, on the public or hybrid cloud to deliver value faster to your customers."
+	}
+  },
+  {
+  	"enabled" : "0",
+	"name":"Javi Moreno",
+	"description":"",
+	"biography":"",
+	"image": "assets/img/speakers/JaviMoreno.jpg",
+	"ref":"jmoreno",
+	"url":"infoSpeaker.html?ref=jmoreno",
+	"twitter":"https://twitter.com/ciberado",
+	"homepage":"http://github.com/ciberado",
+	"talk" :{
+		"title" : "",
+		"abstract" : ""
 	}
   },
   {
@@ -135,6 +179,36 @@
 	"talk":{
 		"title":"Using actors for The Internet of (Lego) Trains",
 		"abstract":"Last year we started a new Internet of Things project: The Internet of (Lego) Trains. We wanted to learn more about these technologies, get non-technical people and children excited about electronics and programming and have an excuse to play with Lego. <br><br>The Lego trains are equipped with a Raspberry Pi, camera, wireless dongle, infrared transmitter, speaker, RFID reader and battery pack. Next to that we have automated switch tracks and camera's again with the help of Raspberry Pi's. To control the trains and other parts we built an actor based application with Scala, Akka, Akka HTTP and AngularJS. <br><br>In this session we will explain how you can build this yourself. Next to that we will talk about our experiences and challenges and of course we will give a live demo!"
+	}
+  },
+  {
+  	"enabled" : "0",
+	"name":"Jose Luis Martinez Torres",
+	"description":"CTO at Capside",
+	"biography":"Jose Luis is a Computer Engineer with several years of real-field experience in Systems Engineering, Cloud Infrastructures and software development. He actively contributes to the Perl community with multiple CPAN modules and also to other Open Source projects like systems monitoring tools. He is an AWS authorized trainer and participates in various European conferences and congresses.",
+	"image": "assets/img/speakers/JoseLuisMartinez.png",
+	"ref":"jlmartinez",
+	"url":"infoSpeaker.html?ref=jlmartinez",
+	"twitter":"https://twitter.com/pplu_io",
+	"homepage":"http://www.capside.com/",
+	"talk" :{
+		"title" : "DevOps: Cultural Learnings of Cloud for Make Benefit Glorious Application of Internet",
+		"abstract" : "An overview of the new techniques that are available thanks to Cloud Computing, and how to take good advantage of them in your applications. We’ll go over new trends that are helping make applications more efficient, maintainable and scalable, and studying how to applying them at a code, infrastructure and organizational level."
+	}
+  },
+  {
+  	"enabled" : "1",
+	"name":"José Manuel Ortega Candel",
+	"description":"Specialist in Java/J2EE technologies at Everis",
+	"biography":"My career has been focused from the beginning to specialize in Java/J2EE technologies and learn new agile methodologies that allow the execution of projects in terms of efficiency, quality and deadlines set by the client. My strengths live on at the technical level by the type of training that I have received in recent years and the projects where I have worked. In recent years Im interesting in mobile applications development, especially on android platform and other jvm languages like groovy. At this moment I am working as business logic developer and my functions in the project are analysis, coding and testing. With the help of software architecture developer, also performance roles in the presentation and backend layer",
+	"image": "assets/img/speakers/JoseManuelOrtega.jpg",
+	"ref":"jmortega",
+	"url":"infoSpeaker.html?ref=jmortega",
+	"twitter":"https://twitter.com/jmortegac",
+	"homepage":"https://www.linkedin.com/in/jmortega1",
+	"talk" :{
+		"title" : "Comparing JVM Languages",
+		"abstract" : "Nowdays there are more than two hundred languages working in JVM. It's commonly called polyglot programming in JVM ecosystem. This talk will try make an introductory look at several JVM languages, including Java 8, Scala, Groovy, Clojure, Celylon and Kotlin. I will compare them showing benefits and drawbacks each one. Some features I will compare are: Performance, Type checking(Static vs Dinamic), Functional principles, Collections and data structures, Semantics and Security."
 	}
   },
   {
@@ -199,13 +273,13 @@
 	}
   },
   {
-  	"enabled" : "0",
+  	"enabled" : "1",
 	"name":"Sven Rupert",
 	"description":"Principal IT Consultant for codecentric in Munich.",
 	"biography":"Sven Ruppert has been coding Java since 1996. He is a Principal IT Consultant for codecentric in Munich. In his free time he regularly contributes to German IT periodicals, including Java Magazin, Eclipse Magazin, and Entwickler Magazin, as well as tech portals such as JAXenter.de (http://jaxenter.de/Sven-Ruppert-168244).",
 	"image": "assets/img/speakers/SvenRupert.jpg",
 	"ref":"srupert",
-	"url":"infoSpeaker.html?ref=sruptert",
+	"url":"infoSpeaker.html?ref=srupert",
 	"twitter":"https://twitter.com/SvenRuppert",
 	"homepage":"http://www.rapidpm.org",
 	"talk":{

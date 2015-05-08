@@ -10,12 +10,14 @@ $(document).ready(function () {
 			  "<div class='row'>"+
 				"<div class='col-lg-2 animated' data-animation='fadeInUp' data-delay='300'>"+
 					"<img class='img-responsive' src='"+val.image+"' alt='"+val.name+"'>"+
-					"<ul class='list-inline'>"+
-					"<li class='twitter'>"+
+					"<ul class='list-inline'>";
+			if(val.twitter!=null){
+					divspeaker=divspeaker+"<li class='twitter'>"+
 						"<a href='"+val.twitter+"' title='Twitter' target='_blank'>"+
 						"<i class='fa fa-twitter'></i>"+
 						"</a>"+
 					"</li>";
+			}
 			if(val.homepage!=null){
 					divspeaker=divspeaker+"<li class='homepage'>"+
 						"<a href='"+val.homepage+"' title='Homepage' target='_blank'>"+
