@@ -608,3 +608,87 @@ background-color: #71be3c;
 	text-align: left;
 	font-size: 20px;
 }
+#schedule .row{
+	margin-top:10px;
+}
+#schedule .days{
+	margin-top:15px;
+	margin-bottom:15px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 25px;
+}
+
+#schedule .days .active{
+font-weight:bold;
+color:#428BCA;
+}
+
+#schedule thead{
+	font-size: 16px;
+	background-color:#C9C9C9;
+	color:#00000;
+}
+
+#schedule .hour{
+	font-size: 16px;
+	font-weight:bold;
+}
+
+#schedule .talks{
+background-color:#428BCA;
+color:#FFFFFF;
+}
+
+#schedule .talks .pending{
+background-color:#428BCA;
+color:#FFFFFF;
+font-size: 16px;
+}
+
+#schedule .talks .title {
+	display: block;
+	font-size: 16px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+#schedule .talks  a:hover  .title{
+	text-decoration:underline;
+}
+
+#schedule .talks .speaker{
+	display: block;
+	font-size: 16px;
+	color:#000000;
+}
+
+#schedule .welcome{
+background-color:#86B8E4;
+color:#FFFFFF;
+font-size: 16px;
+font-weight:bold;
+}
+#schedule .register{
+background-color:rgb(239, 239, 239);
+color:#00000;
+font-size: 16px;
+font-weight:bold;
+}
+#schedule .breaks{
+background-color:rgb(239, 239, 239);
+color:#00000;
+font-size: 16px;
+font-weight:bold;
+}
+
+#schedule .party{
+background-color:rgb(239, 239, 239);
+color:#00000;
+font-size: 16px;
+font-weight:bold;
+}
+
+#schedule #saturday{
+	display:none;
+}

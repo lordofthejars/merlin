@@ -14,7 +14,8 @@
 		"title":"Gradle: Harder, Better, Stronger, Faster",
 		"abstract":"Are you one of those that search Around the World looking for clues on how to get maven to do your bidding or do you just toss a coin and Get Lucky One More Time? Maven works OK but there’s a new tool in town that goes Beyond maven: Gradle. It’s Fresh, almost Aerodynamic. Once you get in Contact with it you’ll feel like Doin’ It Right when building a project. We kid you not, it’s an Instant Crush for those that have followed the maven path. This is The Prime Time of Your Life as a developer, make the most out of it by leveraging the best tools. Oh Yeah."
 		,"tags" : ["Gradle" , "Groovy"]
-	}
+	},
+	"scheduleId":"#Fri-Track1-11h"
   },
   {
   	"enabled" : "0",
@@ -304,6 +305,22 @@
 		"title":"Achieving horizontal scaling for Enterprise Messaging using Fabric8",
 		"abstract":"Apache ActiveMQ is an extremely flexible enterprising message system - but scaling and performance isn't something its exactly well known for. If we strip back ActiveMQ to concentrate on its core functionality, add automatic sharding across clusters of brokers, add vert.x for its scalability and performance and sprinkle with magic from fabric8 - we have a highly scalable cloud based messaging solution ideal for the internet of things!"
 		,"tags" : ["Messaging" , "Microservices","Scalability", "Cloud"]
+	}
+  },
+  {
+  	"enabled" : "1",
+	"name":"Roberto Cortez",
+	"description":"Freelancer. Passionate Java Developer",
+	"biography":"Roberto Cortez is a professional Java Developer working in the software development industry, with more than 9 years of experience in business areas like Finance, Insurance and Government. His first contact with Java was in 1998 and he never looked back. Mostly working with Java EE technologies, he is involved with the community to help other individuals to spread the knowledge or just to hang out and share experiences. Working as a Freelancer gave him the freedom to travel around the world and speak at conferences like JavaOne, Devoxx FR, JFokus, GeeCon, Java2Days and others. He is also the leader of the Coimbra JUG and a regular blogger about Java related technologies. Currently he is working with Tomitribe. Now, by being part of the tribe, he is very excited to be working on the server where everything happens, instead of just developing applications that runs on the container. When he is not working he spend most of his time hanging with frinds, playing computer games and spending time with his family.",
+	"image": "assets/img/speakers/RobertoCortez.jpg",
+	"ref":"radcortez",
+	"url":"infoSpeaker.html?ref=radcortez",
+	"twitter":"https://twitter.com/radcortez",
+	"homepage":"http://www.radcortez.com",
+	"talk":{
+		"title":"Java EE 7, what's in it for me?",
+		"abstract":"The latest version of the Java EE plataform had three major goals. First, improve developer productivity by introducing more annotations and removing boilerplate code to simplify integration with the plataform. JMS 2 is the perfect example; Second, add first-class support for web standards, including a new API to build WebSockets, a new API to parse, process and generate JSON and a new Client API in JAX-RS 2 to invoke RESTful services; Third, meet the enterprise demands. The long awaited Batch Processing API is now available to build batch processing applications using all the capabilities of the platform itself. The Concurrency Utilities API provides you with asynchronous capabilities. This session will explore all the new features introduced in Java EE 7 and share information to learn, develop and contribute."
+		,"tags" : ["JavaEE"]
 	}
   },
   {
