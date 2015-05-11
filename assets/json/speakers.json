@@ -13,10 +13,12 @@
 	"talk":{
 		"title":"Gradle: Harder, Better, Stronger, Faster",
 		"abstract":"Are you one of those that search Around the World looking for clues on how to get maven to do your bidding or do you just toss a coin and Get Lucky One More Time? Maven works OK but there’s a new tool in town that goes Beyond maven: Gradle. It’s Fresh, almost Aerodynamic. Once you get in Contact with it you’ll feel like Doin’ It Right when building a project. We kid you not, it’s an Instant Crush for those that have followed the maven path. This is The Prime Time of Your Life as a developer, make the most out of it by leveraging the best tools. Oh Yeah."
-	}
+		,"tags" : ["Gradle" , "Groovy"]
+	},
+	"scheduleId":"#Fri-Track1-11h"
   },
   {
-  	"enabled" : "0",
+  	"enabled" : "1",
 	"name":"Antonio Molina",
 	"description":"Senior software developer at LMAX Exchange",
 	"biography":"Antonio Molina is a senior software developer at LMAX Exchange. He has 10+ years of software development experience in consulting services, e-commerce and financial companies. He is a software and business enthusiast who has promoted various projects related to information technology from conferences to startups.He loves working in crazy and challenging environments where high quality software development and a clever group of engineers can make the difference and win the game.",
@@ -29,6 +31,7 @@
 	"talk":{
 		"title":"What I Learned Writing a Trillion Dollar Trading System",
 		"abstract":"In 2014 LMAX Exchange traded over $1 trillion dollars.  The Sunday Times named us the fastest growing tech company in the UK and we won Oracle’s Duke's Choice Award for the most innovative programming framework.In this talk we reveal how we develop software.  We cover all aspects from our design philosophy, how we practice agile to our continuous integration pipeline and show how far you can go with automatically testing everything."
+		,"tags" : ["Kubernetes" , "Scalability","Microservices", "Containers"]
 	}
   },
   {
@@ -44,6 +47,7 @@
 	"talk" :{
 		"title" : "Express yourself with Java 8",
 		"abstract" : "The new language features in Java 8 are not just useful for functional programming style and streams. They give us new tools for concise yet expressive code for modeling domain problems. <br><br>Fed up of implementing equals/hashcode/toString/getters/setters and having a 100 line class for a simple type with one or two fields? Want to avoid the boilerplate while still having expressive types? Perhaps you long for language features like pattern matching that make working with types easier? Then this talk is for you.<br><br>We’ll see how life doesn't have to be this way, even in Java, if we’re willing to shed a few years of tradition and make a few changes to our coding style. "
+		,"tags" : ["Java8" , "FunctionalProgramming"]
 	}
   },  
   {
@@ -59,6 +63,7 @@
 	"talk":{
 		"title":"Reactive web applications with AngularJS, Play, Akka & Cassandra",
 		"abstract":"The combination of WebSockets with AngularJS is a fantastic stack for building reactive web applications - think constantly updating dashboards or a web based chat application. But what backend fits this model?<br><br>You guessed it: Play and Akka! This talk will take you through building the backend using the PlayFramework and Akka. The Actor model is perfect for reacting to events on the server side and pushing them to the client via a WebSocket. You’ll be shocked how simple this is to setup and get a basic application up and running.<br><br>We will be going through the KillrWeather application (https://github.com/killrweather/killrweather), which is an open source reference application for Apache Spark Streaming + Cassandra. Spark streaming is all about processing high volumes of data and building analytics on the fly, we’ll be showing how to get the processed data into a reactive front end."
+		,"tags" : ["AngularJS","Play", "Akka", "Cassandra"]
 	}
   },
   {
@@ -74,6 +79,7 @@
 	"talk":{
 		"title":"Microservices with Apache Camel",
 		"abstract":"Apache Camel is a very popular integration library that works very well with microservice architecture.This talk introduces you to Apache Camel and how you can easily get started with Camel on your computer.Then we cover how to create new Camel projects from scratch as micro services which you can boot using Camel or Spring Boot, or other micro containers such as Jetty or fat JARs.We then take a look at what options you have for monitoring and managing your Camel microservices using tooling such as Jolokia, and hawtio web console.The second part of this talk is about running Camel in the cloud.We start by showing you how you can use the Maven Docker Plugin to create a docker image of your Camel application and run it using docker on a single host. Then kubernetes enters the stage and we take a look at how you can deploy your docker images on a kubernetes cloud platform, and how the fabric8 tooling can make this much easier for the Java developers.At the end of this talk you will have learned about and seen in practice how to take a Java Camel project from scratch, turn that into a docker image, and how you can deploy those docker images in a scalable cloud platform based on Google's kubernetes."
+		,"tags" : ["Integration" , "Microservices", "Containers", "Kubernetes", "Cloud"]
 	}
   },
   {
@@ -89,6 +95,7 @@
 	"talk":{
 		"title":"Java Caching API:&nbsp;&nbsp;JCache",
 		"abstract":"Howdy Folks, let me tell you a story.<br><br>Once upon a time, we are talking about the year 2001, a few people had an amazing idea. They were thinking about something that would change the world, it would make the world easy and give programmers almost unlimited power! It was simply referred to as JSR 107, one of the only things to change in the journey of this JSR. These dreamers were way ahead of their time and nothing really happened. So time passed by and by and by and over the years it was buried in the deep catacombs of the JCP. Eventually, in 2011 two brave knights took on the fight and worked themselves through all the riddles, to complete their quest in 2014. You will know what I am talking about, they called it the Java Caching API or in short JCache.<br><br>A software system cannot possibly be imagined without Caching today and it was time for a standard. No matter if you want to cache Database, HTML or results of long running calculations, new systems have to reach a critical mass to be successful. Elevator pitch : JSR107 does for Caching what JDBC did for Database lock in. Now develop to JSR107 API and choose the Caching provider of your choice (Hazelcast, Oracle Coherence, Infinispan). Lets take a look together with coding samples."
+		,"tags" : ["Cache" , "Java","Scalability"]
 	}
   },
   {
@@ -103,6 +110,7 @@
 	"talk":{
 		"title":"7 key features to enable workload mobility of Java enterprise applications in the cloud",
 		"abstract":"Containers have shaken the IT world providing a totally new concept of a virtualization solution for cloud PaaS and IaaS due to their lightweight virtualization, increased density, elasticity, and rapid provisioning. They enable developers to work with dev, test, stage and production environments identically. Containers provide the right abstraction for microservices and many cloud platforms have integrated them into deployment pipelines.<br><br>At this session we will uncover seven key features that cloud vendor should provide to ensure that your Java application is highly available and secured, and the resources are consumed efficiently. We will discuss the known issues and solutions for enterprise Java applications hosted on top of containers in the public, private or hybrid cloud. In addition, we’ll review the current landscape of containers offering at the Cloud market."
+		,"tags" : ["Cloud" ,"Microservices", "Containers"]
 	}
   },
   {
@@ -118,6 +126,7 @@
 	"talk":{
 		"title":"Kotlin - What can it do for me?",
 		"abstract":"There are languages popping up left and right and it often becomes difficult to know which ones are worth investigating more and potentially adopting. This talk is going to make that decision easier for you by showing you exactly where Kotlin provides value over languages such as Java, even with its lambda support in Java 8, and see how easily you can not only get up and running with Kotlin but also interoperate with all your existing Java codebase and frameworks. Once you know all the facts, then you can decide on the next steps!"
+		,"tags" : ["JVM"]
 	}
   },
   {
@@ -133,6 +142,7 @@
 	"talk" :{
 		"title" : "Kubernetes for Java Developers",
 		"abstract" : "This talk will give an outline of the Kubernetes open source project from Google, explain how it changes everything from a developers perspective in the hybrid cloud and why its relevant for modern Java developers. Then we'll outline the key parts of Kubernetes that Java developers need to be aware of and how to adapt your approach to developing, releasing and provisioning Java to work well on premise, on the public or hybrid cloud to deliver value faster to your customers."
+		,"tags" : ["Kubernetes" , "Scalability","Microservices", "Containers"]
 	}
   },
   {
@@ -163,6 +173,7 @@
 	"talk" :{
 		"title" : "Apache Karaf for the Enterprise",
 		"abstract" : "Apache Karaf becomes more and more popular and the new 3.0.x releases have been an important step forward for to increase the adaption of Karaf in enterprise. This talk will introduce the new features provided in Karaf 3.0.x and how they answer to the enterprise needs. It will also introduce the new features coming in the roadmap. "
+		,"tags" : ["Integration" , "Scalability"]
 	}
   },
   {
@@ -179,6 +190,7 @@
 	"talk":{
 		"title":"Using actors for The Internet of (Lego) Trains",
 		"abstract":"Last year we started a new Internet of Things project: The Internet of (Lego) Trains. We wanted to learn more about these technologies, get non-technical people and children excited about electronics and programming and have an excuse to play with Lego. <br><br>The Lego trains are equipped with a Raspberry Pi, camera, wireless dongle, infrared transmitter, speaker, RFID reader and battery pack. Next to that we have automated switch tracks and camera's again with the help of Raspberry Pi's. To control the trains and other parts we built an actor based application with Scala, Akka, Akka HTTP and AngularJS. <br><br>In this session we will explain how you can build this yourself. Next to that we will talk about our experiences and challenges and of course we will give a live demo!"
+		,"tags" : ["IoT" , "Java8","Scala","Akka", "AngularJS"]
 	}
   },
   {
@@ -194,6 +206,7 @@
 	"talk" :{
 		"title" : "DevOps: Cultural Learnings of Cloud for Make Benefit Glorious Application of Internet",
 		"abstract" : "An overview of the new techniques that are available thanks to Cloud Computing, and how to take good advantage of them in your applications. We’ll go over new trends that are helping make applications more efficient, maintainable and scalable, and studying how to applying them at a code, infrastructure and organizational level."
+		,"tags" : ["Cloud" , "DevOps"]
 	}
   },
   {
@@ -209,6 +222,7 @@
 	"talk" :{
 		"title" : "Comparing JVM Languages",
 		"abstract" : "Nowdays there are more than two hundred languages working in JVM. It's commonly called polyglot programming in JVM ecosystem. This talk will try make an introductory look at several JVM languages, including Java 8, Scala, Groovy, Clojure, Celylon and Kotlin. I will compare them showing benefits and drawbacks each one. Some features I will compare are: Performance, Type checking(Static vs Dinamic), Functional principles, Collections and data structures, Semantics and Security."
+		,"tags" : ["JVM" ]
 	}
   },
   {
@@ -224,8 +238,26 @@
 	"talk" :{
 		"title" : "How and why we evolved a legacy Java web application to Scala... and we are still alive!",
 		"abstract" : "Applications get old, and technology moves fast. Overtime, adding or modifying functionalities might become as expensive as re-coding everything all from scratch. But rewriting a complete website and its functionalities it’s hard if we want to minimize the risks of breaking existing functionalities and specially when this application fits in a ecosystem and interacts with other pieces of software and teams.<br><br>In this session, you will learn how we moved from a legacy java monolithic website using scala PlayFramework, AngularJS, Elasticsearch and MongoDB, how we built a multi service and REST oriented architecture, which were the technical and human problems we encountered and how we managed to solved them."
+		,"tags" : ["Scala" , "Legacy","Play!","AngularJS", "MongoDB"]
 	}
   },
+  {
+  	"enabled" : "1",
+	"name":"Laurent Doguin",
+	"description":"Developer Advocate at Couchbase",
+	"biography":"Laurent is a Paris based Developer Advocate where he focuses on helping Java developers and the French community. He writes code in Java and blog posts in Markdown.Prior to joining Couchbase he was Nuxeo’s community liaison where he devoted his time and expertise to helping the entire Nuxeo Community become more active and efficient.",
+	"image": "assets/img/speakers/LaurentDoguin.jpg",
+	"ref":"ldoguin",
+	"url":"infoSpeaker.html?ref=ldoguin",
+	"twitter":"https://twitter.com/ldoguin",
+	"homepage":"https://github.com/ldoguin",
+	"cospeakerref":"sbasle",	
+	"talk" :{
+		"title" : "Practical RX Java",
+		"abstract" : "You already have heard about RxJava but wish for a practical and concrete approach? You want to discover Functional Reactive Programming (FRP)? This workshop is made for you.We'll discover ReactiveX by developing a client application that composes with multiple (not always reliable) services. We'll see which best practices to put in place so as to make it production-ready (retry, backpressure, exponential backoff...).The application will eventually be connected to a NoSQL datastore, asynchronous and reactive itself."
+		,"tags" : ["Database" , "NoSQL","Java","FunctionalProgramming"]
+	}
+  },  
   {
   	"enabled" : "1",
 	"name":"Masoud Kalali",
@@ -239,10 +271,11 @@
 	"talk":{
 		"title":"Real world RESTful service development problems and solutions",
 		"abstract":"Learn all you ever wanted to learn about RESTful services development challenges in large scale applications<br><br>This session is a deep dive as well as an interactive discussion on design principles, considerations, lessons learned from mistakes that can be taken into account when developing RESTful services.<br><br>It will cover a variety of topics from Designing of RESTful resources, Versioning, Exception Handling, Caching, Validation, Security, Rate limiting, HATEOAS, Testing and Documentation.<br><br>So join me in this talk to build high quality applications that can be highly scalable, available and reliable."
+		,"tags" : ["RESTful" , "Services"]
 	}
   },
   {
-  	"enabled" : "0",
+  	"enabled" : "1",
 	"name":"Nick Zeeb",
 	"description":"Java developer at LMAX Exchange",
 	"biography":"Nick Zeeb is a senior Java developer at LMAX Exchange. He has expertise in high-performance Java systems and is passionate about continually improving the way we build software.Nick is a leader in the London Java Community and holds a Master’s degree in Engineering and Computer Science from the University of Oxford.",
@@ -255,6 +288,7 @@
 	"talk":{
 		"title":"What I Learned Writing a Trillion Dollar Trading System",
 		"abstract":"In 2014 LMAX Exchange traded over $1 trillion dollars.  The Sunday Times named us the fastest growing tech company in the UK and we won Oracle’s Duke's Choice Award for the most innovative programming framework.In this talk we reveal how we develop software.  We cover all aspects from our design philosophy, how we practice agile to our continuous integration pipeline and show how far you can go with automatically testing everything."
+		,"tags" : ["Testing" ,"Desgin"]
 	}
   },
   {
@@ -270,8 +304,42 @@
 	"talk":{
 		"title":"Achieving horizontal scaling for Enterprise Messaging using Fabric8",
 		"abstract":"Apache ActiveMQ is an extremely flexible enterprising message system - but scaling and performance isn't something its exactly well known for. If we strip back ActiveMQ to concentrate on its core functionality, add automatic sharding across clusters of brokers, add vert.x for its scalability and performance and sprinkle with magic from fabric8 - we have a highly scalable cloud based messaging solution ideal for the internet of things!"
+		,"tags" : ["Messaging" , "Microservices","Scalability", "Cloud"]
 	}
   },
+  {
+  	"enabled" : "1",
+	"name":"Roberto Cortez",
+	"description":"Freelancer. Passionate Java Developer",
+	"biography":"Roberto Cortez is a professional Java Developer working in the software development industry, with more than 9 years of experience in business areas like Finance, Insurance and Government. His first contact with Java was in 1998 and he never looked back. Mostly working with Java EE technologies, he is involved with the community to help other individuals to spread the knowledge or just to hang out and share experiences. Working as a Freelancer gave him the freedom to travel around the world and speak at conferences like JavaOne, Devoxx FR, JFokus, GeeCon, Java2Days and others. He is also the leader of the Coimbra JUG and a regular blogger about Java related technologies. Currently he is working with Tomitribe. Now, by being part of the tribe, he is very excited to be working on the server where everything happens, instead of just developing applications that runs on the container. When he is not working he spend most of his time hanging with frinds, playing computer games and spending time with his family.",
+	"image": "assets/img/speakers/RobertoCortez.jpg",
+	"ref":"radcortez",
+	"url":"infoSpeaker.html?ref=radcortez",
+	"twitter":"https://twitter.com/radcortez",
+	"homepage":"http://www.radcortez.com",
+	"talk":{
+		"title":"Java EE 7, what's in it for me?",
+		"abstract":"The latest version of the Java EE plataform had three major goals. First, improve developer productivity by introducing more annotations and removing boilerplate code to simplify integration with the plataform. JMS 2 is the perfect example; Second, add first-class support for web standards, including a new API to build WebSockets, a new API to parse, process and generate JSON and a new Client API in JAX-RS 2 to invoke RESTful services; Third, meet the enterprise demands. The long awaited Batch Processing API is now available to build batch processing applications using all the capabilities of the platform itself. The Concurrency Utilities API provides you with asynchronous capabilities. This session will explore all the new features introduced in Java EE 7 and share information to learn, develop and contribute."
+		,"tags" : ["JavaEE"]
+	}
+  },
+  {
+  	"enabled" : "1",
+	"name":"Simon Basle",
+	"description":"SDK Software Engineer at Couchbase",
+	"biography":"Simon is a software development aficionado, especially interested in software design aspects (OOP, design patterns, software architecture), rich clients, what lies beyond code (continuous integration, (D)VCS, best practices), and also a bit of CompSci, concurrent programming... He is currently working in France as a SDK Software Engineer for Couchbase and is editor on InfoQ.com's French version.",
+	"image": "assets/img/speakers/SimonBasle.jpg",
+	"ref":"sbasle",
+	"url":"infoSpeaker.html?ref=sbasle",
+	"twitter":"https://twitter.com/simonbasle",
+	"homepage":"http://about.me/simonbasle ",
+	"cospeakerref":"ldoguin",	
+	"talk" :{
+		"title" : "Practical RX Java",
+		"abstract" : "You already have heard about RxJava but wish for a practical and concrete approach? You want to discover Functional Reactive Programming (FRP)? This workshop is made for you.We'll discover ReactiveX by developing a client application that composes with multiple (not always reliable) services. We'll see which best practices to put in place so as to make it production-ready (retry, backpressure, exponential backoff...).The application will eventually be connected to a NoSQL datastore, asynchronous and reactive itself."
+		,"tags" : ["Database" , "NoSQL","Java","FunctionalProgramming"]
+	}
+  },    
   {
   	"enabled" : "1",
 	"name":"Sven Rupert",
@@ -285,6 +353,7 @@
 	"talk":{
 		"title":"IoT TinkerForge LiveHacking",
 		"abstract":"TinkerForge is a very simple, easy-to-handle modular electronic system. Depending on the application, a system of sensor, wireless and motor control elements can be built in a modular way and programmed with a few lines of code. No soldering iron is needed. Both the hardware and the software are open source. After a brief overview of the available sensors and actuators, we will quickly start with the actual programming. Together, we will explore different applications, architectures, and the combination of TinkerForge with Java. Using sensors, actuators and some other elements, we will take the first steps and delve into the practical world of IoT with Java 8 and TinkerForge."
+		,"tags" : ["IoT" , "Java8"]
 	}
   },  
   {
@@ -301,6 +370,7 @@
 	"talk":{
 		"title":"Using actors for The Internet of (Lego) Trains",
 		"abstract":"Last year we started a new Internet of Things project: The Internet of (Lego) Trains. We wanted to learn more about these technologies, get non-technical people and children excited about electronics and programming and have an excuse to play with Lego. <br><br>The Lego trains are equipped with a Raspberry Pi, camera, wireless dongle, infrared transmitter, speaker, RFID reader and battery pack. Next to that we have automated switch tracks and camera's again with the help of Raspberry Pi's. To control the trains and other parts we built an actor based application with Scala, Akka, Akka HTTP and AngularJS. <br><br>In this session we will explain how you can build this yourself. Next to that we will talk about our experiences and challenges and of course we will give a live demo!"
+		,"tags" : ["IoT" , "Java8","Scala", "Akka", "AngularJS"]
 	}
   }
   ]
