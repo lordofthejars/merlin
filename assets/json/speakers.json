@@ -18,7 +18,7 @@
 	"scheduleId":"#Fri-Track1-11h"
   },
   {
-  	"enabled" : "0",
+  	"enabled" : "1",
 	"name":"Antonio Molina",
 	"description":"Senior software developer at LMAX Exchange",
 	"biography":"Antonio Molina is a senior software developer at LMAX Exchange. He has 10+ years of software development experience in consulting services, e-commerce and financial companies. He is a software and business enthusiast who has promoted various projects related to information technology from conferences to startups.He loves working in crazy and challenging environments where high quality software development and a clever group of engineers can make the difference and win the game.",
@@ -275,7 +275,7 @@
 	}
   },
   {
-  	"enabled" : "0",
+  	"enabled" : "1",
 	"name":"Nick Zeeb",
 	"description":"Java developer at LMAX Exchange",
 	"biography":"Nick Zeeb is a senior Java developer at LMAX Exchange. He has expertise in high-performance Java systems and is passionate about continually improving the way we build software.Nick is a leader in the London Java Community and holds a Master’s degree in Engineering and Computer Science from the University of Oxford.",
