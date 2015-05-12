@@ -33,6 +33,22 @@
 		"abstract":"In 2014 LMAX Exchange traded over $1 trillion dollars.  The Sunday Times named us the fastest growing tech company in the UK and we won Oracle’s Duke's Choice Award for the most innovative programming framework.In this talk we reveal how we develop software.  We cover all aspects from our design philosophy, how we practice agile to our continuous integration pipeline and show how far you can go with automatically testing everything."
 		,"tags" : ["Kubernetes" , "Scalability","Microservices", "Containers"]
 	}
+  },  
+  {
+  	"enabled" : "1",
+	"name":"Bartek Zdanowski",
+	"description":"Senior java developer at TouK and co-creator Confitura conference",
+	"biography":"Bartek is a professional programmer since 11 years. Currently works as a senior java developer at TouK. During his work he creates clean and testable code. He takes care of good Team spirit and good relationship with company Clients.<br>Since 7 years he co-creates Confitura conference - biggest free of charge Java conference in Poland. When he has something interesting to say he gives talks on conferences and meetups. Involved in developing TeamLights.<br>Lately invited to be a member of Program Committee of Devoxx PL Conference.<br>After work he plays squash, solders some gadgets and flies RC planes.",
+	"image": "assets/img/speakers/BartekZdanowski.jpg",
+	"ref":"bdanowski",
+	"url":"infoSpeaker.html?ref=bdanowski",
+	"twitter":"https://twitter.com/bartekzdanowski",
+	"homepage":"http://bartekzdanowski.blogspot.com/",
+	"talk" :{
+		"title" : "Vert.x - high performance polyglot application platform",
+		"abstract" : "Vert.x is very efficient high performance scalable platform. Based on event driven paradigm with eventbus allows you to build non blocking thread safe asynchronous applications. Vert.x is easily scalable that can handle very high load of concurrent connections. Due to non blocking IO efficently uses server resources. It runs smoothly even on Raspberry Pi! That's awesome base for IoT solutions!<br><br>Another key feature of Vert.x is ability to use many programming languages in the same application. Vert.x supports Java, JavaScript, CoffeeScript, Ruby, Python, Groovy, Scala, Clojure and Ceylon. You can mix all of them in the same application using eventbus to communicate between pieces. Vert.x nicely handles concurrency so writing concurrent and yet thread safe code was never so easy. During the talk I'll show you live how to create simple and more advanced pieces of code. In 2014 Vert.x won Jax Innovation Award in Most innovative Java Technology category. Vertx 3.0 is on the way with it's premiere at 22 July 2015.<br><br>Vert.x is awesome. Come and let me convice you!"
+		,"tags" : []
+	}
   },
   {
   	"enabled" : "1",
@@ -192,7 +208,7 @@
 		"abstract":"Last year we started a new Internet of Things project: The Internet of (Lego) Trains. We wanted to learn more about these technologies, get non-technical people and children excited about electronics and programming and have an excuse to play with Lego. <br><br>The Lego trains are equipped with a Raspberry Pi, camera, wireless dongle, infrared transmitter, speaker, RFID reader and battery pack. Next to that we have automated switch tracks and camera's again with the help of Raspberry Pi's. To control the trains and other parts we built an actor based application with Scala, Akka, Akka HTTP and AngularJS. <br><br>In this session we will explain how you can build this yourself. Next to that we will talk about our experiences and challenges and of course we will give a live demo!"
 		,"tags" : ["IoT" , "Java8","Scala","Akka", "AngularJS"]
 	}
-  },
+  },  
   {
   	"enabled" : "0",
 	"name":"Jose Luis Martinez Torres",
@@ -223,6 +239,22 @@
 		"title" : "Comparing JVM Languages",
 		"abstract" : "Nowdays there are more than two hundred languages working in JVM. It's commonly called polyglot programming in JVM ecosystem. This talk will try make an introductory look at several JVM languages, including Java 8, Scala, Groovy, Clojure, Celylon and Kotlin. I will compare them showing benefits and drawbacks each one. Some features I will compare are: Performance, Type checking(Static vs Dinamic), Functional principles, Collections and data structures, Semantics and Security."
 		,"tags" : ["JVM" ]
+	}
+  },
+  {
+  	"enabled" : "1",
+	"name":"José Pereda",
+	"description":"PhD in Structural Engineering, Assistant Professor in the School of Industrial Engineering at the University of Valladolid in Spain",
+	"biography":"José Pereda, PhD in Structural Engineering, works as an Assistant Professor in the School of Industrial Engineering at the University of Valladolid in Spain. His passion is related to applying programming to solve real problems. Being on Java since 1999, now he is a JavaFX advocate, developing commercial applications and open source projects (JFXtras, FXyz, https://github.com/jperedadnr), co-authoring a JavaFX book (JavaFX 8 Introduction by Example), blogging (http://jperedadnr.blogspot.com.es/), tweeting (@JPeredaDnr) or speaking at conferences (JavaOne, W-JAX, JFokus, JavaLand, ...). José lives with his wife and kids in Valladolid, Spain",
+	"image": "assets/img/speakers/JosePereda.jpg",
+	"ref":"jpereda",
+	"url":"infoSpeaker.html?ref=jpereda",
+	"twitter":"https://twitter.com/JPeredaDnr",
+	"homepage":"http://jperedadnr.blogspot.com.es",
+	"talk" :{
+		"title" : "Industrial Remote Monitoring and Control Systems with JavaFX 8",
+		"abstract" : "In this session, an integrated platform of electronic instrumentation, data acquisition and client/server software for monitoring and control the boiler room of a sport pavilion’s swimming pool, is presented.<br><br>In the backend, an industrial embedded PC with data acquisition and control cards, an application server, which communicates with the industrial PC, and a web server, which allows remote access to the system, are installed.<br><br>As a frontend, a JavaFX 8 client application is developed, to monitor and control the daily performance of the installation. CAD drawings were converted to fancy JavaFX controls with the help of SVG, CSS and Scene Builder 2.0"
+		,"tags" : []
 	}
   },
   {
@@ -289,6 +321,22 @@
 		"title":"What I Learned Writing a Trillion Dollar Trading System",
 		"abstract":"In 2014 LMAX Exchange traded over $1 trillion dollars.  The Sunday Times named us the fastest growing tech company in the UK and we won Oracle’s Duke's Choice Award for the most innovative programming framework.In this talk we reveal how we develop software.  We cover all aspects from our design philosophy, how we practice agile to our continuous integration pipeline and show how far you can go with automatically testing everything."
 		,"tags" : ["Testing" ,"Desgin"]
+	}
+  },
+  {
+  	"enabled" : "1",
+	"name":"Raimon Rafols Montane",
+	"description":"Mobile Software Engineering Manager at Imagination Technologies.",
+	"biography":"Raimon has been developing for mobile devices since 2004. He has development experience on several technologies specialised on UI, low level optimisation, build systems and client-server communications. He is currently working as Mobile Software Engineering Manager at Imagination Technologies near London. On his spare time he enjoys programming and photography and giving talks in mobile conferences about Java/Android performance optimisations and Android Custom Views.",
+	"image": "assets/img/speakers/RaimonRafols.jpg",
+	"ref":"rrafols",
+	"url":"infoSpeaker.html?ref=rrafols",
+	"twitter":"http://www.twitter.com/rrafols",
+	"homepage":"http://blog.rafols.org",
+	"talk":{
+		"title":"Improving Java code performance. The mumbo-jumbo behind the java compiler.",
+		"abstract":"We know one of the main characteristics of Java is portability, and that usually means it is not as efficient as it should be. That might be the reason Java has never been associated with high performance, but nowadays there are a lot of Java powered devices in the world and lots of people are building applications for them.<br><br>Compilers that produce native machine code do a great optimisation job because they know where the code is going to be executed. But because of the portability feature, the Java Compiler could not assume anything about where our program is going to be executed and leaves all the optimisations to be done by the JVM while loading or, even, running our code.<br><br>Having that in mind, we will explore what can be done to help the compiler produce optimal code which, in fact, will make the life easier of the JVM where the code is running. Most of the times we use (and abuse) the new language constructions without knowing what is really happening at compile time. Understanding how the java compiler works will allow us to know in which situations we should stay away from these constructions and use an alternative.<br><br>In this session you will not only learn how to make your Java code faster but also what to avoid when looking for critical performance and a bigger understanding of how the Java compiler works."
+		,"tags" : []
 	}
   },
   {
