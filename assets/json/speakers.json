@@ -309,22 +309,6 @@
   },
   {
   	"enabled" : "1",
-	"name":"Roberto Cortez",
-	"description":"Freelancer. Passionate Java Developer",
-	"biography":"Roberto Cortez is a professional Java Developer working in the software development industry, with more than 9 years of experience in business areas like Finance, Insurance and Government. His first contact with Java was in 1998 and he never looked back. Mostly working with Java EE technologies, he is involved with the community to help other individuals to spread the knowledge or just to hang out and share experiences. Working as a Freelancer gave him the freedom to travel around the world and speak at conferences like JavaOne, Devoxx FR, JFokus, GeeCon, Java2Days and others. He is also the leader of the Coimbra JUG and a regular blogger about Java related technologies. Currently he is working with Tomitribe. Now, by being part of the tribe, he is very excited to be working on the server where everything happens, instead of just developing applications that runs on the container. When he is not working he spend most of his time hanging with frinds, playing computer games and spending time with his family.",
-	"image": "assets/img/speakers/RobertoCortez.jpg",
-	"ref":"radcortez",
-	"url":"infoSpeaker.html?ref=radcortez",
-	"twitter":"https://twitter.com/radcortez",
-	"homepage":"http://www.radcortez.com",
-	"talk":{
-		"title":"Java EE 7, what's in it for me?",
-		"abstract":"The latest version of the Java EE plataform had three major goals. First, improve developer productivity by introducing more annotations and removing boilerplate code to simplify integration with the plataform. JMS 2 is the perfect example; Second, add first-class support for web standards, including a new API to build WebSockets, a new API to parse, process and generate JSON and a new Client API in JAX-RS 2 to invoke RESTful services; Third, meet the enterprise demands. The long awaited Batch Processing API is now available to build batch processing applications using all the capabilities of the platform itself. The Concurrency Utilities API provides you with asynchronous capabilities. This session will explore all the new features introduced in Java EE 7 and share information to learn, develop and contribute."
-		,"tags" : ["JavaEE"]
-	}
-  },
-  {
-  	"enabled" : "1",
 	"name":"Simon Basle",
 	"description":"SDK Software Engineer at Couchbase",
 	"biography":"Simon is a software development aficionado, especially interested in software design aspects (OOP, design patterns, software architecture), rich clients, what lies beyond code (continuous integration, (D)VCS, best practices), and also a bit of CompSci, concurrent programming... He is currently working in France as a SDK Software Engineer for Couchbase and is editor on InfoQ.com's French version.",
