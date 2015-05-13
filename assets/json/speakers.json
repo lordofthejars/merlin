@@ -259,7 +259,7 @@
   {
   	"enabled" : "1",
 	"name":"José Pereda",
-	"description":"PhD in Structural Engineering, Assistant Professor in the School of Industrial Engineering at the University of Valladolid in Spain",
+	"description":"PhD in Structural Engineering, Assistant Professor in the School of Industrial Engineering",
 	"biography":"José Pereda, PhD in Structural Engineering, works as an Assistant Professor in the School of Industrial Engineering at the University of Valladolid in Spain. His passion is related to applying programming to solve real problems. Being on Java since 1999, now he is a JavaFX advocate, developing commercial applications and open source projects (JFXtras, FXyz, https://github.com/jperedadnr), co-authoring a JavaFX book (JavaFX 8 Introduction by Example), blogging (http://jperedadnr.blogspot.com.es/), tweeting (@JPeredaDnr) or speaking at conferences (JavaOne, W-JAX, JFokus, JavaLand, ...). José lives with his wife and kids in Valladolid, Spain",
 	"image": "assets/img/speakers/JosePereda.jpg",
 	"ref":"jpereda",
