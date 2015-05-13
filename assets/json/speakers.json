@@ -116,6 +116,21 @@
   },
   {
   	"enabled" : "1",
+	"name":"David Gómez",
+	"description":"Software engineer at Autentia",
+	"biography":"David Gómez works as Software engineer at Autentia. With more than 15 years of experience in software development, has been part, lead, and developed projects for Banking, Insurance, Defense and Sea & ground transportation business.<br> Aside of software development he is also dedicated to training, beeing a SringSource Certified Instructor and also delivers the JavaSpecialists Master courses in Spain. In fact, he has delivered more than 50 training courses all over spain from 2009 to the date.",
+	"image": "assets/img/speakers/DavidGomez.jpg",
+	"ref":"dgomez",
+	"url":"infoSpeaker.html?ref=dgomez",
+	"twitter":"http://twitter.com/dgomezg",
+	"talk":{
+		"title":"Java 8 Stream API, a different way to process collections",
+		"abstract":"There has been a  lot of hype on the new functionalities of Java 8, with the lambdas on the top positions of the rankings. But there's one really strong feature: The Stream API. A powerful way to process collections of data in a more declarative way, instead the traditional imperative way. The stream API will allow us to process well-known traditional collection data structures, but also it bring us the possibility of processing infinite datasets (generated thorugh external sources or functions). Above all of that, the stream API also makes available an easy parallelization mechanism for the same processing pipeline for our original data.IN this talk we will first introduce the characteristics of a Stream versus the traditional Collection. Then we will take a look at the structure of the Stream and its pipeline of operations (in which we will see the power of the declarative programming style). We will continue by looking to some examples of data processing with Streams. And last, we will take a look  at the parallelization possibilities of the Stream API."
+		,"tags" : []
+	}
+  },
+  {
+  	"enabled" : "1",
 	"name":"Dmitry Lazarenko",
 	"description":"Director of Growth in Jelastic.",
 	"biography":"Dmitry Lazarenko, Director of Growth in Jelastic. With over 9 years in the IT industry, Dmitry is an expert in large-scale distributed Java applications and enterprise platforms, including application clusters, integration solutions and security systems. Before Jelastic, he was a developer at Micom SI (2004-2006), architect at ITUnion Ltd, an architect and head of development at OTR Ltd (2008-2012).",
