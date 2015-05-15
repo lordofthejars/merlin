@@ -257,7 +257,7 @@
 	}
   },  
   {
-  	"enabled" : "1",
+  	"enabled" : "0",
 	"name":"Jose Luis Martinez Torres",
 	"description":"CTO at Capside",
 	"biography":"Jose Luis is a Computer Engineer with several years of real-field experience in Systems Engineering, Cloud Infrastructures and software development. He actively contributes to the Perl community with multiple CPAN modules and also to other Open Source projects like systems monitoring tools. He is an AWS authorized trainer and participates in various European conferences and congresses.",
@@ -371,7 +371,7 @@
 	}
   },
   {
-  	"enabled" : "1",
+  	"enabled" : "0",
 	"name":"Marc de Palol",
 	"description":"Data Engineer at Trovit Search in Barcelona",
 	"biography":"Data Engineer at Trovit Search in Barcelona. Marc has been working on distributed systems since 2004, first Grid Computing/HPC and more recently (since 2008) with the Hadoop stack.<br>His day to day includes dealing with distributed architectures, parallelism, scalability and big data systems. Quite obsessed with systems resilience.",
