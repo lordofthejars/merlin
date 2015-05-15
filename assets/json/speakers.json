@@ -219,7 +219,7 @@
 	"twitter":"https://twitter.com/ciberado",
 	"homepage":"http://github.com/ciberado",
 	"talk" :{
-		"title" : "",
+		"title" : "Microservices in AWS with Spring Cloud",
 		"abstract" : ""
 	}
   },
@@ -336,6 +336,23 @@
 		"abstract" : "You already have heard about RxJava but wish for a practical and concrete approach? You want to discover Functional Reactive Programming (FRP)? This workshop is made for you.We'll discover ReactiveX by developing a client application that composes with multiple (not always reliable) services. We'll see which best practices to put in place so as to make it production-ready (retry, backpressure, exponential backoff...).The application will eventually be connected to a NoSQL datastore, asynchronous and reactive itself."
 		,"tags" : ["Database" , "NoSQL","Java","FunctionalProgramming"]
 	}
+  },
+  {
+  	"enabled" : "1",
+	"name":"Luis Mineiro",
+	"description":"Software Engineer at Zalando",
+	"biography":"Luis Mineiro's broad background in software engineering includes experience in devops, networks, mobile development, and more. Luis has been with Zalando since 2013--starting out on the Shops team, then shifting to Shop/Platform to do more full-stack engineering. Originally from Portugal, Luis has a masters in computer science from the Instituto Politécnico de Viseu.",
+	"image": "assets/img/speakers/LuisMineiro.jpg",
+	"ref":"lmineiro",
+	"url":"infoSpeaker.html?ref=lmineiro",
+	"twitter":"https://twitter.com/voidmaze",
+	"homepage":"https://www.linkedin.com/profile/view?id=5627709",
+	"cospeakerref":"sfloyd",	
+	"talk" :{
+		"title" : "Auto-Scaling Your API: Insights and Tips from the Zalando Team",
+		"abstract" : "Zalando is in the middle of a paradigm shift: an evolution from online fashion shop to fashion platform. As part of this evolution, our engineering team has adopted an “API First” approach: publishing APIs that other companies can use to take advantage of our massive amounts of data and build their own applications. Zalando’s primary public API (https://api.zalando.com) is implemented with Java using Spring and RestEasy, and offers programmers access to the web shop. It also allows for basic operations such as searching for articles, categories, filters and brands.<br><br>Making our APIs public has presented some very exciting technical challenges: specifically, how do we auto-scale our API as our audience grows? In this talk, we will provide the answers to these and other questions by sharing insights into the architecture-related choices we have made as part of our API First shift. We will describe how we adopted AWS to aggregate data from our catalog and real-time stock data stores to ensure top API performance. We’ll explain how we use Solr and AWS to manage our catalog data store and power a useful, consistent search engine. We’ll talk about how we use Memcached to overcome constraints related to our real-time data store and ensure accuracy of our API data. Finally, we’ll summarize how all of these engineering efforts enabled us to succeed in auto-scaling our public API across multiple regions while keeping our codebase intact. By the end, we hope you’ll have some useful takeaways for managing scalability issues of your own."
+		,"tags" : []
+	}
   },  
   {
   	"enabled" : "1",
@@ -350,6 +367,21 @@
 	"talk":{
 		"title":"Polyglot and reactive jBPM",
 		"abstract":"This presentation aims at giving high level overview of two open source projects:<br><br>1. jBPM business process management suite<br>2. vert.x a lightweight, high performance application platform for the JVM <br><br>So if you're interested in interacting with process engine with different languages in asynchronous and reactive way, then come and see how jBPM can be combined with Vertx to deliver highly scalable and reactive infrastructure. Utilize jBPM best practice while taking advantage of polyglot nature of Vertx. At the same time allow to scale your environment to no limits via Vertx event bus."
+		,"tags" : []
+	}
+  },
+  {
+  	"enabled" : "0",
+	"name":"Marc de Palol",
+	"description":"Data Engineer at Trovit Search in Barcelona",
+	"biography":"Data Engineer at Trovit Search in Barcelona. Marc has been working on distributed systems since 2004, first Grid Computing/HPC and more recently (since 2008) with the Hadoop stack.<br>His day to day includes dealing with distributed architectures, parallelism, scalability and big data systems. Quite obsessed with systems resilience.",
+	"image": "assets/img/speakers/MarcDePalol.jpg",
+	"ref":"mpalol",
+	"url":"infoSpeaker.html?ref=mpalol",
+	"twitter":"https://twitter.com/lant",
+	"talk" :{
+		"title" : "No bid left behind",
+		"abstract" : "This talk is about architectural decisions and coding challenges that we had creating a real time bidding ad platform. The system handles lots of requests every second, machine learning decisions based on big data, and of course, all running in a distributed system.<br>The fact that the platform spends money (lots of) made us think big in terms of security, transparency and resiliency.<br><br>More Info about the talk:<br>The Architecture discussed is based on different components: <br> - Real time system that responds to QPS: This is the server that responds to thousands of requests per second. It’s based on the Netty server. This is a high performant server that needs to withstand anything that happens.<br> - Big data batch system that does all the math & magic: Based on Hadoop, Hive and other smaller parts of the big data ecosystem. This system crunches several gigabytes of data daily and applies Machine Learning to get the interesting numbers that the Real Time system will use. <br> - Data deployment system: It’s no good if we cannot send the crunched data to where it will be used. We need to move lots of data to the servers. The deployment method is discussed. <br> - Extensive testing AND monitoring with spock: The system is thoroughly tested with Junit tests, and since more recently using Groovy and Spock. As a result of the Spock awesomeness we are also building a monitoring framework on it."
 		,"tags" : []
 	}
   },
@@ -448,6 +480,22 @@
 		"title":"Achieving horizontal scaling for Enterprise Messaging using Fabric8",
 		"abstract":"Apache ActiveMQ is an extremely flexible enterprising message system - but scaling and performance isn't something its exactly well known for. If we strip back ActiveMQ to concentrate on its core functionality, add automatic sharding across clusters of brokers, add vert.x for its scalability and performance and sprinkle with magic from fabric8 - we have a highly scalable cloud based messaging solution ideal for the internet of things!"
 		,"tags" : ["Messaging" , "Microservices","Scalability", "Cloud"]
+	}
+  },
+  {
+  	"enabled" : "1",
+	"name":"Sean Floyd",
+	"description":"Delivery Lead and Technical Lead at Zalando",
+	"biography":"Sean Floyd is a Delivery Lead for Zalando's Shop team, which creates the Zalando store and its many components: CMS, tracking, etc. As Delivery Lead, Sean coordinates four autonomous teams of engineers in their efforts to break legacy Java systems apart into microservices and migrate them to Scala. He's also the technical lead for Zalando's ongoing public API project and helps to lead our architectural guidelines development.",
+	"image": "assets/img/speakers/SeanFloyd.jpg",
+	"ref":"sfloyd",
+	"url":"infoSpeaker.html?ref=sfloyd",
+	"homepage":"https://www.linkedin.com/profile/view?id=196494384",
+	"cospeakerref":"lmineiro",	
+	"talk" :{
+		"title" : "Auto-Scaling Your API: Insights and Tips from the Zalando Team",
+		"abstract" : "Zalando is in the middle of a paradigm shift: an evolution from online fashion shop to fashion platform. As part of this evolution, our engineering team has adopted an “API First” approach: publishing APIs that other companies can use to take advantage of our massive amounts of data and build their own applications. Zalando’s primary public API (https://api.zalando.com) is implemented with Java using Spring and RestEasy, and offers programmers access to the web shop. It also allows for basic operations such as searching for articles, categories, filters and brands.<br><br>Making our APIs public has presented some very exciting technical challenges: specifically, how do we auto-scale our API as our audience grows? In this talk, we will provide the answers to these and other questions by sharing insights into the architecture-related choices we have made as part of our API First shift. We will describe how we adopted AWS to aggregate data from our catalog and real-time stock data stores to ensure top API performance. We’ll explain how we use Solr and AWS to manage our catalog data store and power a useful, consistent search engine. We’ll talk about how we use Memcached to overcome constraints related to our real-time data store and ensure accuracy of our API data. Finally, we’ll summarize how all of these engineering efforts enabled us to succeed in auto-scaling our public API across multiple regions while keeping our codebase intact. By the end, we hope you’ll have some useful takeaways for managing scalability issues of your own."
+		,"tags" : []
 	}
   },
   {

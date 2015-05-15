@@ -44,12 +44,14 @@ $(document).ready(function () {
 					  "<div class='row'>"+
 						"<div class='col-lg-2 animated' data-animation='fadeInUp' data-delay='300'>"+
 							"<img class='img-responsive' src='"+valspeaker2.image+"' alt='"+valspeaker2.name+"'>"+
-							"<ul class='list-inline'>"+
-							"<li class='twitter'>"+
-								"<a href='"+valspeaker2.twitter+"' title='Twitter' target='_blank'>"+
-								"<i class='fa fa-twitter'></i>"+
-								"</a>"+
-							"</li>";
+							"<ul class='list-inline'>";
+						if(valspeaker2.twitter!=null){
+							divspeaker=divspeaker+"<li class='twitter'>"+
+									"<a href='"+valspeaker2.twitter+"' title='Twitter' target='_blank'>"+
+										"<i class='fa fa-twitter'></i>"+
+									"</a>"+
+								"</li>";
+						}						
 						if(valspeaker2.homepage!=null){
 								divspeaker=divspeaker+"<li class='homepage'>"+
 									"<a href='"+valspeaker2.homepage+"' title='Homepage' target='_blank'>"+
