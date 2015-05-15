@@ -2,6 +2,22 @@
   "speakers":[
   {
   	"enabled" : "1",
+	"name":"Aarón Fas",
+	"description":"Senior software engineer at Tuenti.",
+	"biography":"Senior software engineer at Tuenti, Rubik's cube freak, time-obsessed, useless gadgets buyer and dumb questions asker.",
+	"image": "assets/img/speakers/AaronFas.jpg",
+	"ref":"afas",
+	"url":"infoSpeaker.html?ref=afas",
+	"twitter":"https://twitter.com/aaronfc",
+	"cospeakerref":"aviedma",
+	"talk":{
+		"title":"Experiences with Microservices at Tuenti",
+		"abstract":"'Microservices' is one of the most popular buzzwords in the industry now, but are they really a step forward? Or they might be more a problem than a solution? When are they really helpful? How should they be addressed? What challenges will we face if we decide to implement a microservices based architecture?<br><br>One year ago, Tuenti moved from a monolithic PHP backend to a Java + PHP microservices architecture. In this talk, we'll share our experiences so far: how we addressed the change, how we implemented it, why we think it's been valuable for us (and how is that related to the company culture), why it might not be a good idea for your company / application and, mostly, what lessons we have learned from this experience."
+		,"tags" : []
+	}
+  },
+  {
+  	"enabled" : "1",
 	"name":"Andres Almiray",
 	"description":"Java/Groovy developer, Java Champion and JSR377 Spec Lead.",
 	"biography":"Andres is a Java/Groovy developer, Java Champion and JSR377 Spec Lead, with more than 15 years of experience in software design and development. He has been involved in web and desktop application developments since the early days of Java. He is a true believer of open source and has participated in popular projects like Groovy, Griffon, JMatter and DbUnit, as well as starting his own projects (Json-lib, EZMorph, GraphicsBuilder, JideBuilder). Founding member and current project lead of the Griffon framework.",
@@ -16,6 +32,22 @@
 		,"tags" : ["Gradle" , "Groovy"]
 	},
 	"scheduleId":"#Fri-Track1-11h"
+  },
+  {
+  	"enabled" : "1",
+	"name":"Andrés Viedma",
+	"description":"Senior software engineer at Tuenti.",
+	"biography":"Java dinosaur with more than 20 years of experience, working for companies in different industries (aerospace, libraries, advertising, bank/insurance...). Now working as senior software engineer at Tuenti.",
+	"image": "assets/img/speakers/AndresViedma.jpg",
+	"ref":"aviedma",
+	"url":"infoSpeaker.html?ref=aviedma",
+	"twitter":"https://twitter.com/andres_viedma",
+	"cospeakerref":"afas",
+	"talk":{
+		"title":"Experiences with Microservices at Tuenti",
+		"abstract":"'Microservices' is one of the most popular buzzwords in the industry now, but are they really a step forward? Or they might be more a problem than a solution? When are they really helpful? How should they be addressed? What challenges will we face if we decide to implement a microservices based architecture?<br><br>One year ago, Tuenti moved from a monolithic PHP backend to a Java + PHP microservices architecture. In this talk, we'll share our experiences so far: how we addressed the change, how we implemented it, why we think it's been valuable for us (and how is that related to the company culture), why it might not be a good idea for your company / application and, mostly, what lessons we have learned from this experience."
+		,"tags" : []
+	}
   },
   {
   	"enabled" : "1",
@@ -307,6 +339,39 @@
   },  
   {
   	"enabled" : "1",
+	"name":"Maciej Swiderski",
+	"description":"Senior software engineer working as core developer of jBPM.",
+	"biography":"Maciej is senior software engineer working as core developer of jBPM. Since 2007 he is in BPM domain both from development point of view and helping to adopt BPM in different sectors. He's passionate about open source and tries to promote it wherever possible. Spread the word about BPM at various conferences (JUDCon, GeeCon, DevConf, etc) and J(B)UGs. In his spare time he enjoys calm and relax life on country side and travels.",
+	"image": "assets/img/speakers/MaciejSwiderski.jpg",
+	"ref":"mswiderski",
+	"url":"infoSpeaker.html?ref=mswiderski",	
+	"homepage":"http://mswiderski.blogspot.com",
+	"cospeakerref":"msalaboy",	
+	"talk":{
+		"title":"Polyglot and reactive jBPM",
+		"abstract":"This presentation aims at giving high level overview of two open source projects:<br><br>1. jBPM business process management suite<br>2. vert.x a lightweight, high performance application platform for the JVM <br><br>So if you're interested in interacting with process engine with different languages in asynchronous and reactive way, then come and see how jBPM can be combined with Vertx to deliver highly scalable and reactive infrastructure. Utilize jBPM best practice while taking advantage of polyglot nature of Vertx. At the same time allow to scale your environment to no limits via Vertx event bus."
+		,"tags" : []
+	}
+  },
+  {
+  	"enabled" : "1",
+	"name":"Mauricio Salatino",
+	"description":"Senior Software Engineer working for Red Hat / JBoss, for the Drools & jBPM projects",
+	"biography":"Mauricio is currently working as Senior Software Engineer working for Red Hat / JBoss, for the Drools & jBPM projects. For more information please visit: http://salaboy.com/about",
+	"image": "assets/img/speakers/MauricioSalaboy.jpg",
+	"ref":"msalaboy",
+	"url":"infoSpeaker.html?ref=msalaboy",
+	"twitter":"http://twitter.com/salaboy",
+	"homepage":"http://salaboy.com",
+	"cospeakerref":"mswiderski",	
+	"talk":{
+		"title":"Polyglot and reactive jBPM",
+		"abstract":"This presentation aims at giving high level overview of two open source projects:<br><br>1. jBPM business process management suite<br>2. vert.x a lightweight, high performance application platform for the JVM <br><br>So if you're interested in interacting with process engine with different languages in asynchronous and reactive way, then come and see how jBPM can be combined with Vertx to deliver highly scalable and reactive infrastructure. Utilize jBPM best practice while taking advantage of polyglot nature of Vertx. At the same time allow to scale your environment to no limits via Vertx event bus."
+		,"tags" : []
+	}
+  },  
+  {
+  	"enabled" : "1",
 	"name":"Masoud Kalali",
 	"description":"Software architect with focus on PaaS and Java EE, author, technology enthusiast.",
 	"biography":"Masoud has been working on software development projects since 1998, which gives him a broad perspective on software development in general and changes in the software development landscape in the past 1/5 decades. Masoud has experience with variety of technologies (.NET, J2EE, CORBA, and COM+) on diverse platforms (Solaris, Linux, and Windows). He has a master degree in information systems with a bachelor degree in software engineering.<br><br>Masoud has authored fair number of articles and other types of publications including several articles at Java.net and Dzone. He is author of multiple refcards, published by Dzone, including but not limited to Using XML in Java, Security and GlassFish v3 refcardz. Masoud is one of the founding members of NetBeans Dream Team and a GlassFish community spotlighted developer. Masoud is author of GlassFish Security book published in 2010 covering GlassFish v3 security and Java EE 6 security. He recently co-authored another book Developing RESTful Services with JAX-RS 2.0, WebSockets, and JSON.<br><br>Masoud is a recurrent speaker in JavaOne and other Java focused conferences across europe.",
@@ -351,6 +416,21 @@
 	"talk":{
 		"title":"Improving Java code performance. The mumbo-jumbo behind the java compiler.",
 		"abstract":"We know one of the main characteristics of Java is portability, and that usually means it is not as efficient as it should be. That might be the reason Java has never been associated with high performance, but nowadays there are a lot of Java powered devices in the world and lots of people are building applications for them.<br><br>Compilers that produce native machine code do a great optimisation job because they know where the code is going to be executed. But because of the portability feature, the Java Compiler could not assume anything about where our program is going to be executed and leaves all the optimisations to be done by the JVM while loading or, even, running our code.<br><br>Having that in mind, we will explore what can be done to help the compiler produce optimal code which, in fact, will make the life easier of the JVM where the code is running. Most of the times we use (and abuse) the new language constructions without knowing what is really happening at compile time. Understanding how the java compiler works will allow us to know in which situations we should stay away from these constructions and use an alternative.<br><br>In this session you will not only learn how to make your Java code faster but also what to avoid when looking for critical performance and a bigger understanding of how the Java compiler works."
+		,"tags" : []
+	}
+  },
+  {
+  	"enabled" : "1",
+	"name":"Renzo Borgatti",
+	"description":"Clojure developer at the Mailonline",
+	"biography":"Developer at the Mailonline and functional programming enthusiast. I started looking into functional programming 3 years ago with Clojure, the language I use now daily at the Mailonline. 4 months ago I also got into Haskell and that sort of closes the loop between typed and untyped lambda calculus. Before that I did Java, Ruby and Objective-C for a range of industries and a total of 15 years in the field. I like speaking at user groups and conferences and hack on code whenever I can.",
+	"image": "assets/img/speakers/RenzoBorgatti.jpg",
+	"ref":"rborgatti",
+	"url":"infoSpeaker.html?ref=rborgatti",
+	"twitter":"https://twitter.com/reborg",
+	"talk" :{
+		"title" : "Functional programming with Clojure",
+		"abstract" : "This talk will introduce the audience to the most important concepts (call them buzzwords if you want) in functional programming and why they are useful. I’ll be showing examples in Clojure and some comparison with Java8 to illustrate: referential transparency, side effects, persistent data structures, laziness, memoization, currying, composition, list comprehensions and recursion. Interruptions are welcome, bring your secret questions, I’ll be happy to answer."
 		,"tags" : []
 	}
   },
