@@ -258,6 +258,21 @@
   },  
   {
   	"enabled" : "0",
+	"name":"Jordi Gerona",
+	"description":"Having fun at Trovit. Apache committer.",
+	"biography":"Music lover, entrepreneur and a java oriented guy. Having fun at Trovit. Apache committer.",
+	"image": "assets/img/speakers/JordiGerona.jpg",
+	"ref":"jgerona",
+	"url":"infoSpeaker.html?ref=jgerona",
+	"twitter":"https://twitter.com/jordi9",
+	"talk" :{
+		"title" : "Netty from the trenches",
+		"abstract" : "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients.<br><br> Netty is a NIO client server framework which enables quick and easy development of network applications such as protocol servers and clients. It greatly simplifies and streamlines network programming such as TCP and UDP socket server."
+		,"tags" : []
+	}
+  },
+  {
+  	"enabled" : "0",
 	"name":"Jose Luis Martinez Torres",
 	"description":"CTO at Capside",
 	"biography":"Jose Luis is a Computer Engineer with several years of real-field experience in Systems Engineering, Cloud Infrastructures and software development. He actively contributes to the Perl community with multiple CPAN modules and also to other Open Source projects like systems monitoring tools. He is an AWS authorized trainer and participates in various European conferences and congresses.",
@@ -374,7 +389,7 @@
   	"enabled" : "0",
 	"name":"Marc de Palol",
 	"description":"Data Engineer at Trovit Search in Barcelona",
-	"biography":"Data Engineer at Trovit Search in Barcelona. Marc has been working on distributed systems since 2004, first Grid Computing/HPC and more recently (since 2008) with the Hadoop stack.<br>His day to day includes dealing with distributed architectures, parallelism, scalability and big data systems. Quite obsessed with systems resilience.",
+	"biography":"Marc is a computer engineer based in Barcelona. He has been working with distributed systems since 2004. First carrying out some research on HPC & Grid Computing and then working with the Hadoop ecosystem in the private sector. Right now he’s focusing on developing reliable, robust and resilient data systems at Trovit.",
 	"image": "assets/img/speakers/MarcDePalol.jpg",
 	"ref":"mpalol",
 	"url":"infoSpeaker.html?ref=mpalol",
