@@ -321,6 +321,22 @@
   },
   {
   	"enabled" : "1",
+	"name":"Julia Mateo de Castro",
+	"description":"Senior java developer and tech leader at Hortis GRC",
+	"biography":"Julia Mateo is a Software Engineer based in Geneva. After several years in Madrid and Paris, she joins Hortis GRC company in Geneva where she works as a senior java developer and tech leader. She helps development teams in the adoption of Agile techniques and Software Craftsmanship.<br> Julia is very involved in community work leading Duchess Swiss. She often speaks about Java and Continuous Delivery through workshops or formal presentations (Geneva Java User Group, Docker User Group).",
+	"image": "assets/img/speakers/JuliaMateo.jpg",
+	"ref":"jmateo",
+	"url":"infoSpeaker.html?ref=jmateo",
+	"twitter":"https://twitter.com/juliamateodc",
+	"homepage":"http://jduchess.ch/",
+	"talk" :{
+		"title" : "Continuous delivery with Jenkins, docker and Marathon/Mesos",
+		"abstract" : "The use of Docker in the context of the continuous integration pipeline simplifies and gives robustness to the deployment phase. Docker can also make deployments faster thanks to the incremental update of its images and offers other advantages like to easy rollback in case of problems. <br><br> The aim of this presentation is to give feedback of how we can take advantage of the power of Docker in a software factory (with Jenkins, Sonar, Nexus...). We will improve this infrastructure step by step and deploy a distributed application into a Mesos cluster using Marathon, a private Docker repository and some Jenkins plugins."
+		,"tags" : []
+	}
+  },
+  {
+  	"enabled" : "1",
 	"name":"Katia Aresti",
 	"description":"Freelance Software Engineer and Duchess France Board member",
 	"biography":"Katia is a freelance Software Engineer based in Paris, born in Bilbao. She works mainly as backend java/scala developer, but she tackles front-end technologies when necessary. She is involved on user groups as Duchess France Board member and the Paris MongoDB User Group. She shares knowledge about Java, Scala, MongoDB or Agile Development Techniques through formal presentations (Agile France, MongoDB SF, Google Fest W Paris, Geneva JUG ...) or hands-on workshops (Devoxx Fr, Duchess France).She is passionate about the community contribution, open-source and drama.",
