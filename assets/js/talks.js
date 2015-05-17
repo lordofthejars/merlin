@@ -1,6 +1,11 @@
 $(document).ready(function () {
 	$.getJSON( "assets/json/speakers.json", function( data ) {
 	  divtalk = "<ul style='list-style-type:none'>";
+	  data.speakers.sort(function(a, b){
+			if(a.talk.title < b.talk.title) return -1;
+			if(a.talk.title > b.talk.title) return 1;
+			return 0;
+	  })
 	  $.each( data.speakers, function( key, val ) {
 	  	if (val.enabled == 1 && val.talk != "" && divtalk.indexOf(val.talk.title) < 0) {
 			if(val.url!=""){
