@@ -692,3 +692,18 @@ font-weight:bold;
 #schedule #saturday{
 	display:none;
 }
+
+#talks #grid-talks li {
+	margin-bottom:10px;
+}
+#talks .row{
+	font-size:18px;	
+}
+
+#talks .title{
+	font-size:22px;
+	font-weight:bold;
+}
+#talks .speaker{
+	font-size:22px;
+}

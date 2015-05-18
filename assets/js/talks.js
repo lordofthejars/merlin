@@ -1,12 +1,26 @@
 $(document).ready(function () {
 	$.getJSON( "assets/json/speakers.json", function( data ) {
 	  divtalk = "<ul style='list-style-type:none'>";
+	  data.speakers.sort(function(a, b){
+			if(a.talk.title < b.talk.title) return -1;
+			if(a.talk.title > b.talk.title) return 1;
+			return 0;
+	  })
 	  $.each( data.speakers, function( key, val ) {
 	  	if (val.enabled == 1 && val.talk != "" && divtalk.indexOf(val.talk.title) < 0) {
 			if(val.url!=""){
-				divtalk += "<li><a style='font-size : 1.6em; ' href='"+val.url+"'>"+val.talk.title.substr(0,65) +"</a>";
+				divtalk += "<li><a href='"+val.url+"'><span class='title'>"+val.talk.title +"</span> by <span class='speaker'>"+ val.name ;
+				if(val.cospeakerref!=null){
+					for(var i=0;i<data.speakers.length;i++){
+						valspeaker2 = data.speakers[i];
+						if(valspeaker2.ref == val.cospeakerref){
+							divtalk += " & " +valspeaker2.name ;			
+						}
+					}
+				}
+				divtalk += "</span></a>";
 			}
-			if (val.talk.tags) {
+			/*if (val.talk.tags) {
 			  $.each(val.talk.tags, function (index,value) {
 			  	label_type = "label-default";
 			  	switch (value) {
@@ -40,7 +54,7 @@ $(document).ready(function () {
 			  	}
 				divtalk += "<span class='label label-" + label_type + "' style='margin-left : 5px; font-size : 0.8em; '>" + value + "</span>";
 			  });
-			}
+			}*/
 			divtalk += "</li>";
 
 			
