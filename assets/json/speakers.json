@@ -209,10 +209,10 @@
 	}
   },
   {
-  	"enabled" : "0",
+  	"enabled" : "1",
 	"name":"Javi Moreno",
-	"description":"",
-	"biography":"",
+	"description":"Technical Evangelist at the CAPSiDE team. AWS & MongoDB official trainer",
+	"biography":"After 20 years developing software (mostly using the Java platform) and teaching programming to hundreds of students, Javi Moreno is still enjoying to lead and perform workshops and sharing experiences with anyone interested in computers. Moreover, he is currently one of the few AWS & MongoDB official trainers in the world. He’s currently benchmarking and evangelizing new technologies being part of the CAPSiDE team.",
 	"image": "assets/img/speakers/JaviMoreno.jpg",
 	"ref":"jmoreno",
 	"url":"infoSpeaker.html?ref=jmoreno",
@@ -220,7 +220,7 @@
 	"homepage":"http://github.com/ciberado",
 	"talk" :{
 		"title" : "Microservices in AWS with Spring Cloud",
-		"abstract" : ""
+		"abstract" : "The cloud is quickly changing the way applications are architected.<br>Elasticity, the feature that enables a system to dynamically adapt its capacity to the current workload, is key to ensure the success of a project in the (not so) long term.<br>It’s utterly worth it to make an effort in decoupling components as much as possible in order to allow independant deployment of each piece of the puzzle. This is the reason why new paradigms like micro services are taking over the software engineering by storm. <br>Nevertheless, designing and managing hundreds or thousands of small and specialized programs also derives in a bunch of new problems: distributed and dynamic configuration, service discovery, complex workflows with circuit breakers, stateless authentication, metrics multiplication, caching proliferation, etc.<br>The attendees to this workshop will enjoy a first hands-on experience with the solutions that Spring Cloud provides to all these new challenges.<br>We will create a small but fully functional micro service oriented system to check this exciting technology by Spring.io. <br> (This workshop will be in spanish)"
 	}
   },
   {
@@ -272,7 +272,7 @@
 	}
   },
   {
-  	"enabled" : "0",
+  	"enabled" : "1",
 	"name":"Jose Luis Martinez Torres",
 	"description":"CTO at Capside",
 	"biography":"Jose Luis is a Computer Engineer with several years of real-field experience in Systems Engineering, Cloud Infrastructures and software development. He actively contributes to the Perl community with multiple CPAN modules and also to other Open Source projects like systems monitoring tools. He is an AWS authorized trainer and participates in various European conferences and congresses.",
