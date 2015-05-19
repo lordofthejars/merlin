@@ -418,6 +418,21 @@
   },
   {
   	"enabled" : "1",
+	"name":"Mario Garcia",
+	"description":"Software engineer at Kaleidos",
+	"biography":"I've always been interested in learning new ways of improving my skill sets as software developer. That idea sometimes has led me in the past to look for that knowledge abroad.<br><br>Although I'm also have my days, I  wouldn't start anything without testing it in the first place. What languages do I like ? Although I personally prefer Groovy, all languages within the JVM are welcomed, and of course some others outside the JVM such as Haskell.<br><br>When I'm not programming I like simple things like: a full moon, testing, having a coffee, coding, walking downtown, refactoring, and all over again.",
+	"image": "assets/img/speakers/MarioGarcia.png",
+	"ref":"mgarcia",
+	"url":"infoSpeaker.html?ref=mgarcia",
+	"twitter":"https://twitter.com/marioggar",
+	"talk" :{
+		"title" : "Getting coffee in Barcelona with Groovy on Android...really ?",
+		"abstract" : "During this talk I'll be building a full Android app. In the meantime. I'll be showing how Groovy can help you to build Android apps faster and cleaner. Don't bother trying to build Async tasks to avoid threading issues, or casting your views using findById... and the best of all, hopefully at the end of the talk, you will know where to get coffee in your city."
+		,"tags" : []
+	}
+  },
+  {
+  	"enabled" : "1",
 	"name":"Mauricio Salatino",
 	"description":"Senior Software Engineer working for Red Hat / JBoss, for the Drools & jBPM projects",
 	"biography":"Mauricio is currently working as Senior Software Engineer working for Red Hat / JBoss, for the Drools & jBPM projects. For more information please visit: http://salaboy.com/about",
