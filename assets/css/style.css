@@ -276,6 +276,14 @@ transition: all .4s ease;
 -o-transform: scale(1.1);
 transform: scale(1.1);
 }
+
+#sponsors .separator {
+	background-color: #5f5f5f;
+    height: 2px;
+    margin: 60px auto 20px;
+    width: 80px;
+}
+
 #sponsors a{
 text-decoration: underline;
 color: #428bca;

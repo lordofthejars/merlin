@@ -257,17 +257,17 @@
 	}
   },  
   {
-  	"enabled" : "0",
+  	"enabled" : "1",
 	"name":"Jordi Gerona",
 	"description":"Having fun at Trovit. Apache committer.",
-	"biography":"Music lover, entrepreneur and a java oriented guy. Having fun at Trovit. Apache committer.",
+	"biography":"Music lover, entrepreneur and a java oriented guy. Having fun at Trovit. ASF committer. <br>I love getting amazing and high quality production code, experiment with agile methodologies and learn. Test driven development and Google Guice changed the way I see code and projects some years ago. Lately, I’ve been working with all-things-big-data and real-time systems, handling thousands of queries per second with very low latency. ",
 	"image": "assets/img/speakers/JordiGerona.jpg",
 	"ref":"jgerona",
 	"url":"infoSpeaker.html?ref=jgerona",
 	"twitter":"https://twitter.com/jordi9",
 	"talk" :{
 		"title" : "Netty from the trenches",
-		"abstract" : "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients.<br><br> Netty is a NIO client server framework which enables quick and easy development of network applications such as protocol servers and clients. It greatly simplifies and streamlines network programming such as TCP and UDP socket server."
+		"abstract" : "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients.<br><br> In this talk we will see how we use Netty at Trovit since 2013, what brought to us and how it opened our minds. We will share tips that helped us to learn more about Netty, some performance tricks and all things that worked for us."
 		,"tags" : []
 	}
   },
@@ -402,7 +402,7 @@
 	}
   },
   {
-  	"enabled" : "0",
+  	"enabled" : "1",
 	"name":"Marc de Palol",
 	"description":"Data Engineer at Trovit Search in Barcelona",
 	"biography":"Marc is a computer engineer based in Barcelona. He has been working with distributed systems since 2004. First carrying out some research on HPC & Grid Computing and then working with the Hadoop ecosystem in the private sector. Right now he’s focusing on developing reliable, robust and resilient data systems at Trovit.",
