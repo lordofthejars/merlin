@@ -292,16 +292,7 @@ margin-right: auto;
 -o-transition: all .4s ease;
 transition: all .4s ease;
 }
-/*
-#sponsors .gold img {
-border: 2px solid #D4AF37;
-}
-#sponsors .silver img {
-border: 2px solid #C0C0C0;
-}
-#sponsors .bronze img {
-border: 2px solid #CD7F32;
-}*/
+
 #sponsors .sponsor:hover .sponsor-photo img,
 #sponsors .sponsor:focus .sponsor-photo img {
 -webkit-transform: scale(1.1);
@@ -310,14 +301,38 @@ border: 2px solid #CD7F32;
 -o-transform: scale(1.1);
 transform: scale(1.1);
 }
+#sponsors .row{
+margin-bottom: 75px;
+}
+#sponsors .border{
+margin-bottom: 40px;
+}
 #sponsors .type{
 margin-top: 15px;
 margin-bottom: 15px;
 }
 #sponsors .type p{
-font-size: 40px;
+font-size: 50px;
 font-weight: 800;
 margin: 0px;
+}
+#sponsors .separator {
+	background-color: #CAC5BD;
+    height: 3px;
+    margin: 10px auto 10px;
+    width: 380px;
+}
+#sponsors .separator.gold {
+	background-color: #D4AF37;
+}
+#sponsors .separator.silver {
+	background-color: #C0C0C0;
+}
+#sponsors .separator.bronze {
+	background-color: #CD7F32;
+}
+#sponsors .separator.supporters {
+	background-color: #444;
 }
 #sponsors .gold p{
 color: #D4AF37;
@@ -325,8 +340,12 @@ color: #D4AF37;
 #sponsors .silver p{
 color: #C0C0C0;
 }
-#sponsors  .bronze p{
+#sponsors .bronze p{
 color: #CD7F32;
+}
+#sponsors .besponsor{
+	margin-top:25px;
+	margin-bottom:40px;
 }
 #sponsors .besponsor a{
 font-weight: bold;

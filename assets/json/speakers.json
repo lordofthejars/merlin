@@ -257,17 +257,17 @@
 	}
   },  
   {
-  	"enabled" : "0",
+  	"enabled" : "1",
 	"name":"Jordi Gerona",
 	"description":"Having fun at Trovit. Apache committer.",
-	"biography":"Music lover, entrepreneur and a java oriented guy. Having fun at Trovit. Apache committer.",
+	"biography":"Music lover, entrepreneur and a java oriented guy. Having fun at Trovit. ASF committer. <br>I love getting amazing and high quality production code, experiment with agile methodologies and learn. Test driven development and Google Guice changed the way I see code and projects some years ago. Lately, I’ve been working with all-things-big-data and real-time systems, handling thousands of queries per second with very low latency. ",
 	"image": "assets/img/speakers/JordiGerona.jpg",
 	"ref":"jgerona",
 	"url":"infoSpeaker.html?ref=jgerona",
 	"twitter":"https://twitter.com/jordi9",
 	"talk" :{
 		"title" : "Netty from the trenches",
-		"abstract" : "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients.<br><br> Netty is a NIO client server framework which enables quick and easy development of network applications such as protocol servers and clients. It greatly simplifies and streamlines network programming such as TCP and UDP socket server."
+		"abstract" : "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients.<br><br> In this talk we will see how we use Netty at Trovit since 2013, what brought to us and how it opened our minds. We will share tips that helped us to learn more about Netty, some performance tricks and all things that worked for us."
 		,"tags" : []
 	}
   },
@@ -402,7 +402,7 @@
 	}
   },
   {
-  	"enabled" : "0",
+  	"enabled" : "1",
 	"name":"Marc de Palol",
 	"description":"Data Engineer at Trovit Search in Barcelona",
 	"biography":"Marc is a computer engineer based in Barcelona. He has been working with distributed systems since 2004. First carrying out some research on HPC & Grid Computing and then working with the Hadoop ecosystem in the private sector. Right now he’s focusing on developing reliable, robust and resilient data systems at Trovit.",
@@ -413,6 +413,21 @@
 	"talk" :{
 		"title" : "No bid left behind",
 		"abstract" : "This talk is about architectural decisions and coding challenges that we had creating a real time bidding ad platform. The system handles lots of requests every second, machine learning decisions based on big data, and of course, all running in a distributed system.<br>The fact that the platform spends money (lots of) made us think big in terms of security, transparency and resiliency.<br><br>More Info about the talk:<br>The Architecture discussed is based on different components: <br> - Real time system that responds to QPS: This is the server that responds to thousands of requests per second. It’s based on the Netty server. This is a high performant server that needs to withstand anything that happens.<br> - Big data batch system that does all the math & magic: Based on Hadoop, Hive and other smaller parts of the big data ecosystem. This system crunches several gigabytes of data daily and applies Machine Learning to get the interesting numbers that the Real Time system will use. <br> - Data deployment system: It’s no good if we cannot send the crunched data to where it will be used. We need to move lots of data to the servers. The deployment method is discussed. <br> - Extensive testing AND monitoring with spock: The system is thoroughly tested with Junit tests, and since more recently using Groovy and Spock. As a result of the Spock awesomeness we are also building a monitoring framework on it."
+		,"tags" : []
+	}
+  },
+  {
+  	"enabled" : "1",
+	"name":"Mario Garcia",
+	"description":"Software engineer at Kaleidos",
+	"biography":"I've always been interested in learning new ways of improving my skill sets as software developer. That idea sometimes has led me in the past to look for that knowledge abroad.<br><br>Although I'm also have my days, I  wouldn't start anything without testing it in the first place. What languages do I like ? Although I personally prefer Groovy, all languages within the JVM are welcomed, and of course some others outside the JVM such as Haskell.<br><br>When I'm not programming I like simple things like: a full moon, testing, having a coffee, coding, walking downtown, refactoring, and all over again.",
+	"image": "assets/img/speakers/MarioGarcia.png",
+	"ref":"mgarcia",
+	"url":"infoSpeaker.html?ref=mgarcia",
+	"twitter":"https://twitter.com/marioggar",
+	"talk" :{
+		"title" : "Getting coffee in Barcelona with Groovy on Android...really ?",
+		"abstract" : "During this talk I'll be building a full Android app. In the meantime. I'll be showing how Groovy can help you to build Android apps faster and cleaner. Don't bother trying to build Async tasks to avoid threading issues, or casting your views using findById... and the best of all, hopefully at the end of the talk, you will know where to get coffee in your city."
 		,"tags" : []
 	}
   },
