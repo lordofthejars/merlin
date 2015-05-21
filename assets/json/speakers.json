@@ -483,6 +483,21 @@
   },
   {
   	"enabled" : "1",
+	"name":"Norberto Leite",
+	"description":"Technical Evangelist at MongoDB",
+	"biography":"Norberto Leite is Technical Evangelist @ MongoDB. Norberto has been working for the last 5 years on large scalable and distributable application environments, both as advisor and engineer. Prior to MongoDB Norberto served as BigData Engineer at Telefonica.",
+	"image": "assets/img/speakers/NorbertoLeite.jpg",
+	"ref":"nleite",
+	"url":"infoSpeaker.html?ref=nleite",
+	"twitter":"https://twitter.com/nleite",
+	"talk":{
+		"title":"Strongly Typed Languages and Flexible Schemas",
+		"abstract":"Strongly typed languages are secure, dynamic schemas are flexible. Having booth at the same time, on the same system is great to build easy to iterate, modularised and flexible applications, but these can also generate some of friction. This friction comes with a set of rules, discipline and best practices around schema versions and data type validations that are crucial to make this very symbiotic systems to work properly.<br><br>This talk will touch the topics around the different type of strategies and best practices for schema design and document structure to accommodate these two paradigms. Over the course of this talk we will be looking into real code scenarios, samples of operations and migration plans. We will have a very small set of slides and lots of code to analyse and run to make has interactive and engaging as possible.<br><br>The talk is oriented to developers and architects that are dealing with both strongly typed languages, like java, and love to use Flexible Schema Databases, like MongoDB, and are struggling or looking for references on how to model correctly on how to deal with data schema changes across different applications, versions, iterations, systems. Newbies or beginners are welcome to this talk since we are not going to be diving deep into MongoDB specifics but much more on the application architecture practices and java coding."
+		,"tags" : []
+	}
+  },
+  {
+  	"enabled" : "1",
 	"name":"Raimon Rafols Montane",
 	"description":"Mobile Software Engineering Manager at Imagination Technologies.",
 	"biography":"Raimon has been developing for mobile devices since 2004. He has development experience on several technologies specialised on UI, low level optimisation, build systems and client-server communications. He is currently working as Mobile Software Engineering Manager at Imagination Technologies near London. On his spare time he enjoys programming and photography and giving talks in mobile conferences about Java/Android performance optimisations and Android Custom Views.",
