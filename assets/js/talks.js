@@ -20,7 +20,7 @@ $(document).ready(function () {
 				}
 				divtalk += "</span></a>";
 			}
-			/*if (val.talk.tags) {
+			if (val.talk.tags) {
 			  $.each(val.talk.tags, function (index,value) {
 			  	label_type = "label-default";
 			  	switch (value) {
@@ -52,9 +52,9 @@ $(document).ready(function () {
 			  		
 			  		default : label_type = "default"; 
 			  	}
-				divtalk += "<span class='label label-" + label_type + "' style='margin-left : 5px; font-size : 0.8em; '>" + value + "</span>";
+				divtalk += "<span class='label label-" + label_type + "' style='margin-left : 5px; font-size : 0.8em; display:inline-block'>" + value + "</span>";
 			  });
-			}*/
+			}
 			divtalk += "</li>";
 
 			
