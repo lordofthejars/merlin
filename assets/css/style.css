@@ -712,6 +712,11 @@ font-weight:bold;
 	display:none;
 }
 
+#talks #grid-talks ul{
+	padding-left:15px;
+	padding-right:15px;
+}
+
 #talks #grid-talks li {
 	margin-bottom:10px;
 }
