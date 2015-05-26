@@ -20,41 +20,11 @@ $(document).ready(function () {
 				}
 				divtalk += "</span></a>";
 			}
-			/*if (val.talk.tags) {
+			if (val.talk.tags) {
 			  $.each(val.talk.tags, function (index,value) {
-			  	label_type = "label-default";
-			  	switch (value) {
-			  		case "Database" : 
-			  		case "CouchBase" : 
-			  		case "NoSQL" : 
-			  		case "MongoDB" :	label_type = "primary"; break;
-
-			  		case "Legacy" : 
-			  		case "Integration" : 
-			  		case "Messaging" : 
-			  		case "Scalability" : label_type = "success"; break;
-
-			  		case "IoT" : 
-			  		case "Microservices" : 
-			  		case "Services" : 
-			  		case "Cloud" : label_type = "info"; break;
-
-			  		case "Scala" : 
-			  		case "Akka" : 
-			  		case "Java8" : 
-			  		case "FunctionalProgramming" : 
-			  		case "Clojure" : label_type = "warning"; break;
-
-			  		case "Java" :
-			  		case "Groovy" : 
-			  		case "Play!" :
-			  		case "Gradle" : label_type = "danger"; break;
-			  		
-			  		default : label_type = "default"; 
-			  	}
-				divtalk += "<span class='label label-" + label_type + "' style='margin-left : 5px; font-size : 0.8em; '>" + value + "</span>";
+			  	divtalk += "<span class='label tag "+getFamilyForTag(value)+"'>" + value + "</span>";
 			  });
-			}*/
+			}
 			divtalk += "</li>";
 
 			
@@ -64,3 +34,81 @@ $(document).ready(function () {
 	$(divtalk).appendTo( "#grid-talks" );
 	});
 });
+
+function getFamilyForTag(tag){
+	family = "unknown";
+	switch (tag) {
+		case "Messaging" : 
+		case "Scalability" :
+		case "Cloud":
+		case "Integration":
+		case "Design":
+		case "Architecture":
+			family = "Architecture"; break;
+			
+		case "Testing" : 
+		case "Devops" :
+		case "ContinuousDelivery":
+		case "ContinuousIntegration":
+			family = "Metodology"; break;
+
+		case "Gradle":
+			family = "Tools"; break;
+			
+		case "IoT":
+			family = "IoT"; break;
+			
+		case "Java8":
+		case "FunctionalProgramming":
+			family = "Java8"; break;
+			
+		case "Kotlin" : 
+		case "Clojure" :		
+		case "Groovy" :
+		case "Ceylon": 
+		case "JVM langs" :
+		case "Scala":
+			family = "JVMLangs"; break;
+
+		case "Cache" : 
+		case "JavaEE" : 
+		case "Performance":
+		case "Compiler":
+		case "JavaFX":
+			family = "JVM"; break;
+
+		case "Containers" : 
+		case "Kubernetes":
+		case "Microservices":
+		case "RESTful":
+			family = "Microservices"; break;
+
+		case "noSQL" :
+		case "Bigdata":
+		case "Cassandra":
+		case "ElasticSearch":
+		case "MongoDB":
+			family = "noSQL"; break;
+		
+		case "Async" : 
+		case "Netty" : 
+		case "Event-driven":
+		case "DistributedSystems":
+		case "RxJava":
+			family = "AsyncDevelopment"; break;
+		
+		case "Android" : 
+			family = "Mobile"; break;
+		
+		case "AngularJS" : 
+		case "Play" : 
+		case "Akka" : 
+		case "Vert.x" : 
+		case "Frameworks":
+		case "jBPM":
+			family = "Frameworks"; break;
+			
+		default : family = "unknown"; 
+	}
+	return family;
+}

@@ -726,3 +726,61 @@ font-weight:bold;
 #talks .speaker{
 	font-size:22px;
 }
+
+#talks .tag{
+margin-left : 5px;
+font-size : 14px;
+display:inline-block
+}
+
+#talks .tag.Architecture{
+	background-color: #d50000;
+}
+
+#talks .tag.Metodology{
+	background-color: #41520f;
+}
+
+#talks .tag.Tools{
+	background-color: #d54991;
+}
+
+#talks .tag.IoT{
+	background-color: #98c66e;
+}
+
+#talks .tag.Java8{
+	background-color: #23a4b0;
+}
+
+#talks .tag.JVMLangs{
+	background-color: #60a91e;
+}
+
+#talks .tag.JVM{
+	background-color: #a64d79;
+}
+
+#talks .tag.Microservices{
+	background-color: #ff9e06;
+}
+
+#talks .tag.noSQL{
+	background-color: #0555c3;
+}
+
+#talks .tag.AsyncDevelopment{
+	background-color: #9900ff;
+}
+
+#talks .tag.Mobile{
+	background-color: #b45f06;
+}
+
+#talks .tag.Frameworks{
+	background-color: #9cbedb;
+}
+
+#talks .tag.unknown{
+	background-color: grey;
+}
