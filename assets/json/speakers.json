@@ -14,7 +14,8 @@
 		"title":"Experiences with Microservices at Tuenti",
 		"abstract":"'Microservices' is one of the most popular buzzwords in the industry now, but are they really a step forward? Or they might be more a problem than a solution? When are they really helpful? How should they be addressed? What challenges will we face if we decide to implement a microservices based architecture?<br><br>One year ago, Tuenti moved from a monolithic PHP backend to a Java + PHP microservices architecture. In this talk, we'll share our experiences so far: how we addressed the change, how we implemented it, why we think it's been valuable for us (and how is that related to the company culture), why it might not be a good idea for your company / application and, mostly, what lessons we have learned from this experience."
 		,"tags" : ["Microservices", "Design"]
-	}
+	},
+	"scheduleId":"#Fri-Track1-1655h"
   },
   {
   	"enabled" : "1",
@@ -31,7 +32,7 @@
 		"abstract":"Are you one of those that search Around the World looking for clues on how to get maven to do your bidding or do you just toss a coin and Get Lucky One More Time? Maven works OK but there’s a new tool in town that goes Beyond maven: Gradle. It’s Fresh, almost Aerodynamic. Once you get in Contact with it you’ll feel like Doin’ It Right when building a project. We kid you not, it’s an Instant Crush for those that have followed the maven path. This is The Prime Time of Your Life as a developer, make the most out of it by leveraging the best tools. Oh Yeah."
 		,"tags" : ["Gradle"]
 	},
-	"scheduleId":"#Fri-Track1-11h"
+	"scheduleId":"#Sat-Track3-15h"
   },
   {
   	"enabled" : "1",
@@ -47,7 +48,8 @@
 		"title":"Experiences with Microservices at Tuenti",
 		"abstract":"'Microservices' is one of the most popular buzzwords in the industry now, but are they really a step forward? Or they might be more a problem than a solution? When are they really helpful? How should they be addressed? What challenges will we face if we decide to implement a microservices based architecture?<br><br>One year ago, Tuenti moved from a monolithic PHP backend to a Java + PHP microservices architecture. In this talk, we'll share our experiences so far: how we addressed the change, how we implemented it, why we think it's been valuable for us (and how is that related to the company culture), why it might not be a good idea for your company / application and, mostly, what lessons we have learned from this experience."
 		,"tags" : ["Microservices", "Design"]
-	}
+	},
+	"scheduleId":"#Fri-Track1-1655h"
   },
   {
   	"enabled" : "1",
@@ -64,7 +66,8 @@
 		"title":"What I Learned Writing a Trillion Dollar Trading System",
 		"abstract":"In 2014 LMAX Exchange traded over $1 trillion dollars.  The Sunday Times named us the fastest growing tech company in the UK and we won Oracle’s Duke's Choice Award for the most innovative programming framework.In this talk we reveal how we develop software.  We cover all aspects from our design philosophy, how we practice agile to our continuous integration pipeline and show how far you can go with automatically testing everything."
 		,"tags" : ["Design", "ContinuousIntegration", "Testing"]
-	}
+	},
+	"scheduleId":"#Fri-Track2-1535h"
   },  
   {
   	"enabled" : "1",
@@ -80,7 +83,8 @@
 		"title" : "Vert.x - high performance polyglot application platform",
 		"abstract" : "Vert.x is very efficient high performance scalable platform. Based on event driven paradigm with eventbus allows you to build non blocking thread safe asynchronous applications. Vert.x is easily scalable that can handle very high load of concurrent connections. Due to non blocking IO efficently uses server resources. It runs smoothly even on Raspberry Pi! That's awesome base for IoT solutions!<br><br>Another key feature of Vert.x is ability to use many programming languages in the same application. Vert.x supports Java, JavaScript, CoffeeScript, Ruby, Python, Groovy, Scala, Clojure and Ceylon. You can mix all of them in the same application using eventbus to communicate between pieces. Vert.x nicely handles concurrency so writing concurrent and yet thread safe code was never so easy. During the talk I'll show you live how to create simple and more advanced pieces of code. In 2014 Vert.x won Jax Innovation Award in Most innovative Java Technology category. Vertx 3.0 is on the way with it's premiere at 22 July 2015.<br><br>Vert.x is awesome. Come and let me convice you!"
 		,"tags" : ["Vert.x", "Event-driven", "Async", "Scalability"]
-	}
+	},
+	"scheduleId":"#Fri-Track1-11h"
   },
   {
   	"enabled" : "1",
@@ -96,7 +100,8 @@
 		"title" : "Express yourself with Java 8",
 		"abstract" : "The new language features in Java 8 are not just useful for functional programming style and streams. They give us new tools for concise yet expressive code for modeling domain problems. <br><br>Fed up of implementing equals/hashcode/toString/getters/setters and having a 100 line class for a simple type with one or two fields? Want to avoid the boilerplate while still having expressive types? Perhaps you long for language features like pattern matching that make working with types easier? Then this talk is for you.<br><br>We’ll see how life doesn't have to be this way, even in Java, if we’re willing to shed a few years of tradition and make a few changes to our coding style. "
 		,"tags" : ["Java8" , "FunctionalProgramming"]
-	}
+	},
+	"scheduleId":"#Fri-Track3-1535h"
   },  
   {
   	"enabled" : "1",
@@ -112,7 +117,8 @@
 		"title":"Reactive web applications with AngularJS, Play, Akka & Cassandra",
 		"abstract":"The combination of WebSockets with AngularJS is a fantastic stack for building reactive web applications - think constantly updating dashboards or a web based chat application. But what backend fits this model?<br><br>You guessed it: Play and Akka! This talk will take you through building the backend using the PlayFramework and Akka. The Actor model is perfect for reacting to events on the server side and pushing them to the client via a WebSocket. You’ll be shocked how simple this is to setup and get a basic application up and running.<br><br>We will be going through the KillrWeather application (https://github.com/killrweather/killrweather), which is an open source reference application for Apache Spark Streaming + Cassandra. Spark streaming is all about processing high volumes of data and building analytics on the fly, we’ll be showing how to get the processed data into a reactive front end."
 		,"tags" : ["AngularJS","Play", "Akka", "Cassandra"]
-	}
+	},
+	"scheduleId":"#Sat-Track2-1235h"
   },
   {
   	"enabled" : "1",
@@ -128,7 +134,8 @@
 		"title":"Microservices with Apache Camel",
 		"abstract":"Apache Camel is a very popular integration library that works very well with microservice architecture.This talk introduces you to Apache Camel and how you can easily get started with Camel on your computer.Then we cover how to create new Camel projects from scratch as micro services which you can boot using Camel or Spring Boot, or other micro containers such as Jetty or fat JARs.We then take a look at what options you have for monitoring and managing your Camel microservices using tooling such as Jolokia, and hawtio web console.The second part of this talk is about running Camel in the cloud.We start by showing you how you can use the Maven Docker Plugin to create a docker image of your Camel application and run it using docker on a single host. Then kubernetes enters the stage and we take a look at how you can deploy your docker images on a kubernetes cloud platform, and how the fabric8 tooling can make this much easier for the Java developers.At the end of this talk you will have learned about and seen in practice how to take a Java Camel project from scratch, turn that into a docker image, and how you can deploy those docker images in a scalable cloud platform based on Google's kubernetes."
 		,"tags" : ["Integration" , "Microservices"]
-	}
+	},
+	"scheduleId":"#Fri-Track1-1535h"
   },
   {
   	"enabled" : "1",
@@ -144,7 +151,8 @@
 		"title":"Java Caching API:&nbsp;&nbsp;JCache",
 		"abstract":"Howdy Folks, let me tell you a story.<br><br>Once upon a time, we are talking about the year 2001, a few people had an amazing idea. They were thinking about something that would change the world, it would make the world easy and give programmers almost unlimited power! It was simply referred to as JSR 107, one of the only things to change in the journey of this JSR. These dreamers were way ahead of their time and nothing really happened. So time passed by and by and by and over the years it was buried in the deep catacombs of the JCP. Eventually, in 2011 two brave knights took on the fight and worked themselves through all the riddles, to complete their quest in 2014. You will know what I am talking about, they called it the Java Caching API or in short JCache.<br><br>A software system cannot possibly be imagined without Caching today and it was time for a standard. No matter if you want to cache Database, HTML or results of long running calculations, new systems have to reach a critical mass to be successful. Elevator pitch : JSR107 does for Caching what JDBC did for Database lock in. Now develop to JSR107 API and choose the Caching provider of your choice (Hazelcast, Oracle Coherence, Infinispan). Lets take a look together with coding samples."
 		,"tags" : ["Cache"]
-	}
+	},
+	"scheduleId":"#Sat-Track2-1605h"
   },
   {
   	"enabled" : "1",
@@ -159,7 +167,8 @@
 		"title":"Java 8 Stream API, a different way to process collections",
 		"abstract":"There has been a  lot of hype on the new functionalities of Java 8, with the lambdas on the top positions of the rankings. But there's one really strong feature: The Stream API. A powerful way to process collections of data in a more declarative way, instead the traditional imperative way. The stream API will allow us to process well-known traditional collection data structures, but also it bring us the possibility of processing infinite datasets (generated thorugh external sources or functions). Above all of that, the stream API also makes available an easy parallelization mechanism for the same processing pipeline for our original data.IN this talk we will first introduce the characteristics of a Stream versus the traditional Collection. Then we will take a look at the structure of the Stream and its pipeline of operations (in which we will see the power of the declarative programming style). We will continue by looking to some examples of data processing with Streams. And last, we will take a look  at the parallelization possibilities of the Stream API."
 		,"tags" : ["Java8" , "FunctionalProgramming"]
-	}
+	},
+	"scheduleId":"#Sat-Track2-1005h"
   },
   {
   	"enabled" : "1",
@@ -174,7 +183,8 @@
 		"title":"7 key features to enable workload mobility of Java enterprise applications in the cloud",
 		"abstract":"Containers have shaken the IT world providing a totally new concept of a virtualization solution for cloud PaaS and IaaS due to their lightweight virtualization, increased density, elasticity, and rapid provisioning. They enable developers to work with dev, test, stage and production environments identically. Containers provide the right abstraction for microservices and many cloud platforms have integrated them into deployment pipelines.<br><br>At this session we will uncover seven key features that cloud vendor should provide to ensure that your Java application is highly available and secured, and the resources are consumed efficiently. We will discuss the known issues and solutions for enterprise Java applications hosted on top of containers in the public, private or hybrid cloud. In addition, we’ll review the current landscape of containers offering at the Cloud market."
 		,"tags" : ["Cloud" ,"Containers","Microservices"]
-	}
+	},
+	"scheduleId":"#Sat-Track3-1005h"
   },
   {
   	"enabled" : "0",
@@ -189,7 +199,8 @@
 		"title":"Urban dictionary for modern languages",
 		"abstract":"It would be a crash course in some of the features of modern languages that people might not understand, especially type system stuff like higher order generics, rank-2 polymorphism, different sorts of type inference, etc, maybe structural typing, whatever, all *ultra*-simplified so that people actually come away understanding the concepts."
 		,"tags" : ["Ceylon" ,"JVM langs", "Design"]
-	}
+	},
+	"scheduleId":"#Sat-Keynote"
   },
   {
   	"enabled" : "1",
@@ -205,7 +216,24 @@
 		"title":"Kotlin - What can it do for me?",
 		"abstract":"There are languages popping up left and right and it often becomes difficult to know which ones are worth investigating more and potentially adopting. This talk is going to make that decision easier for you by showing you exactly where Kotlin provides value over languages such as Java, even with its lambda support in Java 8, and see how easily you can not only get up and running with Kotlin but also interoperate with all your existing Java codebase and frameworks. Once you know all the facts, then you can decide on the next steps!"
 		,"tags" : ["Kotlin", "JVM langs"]
-	}
+	},
+	"scheduleId":"#Fri-Track3-1430h"
+  },
+  {
+  	"enabled" : "1",
+	"name":"Iker Martinez de Apellaniz",
+	"description":"Data Software Engineer, specially on Big Data",
+	"biography":"I've been working as a Developer first, then Team/Tech lead, now Data Software Engineer in different fields for several (8) years. I've been working specially on Big Data (Fancy word) applications lately and creating scalable and maintainable models and processes to manage and deliver data. ",
+	"image": "assets/img/speakers/IkerMartinez.jpg",
+	"ref":"imartinez",
+	"url":"infoSpeaker.html?ref=imartinez",
+	"twitter":"https://twitter.com/mitxino77",
+	"talk":{
+		"title":"Hadoop the wrong way",
+		"abstract":"What decisions and actions you should avoid that I didn't and now I regret of. After several year working with hadoop, especially with map reduce, I've make and suffered several mistakes, not only when codingg, but designing and configuring the environment as well. I'll share them with you so you can avoid them."
+		,"tags" : ["bigdata"]
+	},
+	"scheduleId":"#Sat-Track1-9h"
   },
   {
   	"enabled" : "1",
@@ -221,7 +249,8 @@
 		"title" : "Kubernetes for Java Developers",
 		"abstract" : "This talk will give an outline of the Kubernetes open source project from Google, explain how it changes everything from a developers perspective in the hybrid cloud and why its relevant for modern Java developers. Then we'll outline the key parts of Kubernetes that Java developers need to be aware of and how to adapt your approach to developing, releasing and provisioning Java to work well on premise, on the public or hybrid cloud to deliver value faster to your customers."
 		,"tags" : ["Cloud", "Containers","Kubernetes" , "Scalability"]
-	}
+	},
+	"scheduleId":"#Fri-Keynote"
   },
   {
   	"enabled" : "1",
@@ -237,7 +266,8 @@
 		"title" : "Microservices in AWS with Spring Cloud",
 		"abstract" : "The cloud is quickly changing the way applications are architected.<br>Elasticity, the feature that enables a system to dynamically adapt its capacity to the current workload, is key to ensure the success of a project in the (not so) long term.<br>It’s utterly worth it to make an effort in decoupling components as much as possible in order to allow independant deployment of each piece of the puzzle. This is the reason why new paradigms like micro services are taking over the software engineering by storm. <br>Nevertheless, designing and managing hundreds or thousands of small and specialized programs also derives in a bunch of new problems: distributed and dynamic configuration, service discovery, complex workflows with circuit breakers, stateless authentication, metrics multiplication, caching proliferation, etc.<br>The attendees to this workshop will enjoy a first hands-on experience with the solutions that Spring Cloud provides to all these new challenges.<br>We will create a small but fully functional micro service oriented system to check this exciting technology by Spring.io. <br> (This workshop will be in spanish)"
 		,"tags" : ["Cloud", "Microservices"]
-	}
+	},
+	"scheduleId":"#Fri-Track4-1655h"
   },
   {
   	"enabled" : "1",
@@ -253,7 +283,8 @@
 		"title" : "Apache Karaf for the Enterprise",
 		"abstract" : "Apache Karaf becomes more and more popular and the new 3.0.x releases have been an important step forward for to increase the adaption of Karaf in enterprise. This talk will introduce the new features provided in Karaf 3.0.x and how they answer to the enterprise needs. It will also introduce the new features coming in the roadmap. "
 		,"tags" : ["Integration"]
-	}
+	},
+	"scheduleId":"#Fri-Track1-1430h"
   },
   {
   	"enabled" : "1",
@@ -270,7 +301,8 @@
 		"title":"Using actors for The Internet of (Lego) Trains",
 		"abstract":"Last year we started a new Internet of Things project: The Internet of (Lego) Trains. We wanted to learn more about these technologies, get non-technical people and children excited about electronics and programming and have an excuse to play with Lego. <br><br>The Lego trains are equipped with a Raspberry Pi, camera, wireless dongle, infrared transmitter, speaker, RFID reader and battery pack. Next to that we have automated switch tracks and camera's again with the help of Raspberry Pi's. To control the trains and other parts we built an actor based application with Scala, Akka, Akka HTTP and AngularJS. <br><br>In this session we will explain how you can build this yourself. Next to that we will talk about our experiences and challenges and of course we will give a live demo!"
 		,"tags" : ["Akka", "AngularJS","IoT" ,"Scala"]
-	}
+	},
+	"scheduleId":"#Fri-Track2-11h"
   },  
   {
   	"enabled" : "1",
@@ -285,7 +317,8 @@
 		"title" : "Netty from the trenches",
 		"abstract" : "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients.<br><br> In this talk we will see how we use Netty at Trovit since 2013, what brought to us and how it opened our minds. We will share tips that helped us to learn more about Netty, some performance tricks and all things that worked for us."
 		,"tags" : ["Async", "Netty"]
-	}
+	},
+	"scheduleId":"#Sat-Track1-1235h"
   },
   {
   	"enabled" : "1",
@@ -301,7 +334,8 @@
 		"title" : "DevOps: Cultural Learnings of Cloud for Make Benefit Glorious Application of Internet",
 		"abstract" : "An overview of the new techniques that are available thanks to Cloud Computing, and how to take good advantage of them in your applications. We’ll go over new trends that are helping make applications more efficient, maintainable and scalable, and studying how to applying them at a code, infrastructure and organizational level."
 		,"tags" : ["Cloud" , "Devops"]
-	}
+	},
+	"scheduleId":"#Sat-Track3-9h"
   },
   {
   	"enabled" : "1",
@@ -317,7 +351,8 @@
 		"title" : "Comparing JVM Languages",
 		"abstract" : "Nowdays there are more than two hundred languages working in JVM. It's commonly called polyglot programming in JVM ecosystem. This talk will try make an introductory look at several JVM languages, including Java 8, Scala, Groovy, Clojure, Celylon and Kotlin. I will compare them showing benefits and drawbacks each one. Some features I will compare are: Performance, Type checking(Static vs Dinamic), Functional principles, Collections and data structures, Semantics and Security."
 		,"tags" : ["JVM langs", "Java8", "Scala", "Groovy", "Clojure", "Ceylon", "Kotlin"]
-	}
+	},
+	"scheduleId":"#Fri-Track3-1205h"
   },
   {
   	"enabled" : "1",
@@ -333,7 +368,8 @@
 		"title" : "Industrial Remote Monitoring and Control Systems with JavaFX 8",
 		"abstract" : "In this session, an integrated platform of electronic instrumentation, data acquisition and client/server software for monitoring and control the boiler room of a sport pavilion’s swimming pool, is presented.<br><br>In the backend, an industrial embedded PC with data acquisition and control cards, an application server, which communicates with the industrial PC, and a web server, which allows remote access to the system, are installed.<br><br>As a frontend, a JavaFX 8 client application is developed, to monitor and control the daily performance of the installation. CAD drawings were converted to fancy JavaFX controls with the help of SVG, CSS and Scene Builder 2.0"
 		,"tags" : ["JavaFX", "IoT"]
-	}
+	},
+	"scheduleId":"#Fri-Track2-1205h"
   },
   {
   	"enabled" : "1",
@@ -349,7 +385,8 @@
 		"title" : "Continuous delivery with Jenkins, docker and Marathon/Mesos",
 		"abstract" : "The use of Docker in the context of the continuous integration pipeline simplifies and gives robustness to the deployment phase. Docker can also make deployments faster thanks to the incremental update of its images and offers other advantages like to easy rollback in case of problems. <br><br> The aim of this presentation is to give feedback of how we can take advantage of the power of Docker in a software factory (with Jenkins, Sonar, Nexus...). We will improve this infrastructure step by step and deploy a distributed application into a Mesos cluster using Marathon, a private Docker repository and some Jenkins plugins."
 		,"tags" : ["Containers", "ContinuousDelivery"]
-	}
+	},
+	"scheduleId":"#Sat-Track3-1235h"
   },
   {
   	"enabled" : "1",
@@ -365,7 +402,8 @@
 		"title" : "How and why we evolved a legacy Java web application to Scala... and we are still alive!",
 		"abstract" : "Applications get old, and technology moves fast. Overtime, adding or modifying functionalities might become as expensive as re-coding everything all from scratch. But rewriting a complete website and its functionalities it’s hard if we want to minimize the risks of breaking existing functionalities and specially when this application fits in a ecosystem and interacts with other pieces of software and teams.<br><br>In this session, you will learn how we moved from a legacy java monolithic website using scala PlayFramework, AngularJS, Elasticsearch and MongoDB, how we built a multi service and REST oriented architecture, which were the technical and human problems we encountered and how we managed to solved them."
 		,"tags" : ["Scala","Play","AngularJS", "MongoDB","ElasticSearch"]
-	}
+	},
+	"scheduleId":"#Fri-Track3-1655h"
   },
   {
   	"enabled" : "1",
@@ -382,7 +420,8 @@
 		"title" : "Practical RX Java",
 		"abstract" : "You already have heard about RxJava but wish for a practical and concrete approach? You want to discover Functional Reactive Programming (FRP)? This workshop is made for you.We'll discover ReactiveX by developing a client application that composes with multiple (not always reliable) services. We'll see which best practices to put in place so as to make it production-ready (retry, backpressure, exponential backoff...).The application will eventually be connected to a NoSQL datastore, asynchronous and reactive itself."
 		,"tags" : ["RxJava", "FunctionalProgramming"]
-	}
+	},
+	"scheduleId":"#Fri-Track4-1430h"
   },
   {
   	"enabled" : "1",
@@ -399,7 +438,8 @@
 		"title" : "Auto-Scaling Your API: Insights and Tips from the Zalando Team",
 		"abstract" : "Zalando is in the middle of a paradigm shift: an evolution from online fashion shop to fashion platform. As part of this evolution, our engineering team has adopted an “API First” approach: publishing APIs that other companies can use to take advantage of our massive amounts of data and build their own applications. Zalando’s primary public API (https://api.zalando.com) is implemented with Java using Spring and RestEasy, and offers programmers access to the web shop. It also allows for basic operations such as searching for articles, categories, filters and brands.<br><br>Making our APIs public has presented some very exciting technical challenges: specifically, how do we auto-scale our API as our audience grows? In this talk, we will provide the answers to these and other questions by sharing insights into the architecture-related choices we have made as part of our API First shift. We will describe how we adopted AWS to aggregate data from our catalog and real-time stock data stores to ensure top API performance. We’ll explain how we use Solr and AWS to manage our catalog data store and power a useful, consistent search engine. We’ll talk about how we use Memcached to overcome constraints related to our real-time data store and ensure accuracy of our API data. Finally, we’ll summarize how all of these engineering efforts enabled us to succeed in auto-scaling our public API across multiple regions while keeping our codebase intact. By the end, we hope you’ll have some useful takeaways for managing scalability issues of your own."
 		,"tags" : ["Cloud","Design","Scalability"]
-	}
+	},
+	"scheduleId":"#Sat-Track1-15h"
   },  
   {
   	"enabled" : "1",
@@ -415,7 +455,8 @@
 		"title":"Polyglot and reactive jBPM",
 		"abstract":"This presentation aims at giving high level overview of two open source projects:<br><br>1. jBPM business process management suite<br>2. vert.x a lightweight, high performance application platform for the JVM <br><br>So if you're interested in interacting with process engine with different languages in asynchronous and reactive way, then come and see how jBPM can be combined with Vertx to deliver highly scalable and reactive infrastructure. Utilize jBPM best practice while taking advantage of polyglot nature of Vertx. At the same time allow to scale your environment to no limits via Vertx event bus."
 		,"tags" : ["jBPM", "Vert.x"]
-	}
+	},
+	"scheduleId":"#Fri-Track1-1750h"
   },
   {
   	"enabled" : "1",
@@ -430,7 +471,8 @@
 		"title" : "No bid left behind",
 		"abstract" : "This talk is about architectural decisions and coding challenges that we had creating a real time bidding ad platform. The system handles lots of requests every second, machine learning decisions based on big data, and of course, all running in a distributed system.<br>The fact that the platform spends money (lots of) made us think big in terms of security, transparency and resiliency.<br><br>More Info about the talk:<br>The Architecture discussed is based on different components: <br> - Real time system that responds to QPS: This is the server that responds to thousands of requests per second. It’s based on the Netty server. This is a high performant server that needs to withstand anything that happens.<br> - Big data batch system that does all the math & magic: Based on Hadoop, Hive and other smaller parts of the big data ecosystem. This system crunches several gigabytes of data daily and applies Machine Learning to get the interesting numbers that the Real Time system will use. <br> - Data deployment system: It’s no good if we cannot send the crunched data to where it will be used. We need to move lots of data to the servers. The deployment method is discussed. <br> - Extensive testing AND monitoring with spock: The system is thoroughly tested with Junit tests, and since more recently using Groovy and Spock. As a result of the Spock awesomeness we are also building a monitoring framework on it."
 		,"tags" : ["Design", "Bigdata", "Groovy"]
-	}
+	},
+	"scheduleId":"#Sat-Track1-1130h"
   },
   {
   	"enabled" : "1",
@@ -445,7 +487,8 @@
 		"title" : "Getting coffee in Barcelona with Groovy on Android...really ?",
 		"abstract" : "During this talk I'll be building a full Android app. In the meantime. I'll be showing how Groovy can help you to build Android apps faster and cleaner. Don't bother trying to build Async tasks to avoid threading issues, or casting your views using findById... and the best of all, hopefully at the end of the talk, you will know where to get coffee in your city."
 		,"tags" : ["Android", "Groovy"]
-	}
+	},
+	"scheduleId":"#Fri-Track3-11h"
   },
   {
   	"enabled" : "1",
@@ -462,7 +505,8 @@
 		"title":"Polyglot and reactive jBPM",
 		"abstract":"This presentation aims at giving high level overview of two open source projects:<br><br>1. jBPM business process management suite<br>2. vert.x a lightweight, high performance application platform for the JVM <br><br>So if you're interested in interacting with process engine with different languages in asynchronous and reactive way, then come and see how jBPM can be combined with Vertx to deliver highly scalable and reactive infrastructure. Utilize jBPM best practice while taking advantage of polyglot nature of Vertx. At the same time allow to scale your environment to no limits via Vertx event bus."
 		,"tags" : ["jBPM", "Vert.x"]
-	}
+	},
+	"scheduleId":"#Fri-Track1-1750h"
   },  
   {
   	"enabled" : "1",
@@ -478,7 +522,8 @@
 		"title":"Real world RESTful service development problems and solutions",
 		"abstract":"Learn all you ever wanted to learn about RESTful services development challenges in large scale applications<br><br>This session is a deep dive as well as an interactive discussion on design principles, considerations, lessons learned from mistakes that can be taken into account when developing RESTful services.<br><br>It will cover a variety of topics from Designing of RESTful resources, Versioning, Exception Handling, Caching, Validation, Security, Rate limiting, HATEOAS, Testing and Documentation.<br><br>So join me in this talk to build high quality applications that can be highly scalable, available and reliable."
 		,"tags" : ["RESTful"]
-	}
+	},
+	"scheduleId":"#Fri-Track2-1655h"
   },
   {
   	"enabled" : "1",
@@ -495,7 +540,8 @@
 		"title":"What I Learned Writing a Trillion Dollar Trading System",
 		"abstract":"In 2014 LMAX Exchange traded over $1 trillion dollars.  The Sunday Times named us the fastest growing tech company in the UK and we won Oracle’s Duke's Choice Award for the most innovative programming framework.In this talk we reveal how we develop software.  We cover all aspects from our design philosophy, how we practice agile to our continuous integration pipeline and show how far you can go with automatically testing everything."
 		,"tags" : ["Design", "ContinuousIntegration", "Testing"]
-	}
+	},
+	"scheduleId":"#Fri-Track2-1535h"
   },
   {
   	"enabled" : "1",
@@ -510,7 +556,8 @@
 		"title":"Strongly Typed Languages and Flexible Schemas",
 		"abstract":"Strongly typed languages are secure, dynamic schemas are flexible. Having booth at the same time, on the same system is great to build easy to iterate, modularised and flexible applications, but these can also generate some of friction. This friction comes with a set of rules, discipline and best practices around schema versions and data type validations that are crucial to make this very symbiotic systems to work properly.<br><br>This talk will touch the topics around the different type of strategies and best practices for schema design and document structure to accommodate these two paradigms. Over the course of this talk we will be looking into real code scenarios, samples of operations and migration plans. We will have a very small set of slides and lots of code to analyse and run to make has interactive and engaging as possible.<br><br>The talk is oriented to developers and architects that are dealing with both strongly typed languages, like java, and love to use Flexible Schema Databases, like MongoDB, and are struggling or looking for references on how to model correctly on how to deal with data schema changes across different applications, versions, iterations, systems. Newbies or beginners are welcome to this talk since we are not going to be diving deep into MongoDB specifics but much more on the application architecture practices and java coding."
 		,"tags" : ["noSQL", "MongoDB", "Design"]
-	}
+	},
+	"scheduleId":"#Sat-Track3-1605h"
   },
   {
   	"enabled" : "1",
@@ -526,7 +573,8 @@
 		"title":"Improving Java code performance. The mumbo-jumbo behind the java compiler.",
 		"abstract":"We know one of the main characteristics of Java is portability, and that usually means it is not as efficient as it should be. That might be the reason Java has never been associated with high performance, but nowadays there are a lot of Java powered devices in the world and lots of people are building applications for them.<br><br>Compilers that produce native machine code do a great optimisation job because they know where the code is going to be executed. But because of the portability feature, the Java Compiler could not assume anything about where our program is going to be executed and leaves all the optimisations to be done by the JVM while loading or, even, running our code.<br><br>Having that in mind, we will explore what can be done to help the compiler produce optimal code which, in fact, will make the life easier of the JVM where the code is running. Most of the times we use (and abuse) the new language constructions without knowing what is really happening at compile time. Understanding how the java compiler works will allow us to know in which situations we should stay away from these constructions and use an alternative.<br><br>In this session you will not only learn how to make your Java code faster but also what to avoid when looking for critical performance and a bigger understanding of how the Java compiler works."
 		,"tags" : ["Compiler","Performance"]
-	}
+	},
+	"scheduleId":"#Sat-Track2-15h"
   },
   {
   	"enabled" : "1",
@@ -541,7 +589,8 @@
 		"title" : "Functional programming with Clojure",
 		"abstract" : "This talk will introduce the audience to the most important concepts (call them buzzwords if you want) in functional programming and why they are useful. I’ll be showing examples in Clojure and some comparison with Java8 to illustrate: referential transparency, side effects, persistent data structures, laziness, memoization, currying, composition, list comprehensions and recursion. Interruptions are welcome, bring your secret questions, I’ll be happy to answer."
 		,"tags" : ["Clojure", "FunctionalProgramming"]
-	}
+	},
+	"scheduleId":"#Sat-Track2-1130h"
   },
   {
   	"enabled" : "1",
@@ -557,7 +606,8 @@
 		"title":"Achieving horizontal scaling for Enterprise Messaging using Fabric8",
 		"abstract":"Apache ActiveMQ is an extremely flexible enterprising message system - but scaling and performance isn't something its exactly well known for. If we strip back ActiveMQ to concentrate on its core functionality, add automatic sharding across clusters of brokers, add vert.x for its scalability and performance and sprinkle with magic from fabric8 - we have a highly scalable cloud based messaging solution ideal for the internet of things!"
 		,"tags" : ["Messaging","Scalability", "Cloud"]
-	}
+	},
+	"scheduleId":"#Fri-Track1-1205h"
   },
   {
   	"enabled" : "1",
@@ -573,7 +623,8 @@
 		"title" : "Auto-Scaling Your API: Insights and Tips from the Zalando Team",
 		"abstract" : "Zalando is in the middle of a paradigm shift: an evolution from online fashion shop to fashion platform. As part of this evolution, our engineering team has adopted an “API First” approach: publishing APIs that other companies can use to take advantage of our massive amounts of data and build their own applications. Zalando’s primary public API (https://api.zalando.com) is implemented with Java using Spring and RestEasy, and offers programmers access to the web shop. It also allows for basic operations such as searching for articles, categories, filters and brands.<br><br>Making our APIs public has presented some very exciting technical challenges: specifically, how do we auto-scale our API as our audience grows? In this talk, we will provide the answers to these and other questions by sharing insights into the architecture-related choices we have made as part of our API First shift. We will describe how we adopted AWS to aggregate data from our catalog and real-time stock data stores to ensure top API performance. We’ll explain how we use Solr and AWS to manage our catalog data store and power a useful, consistent search engine. We’ll talk about how we use Memcached to overcome constraints related to our real-time data store and ensure accuracy of our API data. Finally, we’ll summarize how all of these engineering efforts enabled us to succeed in auto-scaling our public API across multiple regions while keeping our codebase intact. By the end, we hope you’ll have some useful takeaways for managing scalability issues of your own."
 		,"tags" : ["Cloud","Design","Scalability"]
-	}
+	},
+	"scheduleId":"#Sat-Track1-15h"
   },
   {
   	"enabled" : "1",
@@ -590,7 +641,8 @@
 		"title" : "Practical RX Java",
 		"abstract" : "You already have heard about RxJava but wish for a practical and concrete approach? You want to discover Functional Reactive Programming (FRP)? This workshop is made for you.We'll discover ReactiveX by developing a client application that composes with multiple (not always reliable) services. We'll see which best practices to put in place so as to make it production-ready (retry, backpressure, exponential backoff...).The application will eventually be connected to a NoSQL datastore, asynchronous and reactive itself."
 		,"tags" : ["RxJava", "FunctionalProgramming"]
-	}
+	},
+	"scheduleId":"#Fri-Track4-1430h"
   },    
   {
   	"enabled" : "1",
@@ -606,7 +658,8 @@
 		"title":"IoT TinkerForge LiveHacking",
 		"abstract":"TinkerForge is a very simple, easy-to-handle modular electronic system. Depending on the application, a system of sensor, wireless and motor control elements can be built in a modular way and programmed with a few lines of code. No soldering iron is needed. Both the hardware and the software are open source. After a brief overview of the available sensors and actuators, we will quickly start with the actual programming. Together, we will explore different applications, architectures, and the combination of TinkerForge with Java. Using sensors, actuators and some other elements, we will take the first steps and delve into the practical world of IoT with Java 8 and TinkerForge."
 		,"tags" : ["IoT" , "Java8"]
-	}
+	},
+	"scheduleId":"#Fri-Track2-1430h"
   },  
   {
   	"enabled" : "1",
@@ -623,7 +676,8 @@
 		"title":"Using actors for The Internet of (Lego) Trains",
 		"abstract":"Last year we started a new Internet of Things project: The Internet of (Lego) Trains. We wanted to learn more about these technologies, get non-technical people and children excited about electronics and programming and have an excuse to play with Lego. <br><br>The Lego trains are equipped with a Raspberry Pi, camera, wireless dongle, infrared transmitter, speaker, RFID reader and battery pack. Next to that we have automated switch tracks and camera's again with the help of Raspberry Pi's. To control the trains and other parts we built an actor based application with Scala, Akka, Akka HTTP and AngularJS. <br><br>In this session we will explain how you can build this yourself. Next to that we will talk about our experiences and challenges and of course we will give a live demo!"
 		,"tags" : ["Akka", "AngularJS","IoT" ,"Scala"]
-	}
+	},
+	"scheduleId":"#Fri-Track2-11h"
   }
   ]
 }
