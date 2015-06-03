@@ -230,7 +230,7 @@
 	"twitter":"https://twitter.com/mitxino77",
 	"talk":{
 		"title":"Hadoop the wrong way",
-		"abstract":"What decisions and actions you should avoid that I didn't and now I regret of. After several year working with hadoop, especially with map reduce, I've make and suffered several mistakes, not only when codingg, but designing and configuring the environment as well. I'll share them with you so you can avoid them."
+		"abstract":"What decisions and actions you should avoid that I didn't and now I regret of. After several years working with hadoop, especially with map reduce, I've made and suffered several mistakes, not only when coding, but designing and configuring the environment as well. I'll share them with you, so you won't trip over the same stone."
 		,"tags" : ["bigdata"]
 	},
 	"scheduleId":"#Sat-Track1-9h"
