@@ -284,7 +284,7 @@
 		"abstract" : "Apache Karaf becomes more and more popular and the new 3.0.x releases have been an important step forward for to increase the adaption of Karaf in enterprise. This talk will introduce the new features provided in Karaf 3.0.x and how they answer to the enterprise needs. It will also introduce the new features coming in the roadmap. "
 		,"tags" : ["Integration"]
 	},
-	"scheduleId":"#Fri-Track1-1430h"
+	"scheduleId":"#Fri-Track1-1205h"
   },
   {
   	"enabled" : "1",
@@ -607,7 +607,7 @@
 		"abstract":"Apache ActiveMQ is an extremely flexible enterprising message system - but scaling and performance isn't something its exactly well known for. If we strip back ActiveMQ to concentrate on its core functionality, add automatic sharding across clusters of brokers, add vert.x for its scalability and performance and sprinkle with magic from fabric8 - we have a highly scalable cloud based messaging solution ideal for the internet of things!"
 		,"tags" : ["Messaging","Scalability", "Cloud"]
 	},
-	"scheduleId":"#Fri-Track1-1205h"
+	"scheduleId":"#Fri-Track1-1430h"
   },
   {
   	"enabled" : "1",
