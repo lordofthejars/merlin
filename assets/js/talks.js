@@ -87,7 +87,9 @@ function getFamilyForTag(tag){
 		case "Bigdata":
 		case "Cassandra":
 		case "ElasticSearch":
+		case "MapReduce":
 		case "MongoDB":
+		case "Hadoop":
 			family = "noSQL"; break;
 		
 		case "Async" : 
