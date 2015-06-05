@@ -188,6 +188,22 @@
   },
   {
   	"enabled" : "1",
+	"name":"Ferran Galí",
+	"description":"Software Engineer at Trovit",
+	"biography":"Ferran Galí is passionate about web scale distributed systems. Working on Big Data technologies for several years in Trovit he gained expertise solving problems that require a massive amount of data processing. Architecting the implementation of Hadoop technologies on their cluster of machines, developing new applications or playing data scientist to make the business thrill are some of the day-to-day tasks he has to deal with.",
+	"image": "assets/img/speakers/FerranGali.jpg",
+	"ref":"fgali",
+	"url":"infoSpeaker.html?ref=fgali",
+	"twitter" : "https://twitter.com/ferrangali",
+	"talk":{
+		"title":"Unleash your cluster with YARN",
+		"abstract":"With the rise of the cloud and the Internet of Things the use of distributed systems have become widespread. Hadoop appeared several years ago but new challenges made it reach a new level, evolving into YARN (sometimes also called MapReduce 2.0). This new generation of cluster management services allows applications to run on data centers not only in a more optimized MapReduce, but making other paradigms to share its resources and unleashing its limitation to run iterative or interactive algorithms.<br>The talk will be an introduction to this passionate world. We will take a look into the past, understand how YARN works underneath, and know some of its applications in the industry."
+		,"tags" : ["DistributedSystems", "MapReduce", "Hadoop"]
+	},
+	"scheduleId":"#Sat-Track1-1005h"
+  },
+  {
+  	"enabled" : "1",
 	"name":"Gavin King",
 	"description":"Project lead at the Ceylon project at Red Hat.",
 	"biography":"Gavin is the creator of Hibernate, a popular object/relational persistence solution for Java, and the Seam Framework, an application framework for enterprise Java. He's contributed to the Java Community Process as JBoss and then Red Hat representative for the EJB and JPA specifications and as lead of the CDI specification. Gavin now works full time on Ceylon, polishing the language specification, developing the compiler frontend, working on the IDE, and thinking about the SDK and future of the platform. He's still a fan of Java, and of other languages, especially Smalltalk, Python, and ML.",
@@ -230,8 +246,8 @@
 	"twitter":"https://twitter.com/mitxino77",
 	"talk":{
 		"title":"Hadoop the wrong way",
-		"abstract":"What decisions and actions you should avoid that I didn't and now I regret of. After several years working with hadoop, especially with map reduce, I've made and suffered several mistakes, not only when coding, but designing and configuring the environment as well. I'll share them with you, so you won't trip over the same stone."
-		,"tags" : ["bigdata"]
+		"abstract":"What decisions and actions you should avoid that I didn't and now I regret of. After several years working with Hadoop, especially with MapReduce, I've made and suffered several mistakes, not only when coding, but designing and configuring the environment as well. I'll share them with you, so you won't trip over the same stone."
+		,"tags" : ["bigdata", "MapReduce", "Hadoop"]
 	},
 	"scheduleId":"#Sat-Track1-9h"
   },
