@@ -61,6 +61,26 @@
     },
     {
       "enabled": "1",
+      "name": "Andrzej Grzesik",
+      "description": "Software Developer at ebay",
+      "biography": "I like programming. I do it a lot, mostly on the JVM, usually writing fancy backends for big, distributed systems. I also display a particular affection to continuous delivery. UI, unless quickly hacked, is not my play ;-) I believe that most problems we deal with are people problems, so I mix and match tools with technologies to achieve my goals, make people happy and achieve world peace :-) I believe in software quality, am one of the organizers of GeeCON, Polish JUG, Krakow Software Craftsmanship, Cracow Hadoop User Group. In my free time, I read paper books and cycle, a lot!",
+      "image": "assets/img/speakers/AndrzejGrzesik.jpg",
+      "ref": "agrzesik",
+      "url": "infoSpeaker.html?ref=agrzesik",
+      "twitter": "http://twitter.com/ags313",
+      "talk": {
+        "title": "Continuous Delivery antipatterns",
+        "abstract": "Releasing and Risk start with an R for a reason. Continuous delivery is the buzzed killer for that.. or is it? We'd like to take you to a journey through well-practiced malpractice, discussing some of the most interesting hoops people made people jump through.<br><br>While releasing and doing infrastructure in organisations big and small, ranging from (soon to be multi-million) startups to multi-million corporations, we’ve learned that good intentions, backed by poor execution and lack of thinking ahead, can lead to hell on earth. Growing platforms is tough enough by itself, let’s not make it harder with insane release processes...",
+        "tags": [
+          "ContinuousDelivery",
+          "Design",
+          "Architecture"
+        ]
+      },
+      "scheduleId": "#Fri-Track2-1750h"
+    },
+    {
+      "enabled": "1",
       "name": "Antonio Molina",
       "description": "Senior software developer at LMAX Exchange",
       "biography": "Antonio Molina is a senior software developer at LMAX Exchange. He has 10+ years of software development experience in consulting services, e-commerce and financial companies. He is a software and business enthusiast who has promoted various projects related to information technology from conferences to startups.He loves working in crazy and challenging environments where high quality software development and a clever group of engineers can make the difference and win the game.",
@@ -575,6 +595,27 @@
           "Vert.x"
         ]
       },
+      "scheduleId": "#Fri-Track2-1655h"
+    },
+    {
+      "enabled": "1",
+      "name": "Maciek Próchniak",
+      "description": "Software developer at TouK",
+      "biography": "Maciek Próchniak is algebraic topologist, for more than 8 years developing on JVM for food and pleasure. This includes various subjects varying from architecture to operations and from integration to web development. Recently trying hard to code more functionally, preferably in Scala. Likes to speak at conferences from Bergen to Cairo on wide range of topics – from Scala type system to noSQL databases. For 6 years happy @ TouK, and even more happy husband and father.",
+      "image": "assets/img/speakers/MaciekProchniak.jpg",
+      "ref": "mprochniak",
+      "url": "infoSpeaker.html?ref=mprochniak",
+      "twitter": "http://twitter.com/mpproch",
+      "homepage": "https://www.linkedin.com/pub/maciej-pr%C3%B3chniak/10/b31/139",
+      "talk": {
+        "title": "Microservices, 'Enterprise' and Conway's law",
+        "abstract": "Microservices are today's hype. It seems that if you're not doing them - you're old fashioned and Doing It Wrong. But to do it properly you have to work in certain environment - 'you have to be That tall' as Martin Fowler wrote. In particular if you ignore things Conway's law you'll fail miserably.<br><br>In this talk I'd like to tell you about our (small agile software house working for Big Company) experiences - when is it possible to change the company you're working for and when it's better to accept its constraints - and what can you do to make it still a bit better place to live - which rules and practices seen on Netflix gorgeous talks can be easily used and which are more problematic.<br><br>Be aware that I'll use old-fashioned words like OSGi, Apache Karaf and so on, but I'll try to omit most technical details and focus more on bigger picture - how we tried to move from good (?) old ESB towards fashionable microservices and where and why we decided to stay.",
+        "tags": [
+          "Architecture",
+          "Design",
+          "Microservices"
+        ]
+      },
       "scheduleId": "#Fri-Track1-1750h"
     },
     {
@@ -633,25 +674,6 @@
         "tags": [
           "jBPM",
           "Vert.x"
-        ]
-      },
-      "scheduleId": "#Fri-Track1-1750h"
-    },
-    {
-      "enabled": "1",
-      "name": "Masoud Kalali",
-      "description": "Software architect with focus on PaaS and Java EE, author, technology enthusiast.",
-      "biography": "Masoud has been working on software development projects since 1998, which gives him a broad perspective on software development in general and changes in the software development landscape in the past 1/5 decades. Masoud has experience with variety of technologies (.NET, J2EE, CORBA, and COM+) on diverse platforms (Solaris, Linux, and Windows). He has a master degree in information systems with a bachelor degree in software engineering.<br><br>Masoud has authored fair number of articles and other types of publications including several articles at Java.net and Dzone. He is author of multiple refcards, published by Dzone, including but not limited to Using XML in Java, Security and GlassFish v3 refcardz. Masoud is one of the founding members of NetBeans Dream Team and a GlassFish community spotlighted developer. Masoud is author of GlassFish Security book published in 2010 covering GlassFish v3 security and Java EE 6 security. He recently co-authored another book Developing RESTful Services with JAX-RS 2.0, WebSockets, and JSON.<br><br>Masoud is a recurrent speaker in JavaOne and other Java focused conferences across europe.",
-      "image": "assets/img/speakers/MasoudKalali.jpg",
-      "ref": "mkalali",
-      "url": "infoSpeaker.html?ref=mkalali",
-      "twitter": "https://twitter.com/MasoudKalali",
-      "homepage": "http://about.me/masoudkalali",
-      "talk": {
-        "title": "Real world RESTful service development problems and solutions",
-        "abstract": "Learn all you ever wanted to learn about RESTful services development challenges in large scale applications<br><br>This session is a deep dive as well as an interactive discussion on design principles, considerations, lessons learned from mistakes that can be taken into account when developing RESTful services.<br><br>It will cover a variety of topics from Designing of RESTful resources, Versioning, Exception Handling, Caching, Validation, Security, Rate limiting, HATEOAS, Testing and Documentation.<br><br>So join me in this talk to build high quality applications that can be highly scalable, available and reliable.",
-        "tags": [
-          "RESTful"
         ]
       },
       "scheduleId": "#Fri-Track2-1655h"
