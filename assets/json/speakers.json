@@ -264,6 +264,26 @@
       "scheduleId": "#Sat-Track1-1005h"
     },
     {
+      "enabled": "0",
+      "name": "Francisco Javier Ramos",
+      "description": "IT Architect at IBM",
+      "biography": "17 years on IT, 15 roughly working in Java across different projects WW @ IBM.",
+      "image": "assets/img/speakers/FcoJavierRamos.png",
+      "ref": "fcojramos",
+      "url": "infoSpeaker.html?ref=fcojramos",
+      "talk": {
+        "title": "Collaborative Development, yeah! DevOps! with Bluemix!",
+        "abstract": "To introduce you to the best of Bluemix DevOps Services, we've written this four-part tutorial series.<br><br>In Part 1, you learn how to deploy and make changes to a simple application.<br><br>In Part 2, you learn how to deploy an application that uses a Bluemix service.<br><br>In Part 3, you learn how to use the planning capabilities in Bluemix DevOps Services to plan and track your app, how to add a new Bluemix service to your app, and how to write code that makes use of a Bluemix service.<br><br>In Part 4, you learn how to use the Delivery Pipeline service to deploy your app to Bluemix automatically whenever you or someone else on your team pushes code to your project's repository.<br><br>As a bonus to all of the knowledge you get by working through the examples in this series, you also get an application that checks the prices of items in online stores for you, so you don't have to surf the web to see if your favorite items are on sale! (Can you tell I love to shop?)",
+        "tags": [
+          "Cloud",
+          "ContinuousIntegration",
+          "ContinuousDelivery"
+        ]
+      },
+      "scheduleId": "#Fri-Track4-11h"
+    },
+
+    {
       "enabled": "1",
       "name": "Gavin King",
       "description": "Project lead at the Ceylon project at Red Hat.",
