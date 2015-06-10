@@ -1,7 +1,7 @@
 $(document).ready(function () {
 	$.getJSON( "assets/json/speakers.json", function( data ) {
 	  $.each( data.speakers, function( key, val ) {
-		if(val.scheduleId!=null){		
+		if(val.scheduleId!=null && val.enabled == 1) {
 			if($(val.scheduleId).children('span').hasClass('pending')){
 				divspeaker="<a href='"+val.url+"'><div><span class='title'>"+val.talk.title+"</span><span class='speaker'>"+val.name;
 				if(val.cospeakerref!=null){
@@ -14,7 +14,7 @@ $(document).ready(function () {
 					}
 				divspeaker=divspeaker+"</span></div></a>";
 				if(val.scheduleId=='#Fri-Keynote' || val.scheduleId=='#Sat-Keynote'){
-					divspeaker="<span class='keynote'>Keynote</span>"+divspeaker;
+					divspeaker="<span class='keynote'>Keynote [Auditorium]</span>"+divspeaker;
 				}
 				$(val.scheduleId).html(divspeaker);
 			}
