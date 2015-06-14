@@ -2,7 +2,7 @@ $(document).ready(function () {
 	var ref = getURLParameter('ref');
 	$.getJSON( "assets/json/speakers.json", function( data ) {
 	  $.each( data.speakers, function( key, val ) {
-		if(val.ref == ref){
+		if(val.ref == ref && val.repeated !=1){
 			 divspeaker="<div class='heading'>"+
 				"<h2>"+val.name+"</h2>"+
 				"<div class='border'></div>"+
@@ -76,7 +76,23 @@ $(document).ready(function () {
 						"<div class='borderTitle'></div>"+
 						"<p class='abstract'>"+val.talk.abstract+"</p>"+
 						"</div>";
-			  $(divtalk).appendTo( "#talk-info" );
+			  
+			
+			if(val.hasMoreTalks == 1){
+				for(var i=0;i<data.speakers.length;i++){
+					valspeaker2 = data.speakers[i];
+					if(valspeaker2.repeated == 1 && valspeaker2.ref == val.ref){
+						if(valspeaker2.talk !=null){
+							divtalk=divtalk+"<div class='row'>"+
+									"<p class='title'>"+valspeaker2.talk.title+"</p>"+
+									"<div class='borderTitle'></div>"+
+									"<p class='abstract'>"+valspeaker2.talk.abstract+"</p>"+
+									"</div>";						
+						}
+					}
+				}
+			}
+			$(divtalk).appendTo( "#talk-info" );
 			}
 		  return false;
 		}
