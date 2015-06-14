@@ -20,6 +20,22 @@
       },
       "scheduleId": "#Fri-Track1-1655h"
     },
+	{
+		"enabled" : "1",
+		"name":"Alex Soto",
+		"description":"Software engineer architect at Scytl Secure Electronic Voting",
+		"biography":"Alex is a software engineer architect at Scytl Secure Electronic Voting. But also he is leading NoSQLUnit and AsciidoctorJ projects, and regular contributor to Arquillian community and Apache TomEE among other open source projects.<br> Alex is a member of JSR 374 (JSON-P) Expert Group, Arquillian Tech Evangelist and curator of lordofthejars.com. He has spoken in several conferences like Devoxx, JavaLand, GeeCon or CodeMotion.",
+		"image": "assets/img/speakers/AlexSoto.jpg",
+		"ref":"asoto",
+		"url":"infoSpeaker.html?ref=asoto",
+		"twitter":"https://twitter.com/alexsotob",
+		"talk":{
+			"title":"Java EE 7, what's in it for me?",
+			"abstract":"The latest version of the Java EE plataform had three major goals. First, improve developer productivity by introducing more annotations and removing boilerplate code to simplify integration with the plataform. JMS 2 is the perfect example; Second, add first-class support for web standards, including a new API to build WebSockets, a new API to parse, process and generate JSON and a new Client API in JAX-RS 2 to invoke RESTful services; Third, meet the enterprise demands. The long awaited Batch Processing API is now available to build batch processing applications using all the capabilities of the platform itself. The Concurrency Utilities API provides you with asynchronous capabilities. This session will explore all the new features introduced in Java EE 7 and share information to learn, develop and contribute."
+			,"tags" : ["JavaEE"]
+		},
+        "scheduleId": "#Sat-Track2-9h"
+	},
     {
       "enabled": "1",
       "name": "Andres Almiray",
@@ -264,25 +280,49 @@
       "scheduleId": "#Sat-Track1-1005h"
     },
     {
-      "enabled": "0",
+      "enabled": "1",
       "name": "Francisco Javier Ramos",
       "description": "IT Architect at IBM",
       "biography": "17 years on IT, 15 roughly working in Java across different projects WW @ IBM.",
       "image": "assets/img/speakers/FcoJavierRamos.png",
       "ref": "fcojramos",
       "url": "infoSpeaker.html?ref=fcojramos",
+      "homepage": "https://www.linkedin.com/pub/francisco-ramos/5/807/b9?trk=pub-pbmap",
       "talk": {
         "title": "Collaborative Development, yeah! DevOps! with Bluemix!",
-        "abstract": "To introduce you to the best of Bluemix DevOps Services, we've written this four-part tutorial series.<br><br>In Part 1, you learn how to deploy and make changes to a simple application.<br><br>In Part 2, you learn how to deploy an application that uses a Bluemix service.<br><br>In Part 3, you learn how to use the planning capabilities in Bluemix DevOps Services to plan and track your app, how to add a new Bluemix service to your app, and how to write code that makes use of a Bluemix service.<br><br>In Part 4, you learn how to use the Delivery Pipeline service to deploy your app to Bluemix automatically whenever you or someone else on your team pushes code to your project's repository.<br><br>As a bonus to all of the knowledge you get by working through the examples in this series, you also get an application that checks the prices of items in online stores for you, so you don't have to surf the web to see if your favorite items are on sale! (Can you tell I love to shop?)",
+        "abstract": "To introduce you to the best of Bluemix DevOps Services, we'll drive you into a four-part workshop.<br><br>In Part 1, you learn how to deploy and make changes to a simple application.<br><br>In Part 2, you learn how to deploy an application that uses a Bluemix service.<br><br>In Part 3, you learn how to use the planning capabilities in Bluemix DevOps Services to plan and track your app, how to add a new Bluemix service to your app, and how to write code that makes use of a Bluemix service.<br><br>In Part 4, you learn how to use the Delivery Pipeline service to deploy your app to Bluemix automatically whenever you or someone else on your team pushes code to your project's repository.<br><br>As a bonus to all of the knowledge you get by working through the examples in this series, you also get an application that checks the prices of items in online stores for you, so you don't have to surf the web to see if your favorite items are on sale! (Can you tell I love to shop?)",
         "tags": [
           "Cloud",
           "ContinuousIntegration",
-          "ContinuousDelivery"
+          "ContinuousDelivery",
+          "Devops"
         ]
       },
-      "scheduleId": "#Fri-Track4-11h"
+      "scheduleId": "#Fri-Track4-11h",
+      "hasMoreTalks": 1
     },
-
+    {
+      "enabled": "1",
+      "repeated": "1",
+      "name": "Francisco Javier Ramos",
+      "description": "IT Architect at IBM",
+      "biography": "17 years on IT, 15 roughly working in Java across different projects WW @ IBM.",
+      "image": "assets/img/speakers/FcoJavierRamos.png",
+      "ref": "fcojramos",
+      "url": "infoSpeaker.html?ref=fcojramos",
+      "homepage": "https://www.linkedin.com/pub/francisco-ramos/5/807/b9?trk=pub-pbmap",
+      "talk": {
+        "title": "How a PaaS can help me when developing a solution?",
+        "abstract": "It's clear we're moving forward the PaaS paradigm to run applications. In this talk we'll review IBMs PaaS (Bluemix) explaining why PaaS are so cool, and some key features to have in mind when using one:<br>- Introduction to PaaS: Differences with an IaaS<br>- CloudFoundry and Docker as standard<br>- Buildpacks and Runtimes<br>- Services (ddbb, cognitive computing, API management, Push, BigData...)<br>- Value added services (Twitter Insights, Geolocalization, Twilio, Alchemy,...)<br>- DevOps tools<br>- Creating your own service and deploying it into the marketplace<br>- Costs",
+        "tags": [
+          "Cloud",
+          "Containers",
+          "ContinuousDelivery",
+          "Devops"
+        ]
+      },
+      "scheduleId": "#Sat-Track3-1130h"
+    },
     {
       "enabled": "1",
       "name": "Gavin King",
@@ -364,6 +404,26 @@
         ]
       },
       "scheduleId": "#Fri-Keynote"
+    },
+    {
+      "enabled": "1",
+      "name": "Jaume Pinyol",
+      "description": "A scalable microservices architecture using Netflix OSS",
+      "biography": "Started working as a developer at Segundamano 4 years ago and now as a software engineer at Schibsted building highly scalable, well-tested, resilient and self-discovered distributed systems using the NetflixOSS ecosystem. <br> In my free time I like doing sport, and working in my own projects from distributed systems, to websites, to mobile applications.",
+      "image": "assets/img/speakers/JaumePinyol.jpg",
+      "ref": "jpinyol",
+      "url": "infoSpeaker.html?ref=jpinyol",
+      "twitter": "https://twitter.com/JaumePinyolV",
+      "talk": {
+        "title": "A scalable microservices architecture using Netflix OSS",
+        "abstract": "In this talk we will talk about our experience at Schibsted with the opensource scalable microservices architecture stack by Netflix, focusing on service discovery, fault tolerance, scalability, Java-based cloud-ready web services using the Karyon framework, and large-scale AWS deployment. One click to deploy them all and in the cloud bind them.",
+        "tags": [
+          "Scalability",
+		  "Cloud",
+		  "Microservices"
+        ]
+      },
+      "scheduleId": "#Sat-Track1-1605h"
     },
     {
       "enabled": "1",
@@ -771,7 +831,7 @@
       "twitter": "http://www.twitter.com/rrafols",
       "homepage": "http://blog.rafols.org",
       "talk": {
-        "title": "Improving Java code performance. The mumbo-jumbo behind the java compiler.",
+        "title": "Improving Java code performance. The mumbo-jumbo behind the java compiler",
         "abstract": "We know one of the main characteristics of Java is portability, and that usually means it is not as efficient as it should be. That might be the reason Java has never been associated with high performance, but nowadays there are a lot of Java powered devices in the world and lots of people are building applications for them.<br><br>Compilers that produce native machine code do a great optimisation job because they know where the code is going to be executed. But because of the portability feature, the Java Compiler could not assume anything about where our program is going to be executed and leaves all the optimisations to be done by the JVM while loading or, even, running our code.<br><br>Having that in mind, we will explore what can be done to help the compiler produce optimal code which, in fact, will make the life easier of the JVM where the code is running. Most of the times we use (and abuse) the new language constructions without knowing what is really happening at compile time. Understanding how the java compiler works will allow us to know in which situations we should stay away from these constructions and use an alternative.<br><br>In this session you will not only learn how to make your Java code faster but also what to avoid when looking for critical performance and a bigger understanding of how the Java compiler works.",
         "tags": [
           "Compiler",

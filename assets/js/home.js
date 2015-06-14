@@ -8,7 +8,7 @@ function loadRandomSpeakers() {
 	    for(var i=0;i<4;i++){
  		    randomIndex = Math.floor(Math.random() * currentIndex);		
   		    val = data.speakers[randomIndex];
-		  	if (val.enabled == 1) {
+		  	if (val.enabled == 1 && val.repeated !=1) {
 				divspeaker="<div class='speaker-info col-md-3 col-sm-6 col-xs-12 teammate animated' data-animation='fadeInUp' data-delay='600'>"+
 							  "<div class='profile-photo'>";
 				if(val.url!=""){						  
