@@ -23,8 +23,8 @@
 	{
 		"enabled" : "1",
 		"name":"Alex Soto",
-		"description":"Software engineer architect  at Scytl Secure Electronic Voting",
-		"biography":"Alex is a software engineer architect  at Scytl Secure Electronic Voting. But also he is leading NoSQLUnit and AsciidoctorJ projects, and regular contributor to Arquillian community and Apache TomEE among other open source projects.<br> Alex is a member of JSR 374 (JSON-P) Expert Group, Arquillian Tech Evangelist and curator of lordofthejars.com. He has spoken in several conferences like Devoxx, JavaLand, GeeCon or CodeMotion.",
+		"description":"Software engineer architect at Scytl Secure Electronic Voting",
+		"biography":"Alex is a software engineer architect at Scytl Secure Electronic Voting. But also he is leading NoSQLUnit and AsciidoctorJ projects, and regular contributor to Arquillian community and Apache TomEE among other open source projects.<br> Alex is a member of JSR 374 (JSON-P) Expert Group, Arquillian Tech Evangelist and curator of lordofthejars.com. He has spoken in several conferences like Devoxx, JavaLand, GeeCon or CodeMotion.",
 		"image": "assets/img/speakers/AlexSoto.jpg",
 		"ref":"asoto",
 		"url":"infoSpeaker.html?ref=asoto",
@@ -34,25 +34,7 @@
 			"abstract":"The latest version of the Java EE plataform had three major goals. First, improve developer productivity by introducing more annotations and removing boilerplate code to simplify integration with the plataform. JMS 2 is the perfect example; Second, add first-class support for web standards, including a new API to build WebSockets, a new API to parse, process and generate JSON and a new Client API in JAX-RS 2 to invoke RESTful services; Third, meet the enterprise demands. The long awaited Batch Processing API is now available to build batch processing applications using all the capabilities of the platform itself. The Concurrency Utilities API provides you with asynchronous capabilities. This session will explore all the new features introduced in Java EE 7 and share information to learn, develop and contribute."
 			,"tags" : ["JavaEE"]
 		},
-        "scheduleId": "#Sat-Track2-9h",
-		"hasMoreTalks": 1
-	},
-	{
-		"enabled" : "1",
-		"repeated" :"1",
-		"name":"Alex Soto",
-		"description":"Software engineer architect  at Scytl Secure Electronic Voting",
-		"biography":"Alex is a software engineer architect  at Scytl Secure Electronic Voting. But also he is leading NoSQLUnit and AsciidoctorJ projects, and regular contributor to Arquillian community and Apache TomEE among other open source projects.<br> Alex is a member of JSR 374 (JSON-P) Expert Group, Arquillian Tech Evangelist and curator of lordofthejars.com. He has spoken in several conferences like Devoxx, JavaLand, GeeCon or CodeMotion.",
-		"image": "assets/img/speakers/AlexSoto.jpg",
-		"ref":"asoto",
-		"url":"infoSpeaker.html?ref=asoto",
-		"twitter":"https://twitter.com/alexsotob",
-		"talk":{
-			"title":"Java EE 7, what's in it for me? 22222",
-			"abstract":"The latest version of the Java EE plataform had three major goals. First, improve developer productivity by introducing more annotations and removing boilerplate code to simplify integration with the plataform. JMS 2 is the perfect example; Second, add first-class support for web standards, including a new API to build WebSockets, a new API to parse, process and generate JSON and a new Client API in JAX-RS 2 to invoke RESTful services; Third, meet the enterprise demands. The long awaited Batch Processing API is now available to build batch processing applications using all the capabilities of the platform itself. The Concurrency Utilities API provides you with asynchronous capabilities. This session will explore all the new features introduced in Java EE 7 and share information to learn, develop and contribute."
-			,"tags" : ["JavaEE"]
-		},
-        "scheduleId": "#Sat-Track3-1130h"
+        "scheduleId": "#Sat-Track2-9h"
 	},
     {
       "enabled": "1",
@@ -320,7 +302,7 @@
       "hasMoreTalks": 1
     },
     {
-      "enabled": "0",
+      "enabled": "1",
       "repeated": "1",
       "name": "Francisco Javier Ramos",
       "description": "IT Architect at IBM",
@@ -849,7 +831,7 @@
       "twitter": "http://www.twitter.com/rrafols",
       "homepage": "http://blog.rafols.org",
       "talk": {
-        "title": "Improving Java code performance. The mumbo-jumbo behind the java compiler.",
+        "title": "Improving Java code performance. The mumbo-jumbo behind the java compiler",
         "abstract": "We know one of the main characteristics of Java is portability, and that usually means it is not as efficient as it should be. That might be the reason Java has never been associated with high performance, but nowadays there are a lot of Java powered devices in the world and lots of people are building applications for them.<br><br>Compilers that produce native machine code do a great optimisation job because they know where the code is going to be executed. But because of the portability feature, the Java Compiler could not assume anything about where our program is going to be executed and leaves all the optimisations to be done by the JVM while loading or, even, running our code.<br><br>Having that in mind, we will explore what can be done to help the compiler produce optimal code which, in fact, will make the life easier of the JVM where the code is running. Most of the times we use (and abuse) the new language constructions without knowing what is really happening at compile time. Understanding how the java compiler works will allow us to know in which situations we should stay away from these constructions and use an alternative.<br><br>In this session you will not only learn how to make your Java code faster but also what to avoid when looking for critical performance and a bigger understanding of how the Java compiler works.",
         "tags": [
           "Compiler",
