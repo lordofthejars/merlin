@@ -264,25 +264,49 @@
       "scheduleId": "#Sat-Track1-1005h"
     },
     {
-      "enabled": "0",
+      "enabled": "1",
       "name": "Francisco Javier Ramos",
       "description": "IT Architect at IBM",
       "biography": "17 years on IT, 15 roughly working in Java across different projects WW @ IBM.",
       "image": "assets/img/speakers/FcoJavierRamos.png",
       "ref": "fcojramos",
       "url": "infoSpeaker.html?ref=fcojramos",
+      "homepage": "https://www.linkedin.com/pub/francisco-ramos/5/807/b9?trk=pub-pbmap",
       "talk": {
         "title": "Collaborative Development, yeah! DevOps! with Bluemix!",
-        "abstract": "To introduce you to the best of Bluemix DevOps Services, we've written this four-part tutorial series.<br><br>In Part 1, you learn how to deploy and make changes to a simple application.<br><br>In Part 2, you learn how to deploy an application that uses a Bluemix service.<br><br>In Part 3, you learn how to use the planning capabilities in Bluemix DevOps Services to plan and track your app, how to add a new Bluemix service to your app, and how to write code that makes use of a Bluemix service.<br><br>In Part 4, you learn how to use the Delivery Pipeline service to deploy your app to Bluemix automatically whenever you or someone else on your team pushes code to your project's repository.<br><br>As a bonus to all of the knowledge you get by working through the examples in this series, you also get an application that checks the prices of items in online stores for you, so you don't have to surf the web to see if your favorite items are on sale! (Can you tell I love to shop?)",
+        "abstract": "To introduce you to the best of Bluemix DevOps Services, we'll drive you into a four-part workshop.<br><br>In Part 1, you learn how to deploy and make changes to a simple application.<br><br>In Part 2, you learn how to deploy an application that uses a Bluemix service.<br><br>In Part 3, you learn how to use the planning capabilities in Bluemix DevOps Services to plan and track your app, how to add a new Bluemix service to your app, and how to write code that makes use of a Bluemix service.<br><br>In Part 4, you learn how to use the Delivery Pipeline service to deploy your app to Bluemix automatically whenever you or someone else on your team pushes code to your project's repository.<br><br>As a bonus to all of the knowledge you get by working through the examples in this series, you also get an application that checks the prices of items in online stores for you, so you don't have to surf the web to see if your favorite items are on sale! (Can you tell I love to shop?)",
         "tags": [
           "Cloud",
           "ContinuousIntegration",
-          "ContinuousDelivery"
+          "ContinuousDelivery",
+          "Devops"
         ]
       },
-      "scheduleId": "#Fri-Track4-11h"
+      "scheduleId": "#Fri-Track4-11h",
+      "hasMoreTalks": 1
     },
-
+    {
+      "enabled": "0",
+      "repeated": "1",
+      "name": "Francisco Javier Ramos",
+      "description": "IT Architect at IBM",
+      "biography": "17 years on IT, 15 roughly working in Java across different projects WW @ IBM.",
+      "image": "assets/img/speakers/FcoJavierRamos.png",
+      "ref": "fcojramos",
+      "url": "infoSpeaker.html?ref=fcojramos",
+      "homepage": "https://www.linkedin.com/pub/francisco-ramos/5/807/b9?trk=pub-pbmap",
+      "talk": {
+        "title": "How a PaaS can help me when developing a solution?",
+        "abstract": "It's clear we're moving forward the PaaS paradigm to run applications. In this talk we'll review IBMs PaaS (Bluemix) explaining why PaaS are so cool, and some key features to have in mind when using one:<br>- Introduction to PaaS: Differences with an IaaS<br>- CloudFoundry and Docker as standard<br>- Buildpacks and Runtimes<br>- Services (ddbb, cognitive computing, API management, Push, BigData...)<br>- Value added services (Twitter Insights, Geolocalization, Twilio, Alchemy,...)<br>- DevOps tools<br>- Creating your own service and deploying it into the marketplace<br>- Costs",
+        "tags": [
+          "Cloud",
+          "Containers",
+          "ContinuousDelivery",
+          "Devops"
+        ]
+      },
+      "scheduleId": "#Sat-Track3-1130h"
+    },
     {
       "enabled": "1",
       "name": "Gavin King",
