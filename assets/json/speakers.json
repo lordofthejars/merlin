@@ -170,10 +170,9 @@
       "twitter": "https://twitter.com/chbatey",
       "homepage": "http://christopher-batey.blogspot.co.uk/",
       "talk": {
-        "title": "Reactive web applications with AngularJS, Play, Akka & Cassandra",
+        "title": "Reactive web applications with Websockets, Akka & Cassandra",
         "abstract": "The combination of WebSockets with AngularJS is a fantastic stack for building reactive web applications - think constantly updating dashboards or a web based chat application. But what backend fits this model?<br><br>You guessed it: Play and Akka! This talk will take you through building the backend using the PlayFramework and Akka. The Actor model is perfect for reacting to events on the server side and pushing them to the client via a WebSocket. You’ll be shocked how simple this is to setup and get a basic application up and running.<br><br>We will be going through the KillrWeather application (https://github.com/killrweather/killrweather), which is an open source reference application for Apache Spark Streaming + Cassandra. Spark streaming is all about processing high volumes of data and building analytics on the fly, we’ll be showing how to get the processed data into a reactive front end.",
-        "tags": [
-          "AngularJS",
+        "tags": [          
           "Play",
           "Akka",
           "Cassandra"
@@ -823,8 +822,8 @@
     {
       "enabled": "1",
       "name": "Raimon Rafols Montane",
-      "description": "Mobile Software Engineering Manager at Imagination Technologies.",
-      "biography": "Raimon has been developing for mobile devices since 2004. He has development experience on several technologies specialised on UI, low level optimisation, build systems and client-server communications. He is currently working as Mobile Software Engineering Manager at Imagination Technologies near London. On his spare time he enjoys programming and photography and giving talks in mobile conferences about Java/Android performance optimisations and Android Custom Views.",
+      "description": "Software Delivery & Engineering Manager at AXA Group Solutions Spain",
+      "biography": "Raimon has been developing for mobile devices since 2004. He has development experience on several technologies specialised on UI, low level optimisation, build systems and client-server communications. He is currently working as Software Delivery & Engineering Manager at AXA Group Solutions Spain. On his spare time he enjoys programming and photography and giving talks in mobile conferences about Java/Android performance optimisations and Android Custom Views.",
       "image": "assets/img/speakers/RaimonRafols.jpg",
       "ref": "rrafols",
       "url": "infoSpeaker.html?ref=rrafols",
